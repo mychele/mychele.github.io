@@ -4,11 +4,11 @@ bio:                'Ph.D. student'
 description:        "I am a Ph.D. student at the Department of Information Engineering, University of Padova."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/antenna-hi.png'
+logo:               'assets/img/antenna-2.png'
 background:         'assets/img/bg/london_color.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://polese.io #http://127.0.0.1:4000/
+url:                http://127.0.0.1:4000/ #http://polese.io #http://127.0.0.1:4000/
 
 # Jekyll
 permalink:          /:title/
