@@ -2,7 +2,7 @@
 title:              Michele Polese
 bio:                'Ph.D. student'
 description:        "I am a Ph.D. student at the Department of Information Engineering, University of Padova."
-reading_time:       true
+reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/antenna-2.png'
 background:         'assets/img/bg/cortina.jpg'
