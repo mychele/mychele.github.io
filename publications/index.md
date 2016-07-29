@@ -7,4 +7,4 @@ comments: false
 ---
 
 ## Publications
-For a complete list, visit my profile on <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en">Google Scholar</a>
+For a complete list, visit my profile on <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Google Scholar</a>
