@@ -7,6 +7,13 @@ $(function() {
 // Need this to show animation when go back in browser
 window.onunload = function() {};
 
+// Safari back cache
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        window.location.reload() 
+    }
+};
+
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
