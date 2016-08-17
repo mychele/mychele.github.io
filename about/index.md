@@ -15,5 +15,5 @@ comments: false
 
 * I read a lot of books.
 
-* This is <a href="/assets/pdf/cv_michele_polese.pdf">my CV</a>.
+* This is my CV: <a href="/assets/pdf/cv_michele_polese.pdf">Michele Polese</a>.
 
