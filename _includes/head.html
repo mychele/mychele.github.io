@@ -57,3 +57,20 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
     {% endif %}
+    <!-- JSON-LD markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Person",
+      "name": "Michele Polese",
+      "jobTitle": "Ph.D. Student",
+      "affiliation": "University of Padova",
+      "url": "http://polese.io",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Campagnola 9/B",
+        "addressLocality": "Cimadolmo",
+        "addressRegion": "Italia"
+      }
+    }
+    </script>
