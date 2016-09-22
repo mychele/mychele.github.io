@@ -11,6 +11,8 @@ comments: false
 
 * M. Polese, M. Mezzavilla and M. Zorzi, "Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration," 2016 EAI International Conference on Simulation Tools and Techniques (SIMUTools), Prague, Czech Republic, 2016, available on <a href="https://arxiv.org/abs/1607.05425" target="_blank">arXiv</a>. The slides of the presentation at SIMUTools are available <a href="/assets/pdf/simutools_polese.pdf">here</a>.
 
+* F. Chiariotti, D. Del Testa, M. Polese, A. Zanella, G. M. Di Nunzio, and M. Zorzi, "Learning methods for long-term channel gain prediction in wireless networks", 2017 International Conference on Computing, Networking and Communications (ICNC). 
+
 ## Master's Thesis
 * M. Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
 
