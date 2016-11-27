@@ -16,4 +16,7 @@ comments: false
 ## Master's Thesis
 * M. Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
 
+## Submitted
+* Michele Polese, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", submitted to the IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a>.
+
 Visit my profile on Google Scholar: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>
