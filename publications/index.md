@@ -11,9 +11,11 @@ comments: false
 
 * M. Polese, M. Mezzavilla and M. Zorzi, "Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration," 2016 EAI International Conference on Simulation Tools and Techniques (SIMUTools), Prague, Czech Republic, 2016, available on <a href="https://arxiv.org/abs/1607.05425" target="_blank">arXiv</a>. The slides of the presentation at SIMUTools are available <a href="/assets/pdf/simutools_polese.pdf">here</a>.
 
-* F. Chiariotti, D. Del Testa, M. Polese, A. Zanella, G. M. Di Nunzio, and M. Zorzi, "Learning methods for long-term channel gain prediction in wireless networks", 2017 International Conference on Computing, Networking and Communications (ICNC). 
+* F. Chiariotti, D. Del Testa, M. Polese, A. Zanella, G. M. Di Nunzio, and M. Zorzi, "Learning methods for long-term channel gain prediction in wireless networks", 2017 International Conference on Computing, Networking and Communications (ICNC), <a href="http://ieeexplore.ieee.org/abstract/document/7876120/">link</a>. 
 
 * E. Lovisotto, E. Vianello, D. Cazzaro, M. Polese, F. Chiariotti, D. Zucchetto, A. Zanella and M. Zorzi, "Cell Traffic Prediction Using Joint Spatio-Temporal Information", 6th International Conference on Circuits and Systems Technologies (MOCAST), Thessaloniki, Greece, 2017
+
+* M. Zhang, M. Polese, M. Mezzavilla, S. Rangan, M. Zorzi, "ns-3 Implementation of the 3GPP MIMO Channel Model for Frequency Spectrum above 6 GHz", accepted at WNS3 2017, available on <a href="http://arxiv.org/abs/1702.04822" target="_blank">arXiv</a>.
 
 ## Master's Thesis
 * M. Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
@@ -21,6 +23,5 @@ comments: false
 ## Submitted
 * Michele Polese, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", submitted to the IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a>.
 
-* M. Zhang, M. Polese, M. Mezzavilla, S. Rangan, M. Zorzi, "ns-3 Implementation of the 3GPP MIMO Channel Model for Frequency Spectrum above 6 GHz", submitted to WNS3 2017, available on <a href="http://arxiv.org/abs/1702.04822" target="_blank">arXiv</a>.
 
 Visit my profile on Google Scholar: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>
