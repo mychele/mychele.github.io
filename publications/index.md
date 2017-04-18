@@ -5,6 +5,8 @@ tags: [publications, Michele Polese]
 date: 2016-07-28
 comments: false
 ---
+## Journals
+* Michele Polese, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", to appear in IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a>.
 
 ## Conferences
 * Michele Polese, Rittwik Jana, Michele Zorzi, "TCP in 5G mmWave Networks: Link Level Retransmissions and MP-TCP", accepted for presentation at the 2017 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), available on <a href="http://arxiv.org/abs/1703.08985" target="_blank">arXiv</a>.
@@ -22,9 +24,6 @@ comments: false
 
 ## Master's Thesis
 * Michele Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
-
-## Submitted
-* Michele Polese, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", submitted to the IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a>.
 
 
 Visit my profile on Google Scholar: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>
