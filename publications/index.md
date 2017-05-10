@@ -21,6 +21,9 @@ comments: false
 
 * E. Lovisotto, E. Vianello, D. Cazzaro, M. Polese, F. Chiariotti, D. Zucchetto, A. Zanella and M. Zorzi, "Cell Traffic Prediction Using Joint Spatio-Temporal Information", 6th International Conference on Circuits and Systems Technologies (MOCAST), Thessaloniki, Greece, 2017
 
+## Submitted
+* Marco Mezzavilla, Menglei Zhang, Michele Polese, Russell Ford, Sourjya Dutta, Sundeep Rangan, Michele Zorzi, "End-to-End Simulation of 5G mmWave Networks", submitted to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1705.02882" target="_blank">arXiv</a>.
+
 
 ## Master's Thesis
 * Michele Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
