@@ -8,13 +8,13 @@ comments: false
 ## Journals
 * [J1] **Michele Polese**, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", to appear in IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, September 2017, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a> and <a href="http://ieeexplore.ieee.org/document/7959177/">IEEExplore</a>.
 
-* [J2] **Michele Polese**, Rittwik Jana, Michele Zorzi, "TCP and MP-TCP in 5G mmWave Networks", to appear in IEEE Internet Computing Magazine, September 2017.
+* [J2] **Michele Polese**, Rittwik Jana, Michele Zorzi, "TCP and MP-TCP in 5G mmWave Networks", IEEE Internet Computing Magazine, September 2017, available on <a href="http://ieeexplore.ieee.org/abstract/document/8039300/">IEEExplore</a>.
 
 * [J3] Marco Mezzavilla, Menglei Zhang, **Michele Polese**, Russell Ford, Sourjya Dutta, Sundeep Rangan, Michele Zorzi, "End-to-End Simulation of 5G mmWave Networks", _submitted_ to IEEE Communications Surveys and Tutorials (1st round of review), available on <a href="https://arxiv.org/abs/1705.02882" target="_blank">arXiv</a>.
 
 * [J4] Marco Mezzavilla, **Michele Polese**, Andrea Zanella, Aditya Dhananjay, Sundeep Rangan, Coitt Kessler, Ted Rappaport, Michele Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", _submitted_ to IEEE Access.
 
-* [J5] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Using Smart City Data in 5G Self-Organizing Networks", _submitted_ to IEEE IoT Journal - Special Issue on Internet of Things for Smart Cities (1st round of review).
+* [J5] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Using Smart City Data in 5G Self-Organizing Networks", IEEE IoT Journal - Special Issue on Internet of Things for Smart Cities, available on <a href="http://ieeexplore.ieee.org/abstract/document/8038764/">IEEExplore (Open Access)</a>.
 
 ## Conferences
 * [C1] **M. Polese**, M. Centenaro, A. Zanella and M. Zorzi, "M2M massive access in LTE: RACH performance evaluation in a Smart City scenario," 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia, 2016. Available on <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7511430&newsearch=true&queryText=michele%20polese" target="_blank">IEEExplore</a> or <a href="https://arxiv.org/abs/1601.05098" target="_blank">arXiv</a>.
