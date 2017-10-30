@@ -12,7 +12,7 @@ comments: false
 
 * [J3] Marco Mezzavilla, Menglei Zhang, **Michele Polese**, Russell Ford, Sourjya Dutta, Sundeep Rangan, Michele Zorzi, "End-to-End Simulation of 5G mmWave Networks", _submitted_ to IEEE Communications Surveys and Tutorials (1st round of review), available on <a href="https://arxiv.org/abs/1705.02882" target="_blank">arXiv</a>.
 
-* [J4] Marco Mezzavilla, **Michele Polese**, Andrea Zanella, Aditya Dhananjay, Sundeep Rangan, Coitt Kessler, Ted Rappaport, Michele Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", _submitted_ to IEEE Access.
+* [J4] Marco Mezzavilla, **Michele Polese**, Andrea Zanella, Aditya Dhananjay, Sundeep Rangan, Coitt Kessler, Ted Rappaport, Michele Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", to appear on IEEE Access.
 
 * [J5] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Using Smart City Data in 5G Self-Organizing Networks", IEEE IoT Journal - Special Issue on Internet of Things for Smart Cities, available on <a href="http://ieeexplore.ieee.org/abstract/document/8038764/">IEEExplore (Open Access)</a>.
 
@@ -33,9 +33,11 @@ comments: false
 
 * [C8] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Mobility-aware Handover Strategies in Smart Cities", to be presented at ISWCS, Bologna, Italy, 2017.
 
-* [C9] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Mobility Management for TCP in mmWave Networks", to be presented at the 1st ACM Workshop on Millimeter-Wave Networks and Sensing Systems, Snowbird, Utah, USA, 2017.
+* [C9] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Mobility Management for TCP in mmWave Networks", 1st ACM Workshop on Millimeter-Wave Networks and Sensing Systems - co-located with Mobicom, Snowbird, Utah, USA, 2017. Available on <a href="https://dl.acm.org/citation.cfm?id=3130243">ACM DL</a>. The slides of the presentation are available <a href="/assets/pdf/mmnets_pdf.pdf">here</a>.
 
 * [C10] Mattia Gentil, Alessandro Galeazzi, Federico Chiariotti, **Michele Polese**, Andrea Zanella, Michele Zorzi, "A Deep Neural Network Approach for Customized Prediction of Mobile Devices Discharging Time", to be presented at GLOBECOM Communication Software, Services and Multimedia Apps. Symposium, Singapore, 2017.
+
+* [C11] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Coitt Kessler, Michele Zorzi, "mmWaves for Future Public Safety Communications", to be presented at the I-TENDER Workshop, co-located with CoNEXT 2017.
 
 ## Posters
 * [P1] <a href="/assets/pdf/poster_mptcp.pdf">TCP in 5G mmWave networks: Time and path diversity</a> - based on [J2, C4], presented at the 2017 Brooklyn 5G Summit, NY, USA, and the 2nd mmW RCN Workshop, Madison, Wisconsin, USA.
