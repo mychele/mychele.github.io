@@ -31,7 +31,7 @@ comments: false
 
 * [C7] T. Azzino, M. Drago, **M. Polese**, A. Zanella, M. Zorzi, "X-TCP: A Cross Layer Approach for TCP Uplink Flows in mmWave Networks", 16th Annual Mediterranean Ad Hoc Networking Workshop (MED-HOC-NET), Budva, Montenegro, 2017. Available on <a href="https://arxiv.org/abs/1706.00904" target="_blank">arXiv</a> and <a href="http://ieeexplore.ieee.org/document/8001650/">IEEExplore</a>. The slides of the presentation are available <a href="/assets/pdf/x-tcp_medhoc.pdf">here</a>.
 
-* [C8] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Mobility-aware Handover Strategies in Smart Cities", to be presented at ISWCS, Bologna, Italy, 2017.
+* [C8] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Mobility-aware Handover Strategies in Smart Cities", 2017 International Symposium on Wireless Communication Systems (ISWCS), Bologna, Italy, 2017. Available on <a href="http://ieeexplore.ieee.org/document/8108155/">IEEExplore</a>.
 
 * [C9] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Mobility Management for TCP in mmWave Networks", 1st ACM Workshop on Millimeter-Wave Networks and Sensing Systems - co-located with Mobicom, Snowbird, Utah, USA, 2017. Available on <a href="https://dl.acm.org/citation.cfm?id=3130243">ACM DL</a>. The slides of the presentation are available <a href="/assets/pdf/mmnets_pdf.pdf">here</a>.
 
@@ -40,6 +40,8 @@ comments: false
 * [C11] Mattia Gentil, Alessandro Galeazzi, Federico Chiariotti, **Michele Polese**, Andrea Zanella, Michele Zorzi, "A Deep Neural Network Approach for Customized Prediction of Mobile Devices Discharging Time", to be presented at GLOBECOM Communication Software, Services and Multimedia Apps. Symposium, Singapore, 2017.
 
 * [C12] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Coitt Kessler, Michele Zorzi, "mmWaves for Future Public Safety Communications", to be presented at the I-TENDER Workshop, co-located with CoNEXT 2017.
+
+* [C13] M. Drago, T. Azzino, **M. Polese**, C. Stefanovic, M. Zorzi, "Reliable Video Streaming over mmWave with Multi Connectivity and Network Coding", To be presented at the 2017 IEEE International Conference on Computing, Networking and Communications (ICNC), March 2017, Maui, Hawaii, USA (invited paper). Available on <a href="https://arxiv.org/abs/1711.06154" target="_blank">arXiv</a>.
 
 ## Posters
 * [P1] <a href="/assets/pdf/poster_mptcp.pdf">TCP in 5G mmWave networks: Time and path diversity</a> - based on [J2, C4], presented at the 2017 Brooklyn 5G Summit, NY, USA, and the 2nd mmW RCN Workshop, Madison, Wisconsin, USA.
