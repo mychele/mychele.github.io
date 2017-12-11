@@ -36,7 +36,7 @@ comments: false
 
 * [C9] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Mobility Management for TCP in mmWave Networks", 1st ACM Workshop on Millimeter-Wave Networks and Sensing Systems - co-located with Mobicom, Snowbird, Utah, USA, 2017. Available on <a href="https://dl.acm.org/citation.cfm?id=3130243">ACM DL</a>. The slides of the presentation are available <a href="/assets/pdf/mmnets_pdf.pdf">here</a>.
 
-* [C10] **Michele Polese**, Marco Mezzavilla, Menglei Zhang, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "milliProxy: a TCP Proxy Architecture for 5G mmWave Cellular Systems", to appear on the Proceedings of the 51st Asilomar Conference on Signals, Systems and Computers, Asilomar, California, USA, 2017.
+* [C10] **Michele Polese**, Marco Mezzavilla, Menglei Zhang, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "milliProxy: a TCP Proxy Architecture for 5G mmWave Cellular Systems", in Proceedings of the 51st Asilomar Conference on Signals, Systems and Computers, Asilomar, California, USA, 2017. Available on <a href="https://arxiv.org/abs/1712.02700" target="_blank">arXiv</a>.
 
 * [C11] Mattia Gentil, Alessandro Galeazzi, Federico Chiariotti, **Michele Polese**, Andrea Zanella, Michele Zorzi, "A Deep Neural Network Approach for Customized Prediction of Mobile Devices Discharging Time", IEEE GLOBECOM Communication Software, Services and Multimedia Apps. Symposium, Singapore, 2017. The poster of the presentation is available <a href="/assets/pdf/poster_location_battery.pdf">at this link</a>.
 
