@@ -42,7 +42,9 @@ comments: false
 
 * [C12] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Coitt Kessler, Michele Zorzi, "mmWaves for Future Public Safety Communications", I-TENDER Workshop, co-located with CoNEXT 2017, Seoul, South Korea, 2017. Available on <a href="https://dl.acm.org/citation.cfm?id=3152905">ACM DL</a>. The slides of the presentation are available <a href="/assets/pdf/itender.pdf">here</a>. 
 
-* [C13] M. Drago, T. Azzino, **M. Polese**, C. Stefanovic, M. Zorzi, "Reliable Video Streaming over mmWave with Multi Connectivity and Network Coding", To be presented at the 2017 IEEE International Conference on Computing, Networking and Communications (ICNC), March 2017, Maui, Hawaii, USA (invited paper). Available on <a href="https://arxiv.org/abs/1711.06154" target="_blank">arXiv</a>.
+* [C13] M. Drago, T. Azzino, **M. Polese**, C. Stefanovic, M. Zorzi, "Reliable Video Streaming over mmWave with Multi Connectivity and Network Coding", To be presented at the 2018 IEEE International Conference on Computing, Networking and Communications (ICNC), March 2018, Maui, Hawaii, USA (invited paper). Available on <a href="https://arxiv.org/abs/1711.06154" target="_blank">arXiv</a>.
+
+* [C14] T. Zugno, **M. Polese**, M. Zorzi, "Integration of Carrier Aggregation and Dual Connectivity for the ns-3 mmWave Module", submitted to WNS3 2018. Available on <a href="https://arxiv.org/abs/1802.06706" target="_blank">arXiv</a>.
 
 ## Posters
 * [P1] <a href="/assets/pdf/poster_mptcp.pdf">TCP in 5G mmWave networks: Time and path diversity</a> - based on [J2, C4], presented at the 2017 Brooklyn 5G Summit, NY, USA, and the 2nd mmW RCN Workshop, Madison, Wisconsin, USA.
