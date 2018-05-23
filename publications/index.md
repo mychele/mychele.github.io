@@ -18,6 +18,8 @@ comments: false
 
 * [J6] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "A Tutorial on Beam Management for 3GPP NR at mmWave Frequencies", _submitted_ to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1804.01908" target="_blank">arXiv</a>.
 
+* [J7] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", _submitted_ to IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1805.04268" target="_blank">arXiv</a>.
+
 ## Conferences
 * [C1] **M. Polese**, M. Centenaro, A. Zanella and M. Zorzi, "M2M massive access in LTE: RACH performance evaluation in a Smart City scenario," 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia, 2016. Available on <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7511430&newsearch=true&queryText=michele%20polese" target="_blank">IEEExplore</a> or <a href="https://arxiv.org/abs/1601.05098" target="_blank">arXiv</a>.
 
@@ -47,6 +49,10 @@ comments: false
 
 * [C14] T. Zugno, **M. Polese**, M. Zorzi, "Integration of Carrier Aggregation and Dual Connectivity for the ns-3 mmWave Module", to be presented at WNS3 2018. Available on <a href="https://arxiv.org/abs/1802.06706" target="_blank">arXiv</a>.
 
+* [C15] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Initial Access Frameworks for 3GPP NR at mmWave Frequencies", to be presented at MedHocNet 2018. Available on <a href="https://arxiv.org/abs/1805.05187" target="_blank">arXiv</a>.
+
+* [C16] Michele Polese, Michele Zorzi, "Impact of Channel Models on the End-to-End Performance of mmWave Cellular Networks", to be presented at IEEE SPAWC 2018 (invited paper).
+
 ## Posters
 * [P1] <a href="/assets/pdf/poster_mptcp.pdf">TCP in 5G mmWave networks: Time and path diversity</a> - based on [J2, C4], presented at the 2017 Brooklyn 5G Summit, NY, USA, and the 2nd mmW RCN Workshop, Madison, Wisconsin, USA.
 
@@ -56,7 +62,8 @@ comments: false
 
 * [P4] <a href="/assets/pdf/poster_udine.pdf">End-to-end performance of next generation mmWave networks</a> - based on [J1, J2, J3, C4, C6, C7], presented at the 2017 GTTi Meeting, Udine, Italy.
 
-* [P5] <a href="/assets/pdf/polese_tcp.pdf">Improving TCP performance on mmWave cellular networks</a> - based on [C9, C10], presented at the 3rd mmW RCN Workshop, Tucson, Arizona, USA.
+* [P5] <a href="/assets/pdf/polese_tcp.pdf">Improving TCP performance on mmWave cellular networks</a> - based on [C9, C10], presented at the 3rd mmW RCN Workshop, Tucson, Arizona, USA, and at 2018 Brooklyn 5G Summit, NY, USA.
+
 
 ## Master's Thesis
 * Michele Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
