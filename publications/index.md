@@ -8,17 +8,19 @@ comments: false
 ## Journals
 * [J1] **Michele Polese**, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", to appear in IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, September 2017, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a> and <a href="http://ieeexplore.ieee.org/document/7959177/">IEEExplore</a>.
 
-* [J2] **Michele Polese**, Rittwik Jana, Michele Zorzi, "TCP and MP-TCP in 5G mmWave Networks", IEEE Internet Computing Magazine, September 2017, available on <a href="http://ieeexplore.ieee.org/abstract/document/8039300/">IEEExplore</a>.
+* [J2] **Michele Polese**, Rittwik Jana, Michele Zorzi, "TCP and MP-TCP in 5G mmWave Networks", IEEE Internet Computing Magazine, September 2017, available on <a href="http://ieeexplore.ieee.org/abstract/document/8039300/" target="_blank">IEEExplore</a>.
 
 * [J3] Marco Mezzavilla, Menglei Zhang, **Michele Polese**, Russell Ford, Sourjya Dutta, Sundeep Rangan, Michele Zorzi, "End-to-End Simulation of 5G mmWave Networks", _to be published_ in IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1705.02882" target="_blank">arXiv</a>.
 
-* [J4] Marco Mezzavilla, **Michele Polese**, Andrea Zanella, Aditya Dhananjay, Sundeep Rangan, Coitt Kessler, Ted Rappaport, Michele Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", IEEE Access, available on <a href="http://ieeexplore.ieee.org/document/8107663/">IEEExplore (Open Access)</a>.
+* [J4] Marco Mezzavilla, **Michele Polese**, Andrea Zanella, Aditya Dhananjay, Sundeep Rangan, Coitt Kessler, Ted Rappaport, Michele Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", IEEE Access, available on <a href="http://ieeexplore.ieee.org/document/8107663/" target="_blank">IEEExplore (Open Access)</a>.
 
-* [J5] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Using Smart City Data in 5G Self-Organizing Networks", IEEE IoT Journal - Special Issue on Internet of Things for Smart Cities, available on <a href="http://ieeexplore.ieee.org/abstract/document/8038764/">IEEExplore (Open Access)</a>.
+* [J5] Massimo Dalla Cia, Federico Mason, Davide Peron, Federico Chiariotti, **Michele Polese**, Toktam Mahmoodi, Michele Zorzi, Andrea Zanella, "Using Smart City Data in 5G Self-Organizing Networks", IEEE IoT Journal - Special Issue on Internet of Things for Smart Cities, available on <a href="http://ieeexplore.ieee.org/abstract/document/8038764/" target="_blank">IEEExplore (Open Access)</a>.
 
 * [J6] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "A Tutorial on Beam Management for 3GPP NR at mmWave Frequencies", _submitted_ to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1804.01908" target="_blank">arXiv</a>.
 
 * [J7] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", _submitted_ to IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1805.04268" target="_blank">arXiv</a>.
+
+* [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", _submitted_ to IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a>.
 
 ## Conferences
 * [C1] **M. Polese**, M. Centenaro, A. Zanella and M. Zorzi, "M2M massive access in LTE: RACH performance evaluation in a Smart City scenario," 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia, 2016. Available on <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7511430&newsearch=true&queryText=michele%20polese" target="_blank">IEEExplore</a> or <a href="https://arxiv.org/abs/1601.05098" target="_blank">arXiv</a>.
@@ -51,7 +53,7 @@ comments: false
 
 * [C15] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Initial Access Frameworks for 3GPP NR at mmWave Frequencies", to be presented at MedHocNet 2018. Available on <a href="https://arxiv.org/abs/1805.05187" target="_blank">arXiv</a>.
 
-* [C16] Michele Polese, Michele Zorzi, "Impact of Channel Models on the End-to-End Performance of mmWave Cellular Networks", to be presented at IEEE SPAWC 2018 (invited paper).
+* [C16] **Michele Polese**, Michele Zorzi, "Impact of Channel Models on the End-to-End Performance of mmWave Cellular Networks", to be presented at IEEE SPAWC 2018 (invited paper). Available on <a href="https://arxiv.org/abs/1806.06125" target="_blank">arXiv</a>, <a href="/assets/pdf/spawc_v1.pdf" target="_blank">poster</a>.
 
 ## Posters
 * [P1] <a href="/assets/pdf/poster_mptcp.pdf">TCP in 5G mmWave networks: Time and path diversity</a> - based on [J2, C4], presented at the 2017 Brooklyn 5G Summit, NY, USA, and the 2nd mmW RCN Workshop, Madison, Wisconsin, USA.
@@ -63,6 +65,8 @@ comments: false
 * [P4] <a href="/assets/pdf/poster_udine.pdf">End-to-end performance of next generation mmWave networks</a> - based on [J1, J2, J3, C4, C6, C7], presented at the 2017 GTTi Meeting, Udine, Italy.
 
 * [P5] <a href="/assets/pdf/polese_tcp.pdf">Improving TCP performance on mmWave cellular networks</a> - based on [C9, C10], presented at the 3rd mmW RCN Workshop, Tucson, Arizona, USA, and at 2018 Brooklyn 5G Summit, NY, USA.
+
+* [P6] <a href="/assets/pdf/ns3_2018.pdf">ns-3 mmWave 5G Cellular Network Simulator</a> - based on [C13, C14, J3, J4], presented at WNS3 2018, Mangalore, India, and at the 2018 Brooklyn 5G Summit, NY, USA.
 
 
 ## Master's Thesis
