@@ -6,7 +6,7 @@ date: 2016-07-28
 comments: false
 ---
 ## Journals
-* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE JSAC Special Issue on Special Issue on Artificial Intelligence and Machine Learning for Networking and Communications, available on available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>.
+* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE JSAC Special Issue on Special Issue on Artificial Intelligence and Machine Learning for Networking and Communications, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>.
 
 * [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", to appear on IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a>.
 
