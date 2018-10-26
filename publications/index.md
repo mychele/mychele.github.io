@@ -67,6 +67,9 @@ comments: false
 
 
 ## Posters
+
+* [P8] <a href="/assets/pdf/poster_hit_brains_meet_enterprises_digital_meeting.pdf">Delivering the Potential of 5G Networks to the End Users</a> - presented as summary of my Ph.D. research project for the HIT-DIGITALmeet Young Researchers Award, Padova, October 2018. The project was awarded with an Honourable Mention.
+
 * [P7] <a href="/assets/pdf/b5gs_iab.pdf">Integrated Access and Backhaul at mmWave Frequencies</a> - based on [C19, C17], presented at the 2018 Brooklyn 5G Summit, NY, USA, and the 4th mmW RCN Workshop, NY, USA.
 
 * [P6] <a href="/assets/pdf/ns3_2018.pdf">ns-3 mmWave 5G Cellular Network Simulator</a> - based on [C13, C14, J3, J4], presented at WNS3 2018, Mangalore, India, and at the 2018 Brooklyn 5G Summit, NY, USA.
