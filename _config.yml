@@ -1,7 +1,7 @@
 # Site
 title:              Michele Polese
-bio:                'Ph.D. student'
-description:        "I am a Ph.D. student at the Department of Information Engineering, University of Padova."
+bio:                'Ph.D. Candidate'
+description:        "I am a Ph.D. Candidate at the Department of Information Engineering, University of Padova."
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/antenna-2.png'
@@ -38,11 +38,11 @@ disqus_shortname:   mychele
   #ad-slot:
 #bing-verify:
 email:              michele@polese.io
-twitter:            mychelepolese
+# twitter:            mychelepolese
 #facebook:           username
 github:             mychele
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          michelepolese
 #xing:              username
 #instagram:          username
 #lastfm:            username

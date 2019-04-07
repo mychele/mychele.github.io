@@ -6,11 +6,15 @@ date: 2016-07-28
 comments: false
 ---
 ## Journals
-* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE JSAC Special Issue on Special Issue on Artificial Intelligence and Machine Learning for Networking and Communications, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>.
+* [J11] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>.
 
-* [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", to appear on IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a>.
+* [J10] **Michele Polese**, Federico Chiariotti, Elia Bonetto, Filippo Rigotto, Andrea Zanella, Michele Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", submitted to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1810.03884" target="_blank">arXiv</a>.
 
-* [J7] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", _submitted_ to IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1805.04268" target="_blank">arXiv</a>.
+* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>.
+
+* [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a>.
+
+* [J7] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1805.04268" target="_blank">arXiv</a>.
 
 * [J6] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "A Tutorial on Beam Management for 3GPP NR at mmWave Frequencies", IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1804.01908" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8458146/" target="_blank">IEEExplore</a>.
 
@@ -22,10 +26,14 @@ comments: false
 
 * [J2] **Michele Polese**, Rittwik Jana, Michele Zorzi, "TCP and MP-TCP in 5G mmWave Networks", IEEE Internet Computing Magazine, September 2017, available on <a href="http://ieeexplore.ieee.org/abstract/document/8039300/" target="_blank">IEEExplore</a>.
 
-* [J1] **Michele Polese**, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", to appear in IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, September 2017, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a> and <a href="http://ieeexplore.ieee.org/document/7959177/" target="_blank">IEEExplore</a>.
+* [J1] **Michele Polese**, Marco Giordani, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", IEEE JSAC Special Issue on Millimeter Wave Communications for Future Mobile Networks, September 2017, available on <a href="http://arxiv.org/abs/1611.04748" target="_blank">arXiv</a> and <a href="http://ieeexplore.ieee.org/document/7959177/" target="_blank">IEEExplore</a>.
 
 
 ## Conferences
+
+* [C21] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a>.
+
+* [C20] **M. Polese**, T. Zugno, M. Zorzi, "Implementation of Reference Public Safety Scenarios in ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06224" target="_blank">arXiv</a>.
 
 * [C19] **M. Polese**, M. Giordani, A. Roy, D. Castor, and M. Zorzi, "Distributed Path Selection Strategies for Integrated Access and Backhaul at mmWaves", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1805.04351" target="_blank">arXiv</a>.
 
@@ -64,6 +72,10 @@ comments: false
 * [C2] **Michele Polese**, Marco Mezzavilla and Michele Zorzi, "Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration," 2016 EAI International Conference on Simulation Tools and Techniques (SIMUTools), Prague, Czech Republic, 2016. Available on <a href="https://arxiv.org/abs/1607.05425" target="_blank">arXiv</a>. The slides of the presentation at SIMUTools are available <a href="/assets/pdf/simutools_polese.pdf">here</a>.
 
 * [C1] **M. Polese**, M. Centenaro, A. Zanella and M. Zorzi, "M2M massive access in LTE: RACH performance evaluation in a Smart City scenario," 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia, 2016. Available on <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7511430&newsearch=true&queryText=michele%20polese" target="_blank">IEEExplore</a> or <a href="https://arxiv.org/abs/1601.05098" target="_blank">arXiv</a>.
+
+## Book Chapters
+
+* [B1] **M. Polese**, M. Giordani, M. Zorzi, "3GPP NR: the standard for 5G cellular networks", in 5G Italy White eBook: from Research to Market, 2018. Available at <a href="https://www.5gitaly.eu/wp-content/uploads/2019/01/5G-Italy-White-eBook-3GPP-NR.pdf" target="_blank">this link</a>. The slides of a high-level presentation on 3GPP NR are available <a href="/assets/pdf/nr-5g-italy.pdf">here</a>.
 
 
 ## Posters
