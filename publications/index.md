@@ -6,7 +6,7 @@ date: 2016-07-28
 comments: false
 ---
 ## Journals
-* [J11] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>.
+* [J11] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>. Slides on this topic can be found at <a href="http://www.6gsummit.com/wp-content/uploads/2019/04/Day3_Session7_Giordani_PadovaUniversity.pdf" target="_blank">this link</a>.
 
 * [J10] **Michele Polese**, Federico Chiariotti, Elia Bonetto, Filippo Rigotto, Andrea Zanella, Michele Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", submitted to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1810.03884" target="_blank">arXiv</a>.
 
