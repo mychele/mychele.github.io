@@ -12,9 +12,9 @@ comments: false
 
 * [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>.
 
-* [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a>.
+* [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8613277" target="_blank">IEEExplore</a>.
 
-* [J7] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1805.04268" target="_blank">arXiv</a>.
+* [J7] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1805.04268" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8703478" target="_blank">IEEExplore</a>.
 
 * [J6] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "A Tutorial on Beam Management for 3GPP NR at mmWave Frequencies", IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1804.01908" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8458146/" target="_blank">IEEExplore</a>.
 
@@ -30,6 +30,8 @@ comments: false
 
 
 ## Conferences
+
+* [C22] W. Xia, M. Polese, M. Mezzavilla, G. Loianno, S. Rangan, and M. Zorzi, “Millimeter Wave Remote UAV Control and Communications for Public Safety Scenarios,” in Proceedings of the 1st International Workshop on Internet of Autonomous Unmanned Vehicles (IAUV), Boston, MA, 2019.
 
 * [C21] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a>.
 
