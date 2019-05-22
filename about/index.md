@@ -11,6 +11,8 @@ comments: false
 
 * I am currently visiting Northestern University as a Visiting Scholar, working on mmWaves in the <a href="http://www.ece.neu.edu/wineslab/" target="_blank">WiNES Lab</a>.
 
+* Our COMST paper (Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks") won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
+
 * I visited New York University (NYU), in April 2017, and AT&T Labs in Bedminster, NJ, in May and June 2018.
 
 * Check the <a href="/publications">publications section</a> to know more about these topics and the <a href="http://mmwave.dei.unipd.it" target="_blank">mmWave website @ DEI, UNIPD</a>.
@@ -23,5 +25,5 @@ comments: false
 
 * I read a lot of books.
 
-* This is my CV: <a href="/assets/pdf/polese_cv_20190509.pdf">Michele Polese</a>.
+* This is my CV: <a href="/assets/pdf/polese_cv_20190522.pdf">Michele Polese</a>.
 
