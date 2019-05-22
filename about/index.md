@@ -7,7 +7,7 @@ comments: false
 ---
 
 # Hello!
-* I am a Ph.D. Candidate at the Department of Information Engineering of the University of Padova. My supervisor is <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. 
+* I am a Ph.D. Candidate at the Department of Information Engineering of the University of Padova. My supervisor is <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/polese_cv_20190522.pdf">This is my CV</a>.
 
 * I am currently visiting Northestern University as a Visiting Scholar, working on mmWaves in the <a href="http://www.ece.neu.edu/wineslab/" target="_blank">WiNES Lab</a>.
 
@@ -24,6 +24,4 @@ comments: false
 * I play the acoustic and the electric guitar, the banjo and the ukulele. Check out <a href="https://www.youtube.com/watch?v=y0ej1ZjzlDs" target="_blank">this video</a> from my band.
 
 * I read a lot of books.
-
-* This is my CV: <a href="/assets/pdf/polese_cv_20190522.pdf">Michele Polese</a>.
 
