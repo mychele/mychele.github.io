@@ -22,7 +22,7 @@ comments: false
 
 * [J4] Marco Mezzavilla, **Michele Polese**, Andrea Zanella, Aditya Dhananjay, Sundeep Rangan, Coitt Kessler, Ted Rappaport, Michele Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", IEEE Access, available on <a href="http://ieeexplore.ieee.org/document/8107663/" target="_blank">IEEExplore (Open Access)</a>.
 
-* [J3] Marco Mezzavilla, Menglei Zhang, **Michele Polese**, Russell Ford, Sourjya Dutta, Sundeep Rangan, Michele Zorzi, "End-to-End Simulation of 5G mmWave Networks", IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1705.02882" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8344116">IEEExplore (Open Access)</a>.
+* [J3] Marco Mezzavilla, Menglei Zhang, **Michele Polese**, Russell Ford, Sourjya Dutta, Sundeep Rangan, Michele Zorzi, "End-to-End Simulation of 5G mmWave Networks", IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1705.02882" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8344116">IEEExplore (Open Access)</a>. **Best Journal Paper Award** of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
 * [J2] **Michele Polese**, Rittwik Jana, Michele Zorzi, "TCP and MP-TCP in 5G mmWave Networks", IEEE Internet Computing Magazine, September 2017, available on <a href="http://ieeexplore.ieee.org/abstract/document/8039300/" target="_blank">IEEExplore</a>.
 
