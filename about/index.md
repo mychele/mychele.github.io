@@ -11,7 +11,7 @@ comments: false
 
 * I am currently visiting Northestern University as a Visiting Scholar, working on mmWaves in the <a href="http://www.ece.neu.edu/wineslab/" target="_blank">WiNES Lab</a>.
 
-* Our COMST paper (Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks") won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
+* Our COMST paper (<a href="https://ieeexplore.ieee.org/document/8344116" target="_blank">Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks"</a>) won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
 * I visited New York University (NYU), in April 2017, and AT&T Labs in Bedminster, NJ, in May and June 2018.
 
