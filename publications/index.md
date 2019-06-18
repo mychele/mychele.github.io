@@ -10,7 +10,7 @@ comments: false
 
 * [J10] **Michele Polese**, Federico Chiariotti, Elia Bonetto, Filippo Rigotto, Andrea Zanella, Michele Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", submitted to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1810.03884" target="_blank">arXiv</a>.
 
-* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>.
+* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
 
 * [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8613277" target="_blank">IEEExplore</a>.
 
