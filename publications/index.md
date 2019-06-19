@@ -31,15 +31,17 @@ comments: false
 
 ## Conferences
 
-* [C22] W. Xia, M. Polese, M. Mezzavilla, G. Loianno, S. Rangan, and M. Zorzi, “Millimeter Wave Remote UAV Control and Communications for Public Safety Scenarios,” in Proceedings of the 1st International Workshop on Internet of Autonomous Unmanned Vehicles (IAUV), Boston, MA, 2019.
+* [C23] W. Xia, M. Polese, M. Mezzavilla, G. Loianno, S. Rangan, and M. Zorzi, “Millimeter Wave Remote UAV Control and Communications for Public Safety Scenarios,” in Proceedings of the 1st International Workshop on Internet of Autonomous Unmanned Vehicles (IAUV), Boston, MA, 2019.
 
-* [C21] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a>.
+* [C22] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">ACM DL</a>. **Best Paper Award**.
 
-* [C20] **M. Polese**, T. Zugno, M. Zorzi, "Implementation of Reference Public Safety Scenarios in ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06224" target="_blank">arXiv</a>.
+* [C21] **M. Polese**, T. Zugno, M. Zorzi, "Implementation of Reference Public Safety Scenarios in ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06224" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321356" target="_blank">ACM DL</a>.
 
-* [C19] **M. Polese**, M. Giordani, A. Roy, D. Castor, and M. Zorzi, "Distributed Path Selection Strategies for Integrated Access and Backhaul at mmWaves", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1805.04351" target="_blank">arXiv</a>.
+* [C20] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Exploiting spatial correlation for improved user prediction in 5G cellular networks", Proceedings of the Information Theory and Applications Workshop (ITA), 2019, San Diego.
 
-* [C18] M. Rebato, **M. Polese**, and M. Zorzi, "Multi-Sector and Multi-Panel Performance in 5G mmWave Cellular Networks", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1808.04905" target="_blank">arXiv</a>.
+* [C19] **M. Polese**, M. Giordani, A. Roy, D. Castor, and M. Zorzi, "Distributed Path Selection Strategies for Integrated Access and Backhaul at mmWaves", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1805.04351" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8647977/" target="_blank">IEEExplore</a>.
+
+* [C18] M. Rebato, **M. Polese**, and M. Zorzi, "Multi-Sector and Multi-Panel Performance in 5G mmWave Cellular Networks", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1808.04905" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8647528/" target="_blank">IEEExplore</a>.
 
 * [C17] **M. Polese**, M. Giordani, A. Roy, S. Goyal, D. Castor, and M. Zorzi, "End-to-End Simulation of Integrated Access and Backhaul at mmWaves", in IEEE 23rd International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD), September 2018. Available on <a href="https://arxiv.org/abs/1808.00376" target="_blank">arXiv</a>, <a href="/assets/pdf/camad_v1.pdf" target="_blank">slides</a>.
 

@@ -13,6 +13,8 @@ comments: false
 
 * Our COMST paper (<a href="https://ieeexplore.ieee.org/document/8344116" target="_blank">Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks"</a>) won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
+* Our WNS3 paper (<a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">De Biasio, Chiariotti, Polese, Zanella, Zorzi, "A QUIC Implementation for ns-3"</a>) won the Best Paper Award at WNS3 2019.
+
 * I visited New York University (NYU), in April 2017, and AT&T Labs in Bedminster, NJ, in May and June 2018.
 
 * Check the <a href="/publications">publications section</a> to know more about these topics and the <a href="http://mmwave.dei.unipd.it" target="_blank">mmWave website @ DEI, UNIPD</a>.
