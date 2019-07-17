@@ -33,7 +33,7 @@ comments: false
 
 * [C23] W. Xia, M. Polese, M. Mezzavilla, G. Loianno, S. Rangan, and M. Zorzi, “Millimeter Wave Remote UAV Control and Communications for Public Safety Scenarios,” in Proceedings of the 1st International Workshop on Internet of Autonomous Unmanned Vehicles (IAUV), Boston, MA, 2019.
 
-* [C22] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">ACM DL</a>. **Best Paper Award**.
+* [C22] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">ACM DL</a>, <a href="/assets/pdf/QUIC-ns3.pdf" target="_blank">slides</a>. **Best Paper Award**.
 
 * [C21] **M. Polese**, T. Zugno, M. Zorzi, "Implementation of Reference Public Safety Scenarios in ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06224" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321356" target="_blank">ACM DL</a>.
 
