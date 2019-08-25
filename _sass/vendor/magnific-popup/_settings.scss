@@ -32,10 +32,10 @@ $mfp-iframe-ratio:                    9/16;                       // Ratio of if
 
 // Image-type options
 $mfp-include-image-type:              true;                       // Enable Image-type popups
-$mfp-image-background:                #444 !default;
+$mfp-image-background:                #000;
 $mfp-image-padding-top:               0;                       // Image padding top
 $mfp-image-padding-bottom:            0;                       // Image padding bottom
-$mfp-include-mobile-layout-for-image: true;                       // Removes paddings from top and bottom
+$mfp-include-mobile-layout-for-image: false;                       // Removes paddings from top and bottom
 
 // Image caption options
 $mfp-caption-title-color:             #F3F3F3;                    // Caption title color
