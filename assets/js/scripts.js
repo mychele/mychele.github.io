@@ -7,6 +7,24 @@ $(function() {
 // Need this to show animation when go back in browser
 window.onunload = function() {};
 
+// Safari back cache
+// old fix
+// window.onpageshow = function(event) {
+//     if (event.persisted) {
+//         window.location.reload() 
+//     }
+// };
+// new fix https://github.com/TaylanTatli/Moon/issues/51#issuecomment-268842450
+// Safari back-button fix
+window.onpageshow = function(event) {
+    if ($(".container").hasClass('fadeOut')) {
+        $(".container").removeClass("fadeOut").addClass("fadeIn");
+    }
+    if ($(".wrapper").hasClass('fadeOut')) {
+        $(".wrapper").removeClass("fadeOut").addClass("fadeIn");
+    }
+}
+
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 

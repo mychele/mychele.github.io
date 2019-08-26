@@ -1,14 +1,14 @@
 # Site
 title:              Michele Polese
-bio:                'Ph.D. student'
-description:        "I am a Ph.D. student at the Department of Information Engineering, University of Padova."
-reading_time:       true
+bio:                'Ph.D. Candidate'
+description:        "I am a Ph.D. Candidate at the Department of Information Engineering, University of Padova."
+reading_time:       false
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/bg/bibione.jpg'
+logo:               'assets/img/antenna-2.png'
+background:         'assets/img/bg/byronbay.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://polese.io
+url:                https://polese.io #http://127.0.0.1:4000/
 
 # Jekyll
 permalink:          /:title/
@@ -37,12 +37,12 @@ disqus_shortname:   mychele
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            mychelepolese
+email:              michele@polese.io
+# twitter:            mychelepolese
 #facebook:           username
 github:             mychele
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          michelepolese
 #xing:              username
 #instagram:          username
 #lastfm:            username
@@ -66,6 +66,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-redirect-from
 
 jekyll-mentions:
     base_url: https://github.com

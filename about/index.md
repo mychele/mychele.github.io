@@ -1,37 +1,29 @@
 ---
-layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+layout: about
+title: About
+tags: [about, Michele Polese]
+date: 2016-07-28
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+# Hello!
+* I am a Ph.D. Candidate at the Department of Information Engineering of the University of Padova. My supervisor is <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/polese_cv_20190619.pdf">This is my CV</a>.
 
-## Preview
+* I am currently visiting Northestern University as a Visiting Scholar, working on mmWaves in the <a href="http://www.ece.neu.edu/wineslab/" target="_blank">WiNES Lab</a>.
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+* Our COMST paper (<a href="https://ieeexplore.ieee.org/document/8344116" target="_blank">Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks"</a>) won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+* Our WNS3 paper (<a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">De Biasio, Chiariotti, Polese, Zanella, Zorzi, "A QUIC Implementation for ns-3"</a>) won the Best Paper Award at WNS3 2019.
 
-## Getting Started
+* I visited New York University (NYU), in April 2017, and AT&T Labs in Bedminster, NJ, in May and June 2018.
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+* Check the <a href="/publications">publications section</a> to know more about these topics and the <a href="http://mmwave.dei.unipd.it" target="_blank">mmWave website @ DEI, UNIPD</a>.
+
+* I recently presented some research results on a webinar for the IEEE Future Networks Initiative, you can find it <a href="https://ieee.webex.com/ec3300/eventcenter/recording/recordAction.do?siteurl=ieee&theAction=poprecord&recordID=56167302&internalRecordTicket=4832534b0000000420358179fdab7b09614f207a8e82ac16189a534f9ad0e81177718c062b2ac4e0" target="_blank">here</a>.
+
+* I am interested in social and political issues, in particular the ones related to technology and the disruption brought by it. 
+
+* I play the acoustic and the electric guitar, the banjo and the ukulele. Check out <a href="https://www.youtube.com/watch?v=y0ej1ZjzlDs" target="_blank">this video</a> from my band.
+
+* I read a lot of books.
+
