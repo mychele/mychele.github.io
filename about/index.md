@@ -9,13 +9,13 @@ comments: false
 # Hello!
 * I am a Ph.D. Candidate at the Department of Information Engineering of the University of Padova. My supervisor is <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/polese_cv_20190619.pdf">This is my CV</a>.
 
-* I am currently visiting Northestern University as a Visiting Scholar, working on mmWaves in the <a href="http://www.ece.neu.edu/wineslab/" target="_blank">WiNES Lab</a>.
-
 * Our COMST paper (<a href="https://ieeexplore.ieee.org/document/8344116" target="_blank">Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks"</a>) won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
 * Our WNS3 paper (<a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">De Biasio, Chiariotti, Polese, Zanella, Zorzi, "A QUIC Implementation for ns-3"</a>) won the Best Paper Award at WNS3 2019.
 
-* I visited New York University (NYU), in April 2017, and AT&T Labs in Bedminster, NJ, in May and June 2018.
+* I visited Northestern University as a Visiting Scholar, working on mmWaves in the <a href="http://www.ece.neu.edu/wineslab/" target="_blank">WiNES Lab</a>.
+
+* I also visited New York University (NYU), in April 2017, and AT&T Labs in Bedminster, NJ, in May and June 2018.
 
 * Check the <a href="/publications">publications section</a> to know more about these topics and the <a href="http://mmwave.dei.unipd.it" target="_blank">mmWave website @ DEI, UNIPD</a>.
 

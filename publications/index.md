@@ -6,11 +6,16 @@ date: 2016-07-28
 comments: false
 ---
 ## Journals
-* [J11] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>. Slides on this topic can be found at <a href="http://www.6gsummit.com/wp-content/uploads/2019/04/Day3_Session7_Giordani_PadovaUniversity.pdf" target="_blank">this link</a>.
 
-* [J10] **Michele Polese**, Federico Chiariotti, Elia Bonetto, Filippo Rigotto, Andrea Zanella, Michele Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", submitted to IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1810.03884" target="_blank">arXiv</a>.
+* [J13] **Michele Polese**, Marco Giordani, Tommaso Zugno, Arnab Roy, Sanjay Goyal, Douglas Castor, and Michele Zorzi, "Integrated Access and Backhaul in 5G mmWave Networks: Potentials and Challenges," submitted to IEEE Communications Magazine, 2019, available on <a href="https://arxiv.org/pdf/1906.01099.pdf" target="_blank">arXiv</a>.
 
-* [J9] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
+* [J12] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>. Slides on this topic can be found at <a href="http://www.6gsummit.com/wp-content/uploads/2019/04/Day3_Session7_Giordani_PadovaUniversity.pdf" target="_blank">this link</a>.
+
+* [J11] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
+
+* [J10] F. Meneghello, M. Calore, D. Zucchetto, M. Polese, and A. Zanella, “IoT: Internet of Threats? A survey of practical security vulnerabilities in real IoT devices,” IEEE Internet of Things Journal, 2019, available on <a href="https://ieeexplore.ieee.org/document/8796409" target="_blank">IEEExplore</a>.
+
+* [J9] **Michele Polese**, Federico Chiariotti, Elia Bonetto, Filippo Rigotto, Andrea Zanella, Michele Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1810.03884" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8786240" target="_blank">IEEExplore</a>.
 
 * [J8] Menglei Zhang, **Michele Polese**, Marco Mezzavilla, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", IEEE Communications Magazine, available on <a href="https://arxiv.org/abs/1806.05783" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8613277" target="_blank">IEEExplore</a>.
 
@@ -31,23 +36,31 @@ comments: false
 
 ## Conferences
 
-* [C23] W. Xia, M. Polese, M. Mezzavilla, G. Loianno, S. Rangan, and M. Zorzi, “Millimeter Wave Remote UAV Control and Communications for Public Safety Scenarios,” in Proceedings of the 1st International Workshop on Internet of Autonomous Unmanned Vehicles (IAUV), Boston, MA, 2019.
+* [C27] M. Drago, **M. Polese**, S. Kucera, D. Kozlov, V. Kirillov, and M. Zorzi, "QoS Provisioning in 60 GHz Communications by Physical and Transport Layer Coordination,"" in IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems (MASS), Nov 2019.
 
-* [C22] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">ACM DL</a>, <a href="/assets/pdf/QUIC-ns3.pdf" target="_blank">slides</a>. **Best Paper Award**.
+* [C26] L. Bertizzolo, **M. Polese**, L. Bonati, A. Gosain, M. Zorzi, and T. Melodia, “mmBAC: Location-aided mmWave Backhaul Management for UAV-based Aerial Cells,” in Proceedings of the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets ’19), Los Cabos, Mexico, 2019. Available <a href="https://ece.northeastern.edu/wineslab/papers/BertizzoloMmnets19.pdf" target="_blank">online</a>
 
-* [C21] **M. Polese**, T. Zugno, M. Zorzi, "Implementation of Reference Public Safety Scenarios in ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06224" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321356" target="_blank">ACM DL</a>.
+* [C25] **M. Polese**, F. Restuccia, A. Gosain, J. Jornet, S. Bhardwaj, V. Ariyarathna, S. Mandal, K. Zheng, A. Dhananjay, M. Mezzavilla, J. Buckwalter, M. Rodwell, X. Wang, M. Zorzi, A. Madanayake, and T. Melodia, "MillimeTera: Toward A Large-Scale Open-Source mmWave and Terahertz Experimental Testbed," in Proceedings of the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets ’19), Los Cabos, Mexico, 2019.
+
+* [C24] Tommaso Zugno, **Michele Polese**, Mattia Lecci, and Michele Zorzi, "Simulation of Next-generation Cellular Networks with ns-3: Open Challenges and New Directions,"" in Proceedings of the 2019 Workshop on Next-Generation Wireless with ns-3 (WNGW 2019), Florence, Italy, 2019. Available on <a href="http://doi.acm.org/10.1145/3337941.3337951" target="_blank">ACM DL</a>.
+
+* [C23] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">ACM DL</a>, <a href="/assets/pdf/QUIC-ns3.pdf" target="_blank">slides</a>. **Best Paper Award**.
+
+* [C22] **M. Polese**, T. Zugno, M. Zorzi, "Implementation of Reference Public Safety Scenarios in ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06224" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321356" target="_blank">ACM DL</a>.
+
+* [C21] W. Xia, M. Polese, M. Mezzavilla, G. Loianno, S. Rangan, and M. Zorzi, “Millimeter Wave Remote UAV Control and Communications for Public Safety Scenarios,” in Proceedings of the 1st International Workshop on Internet of Autonomous Unmanned Vehicles (IAUV), Boston, MA, 2019. Available on <a href="https://ieeexplore.ieee.org/document/8824919/" target="_blank">IEEExplore</a>
 
 * [C20] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Exploiting spatial correlation for improved user prediction in 5G cellular networks", Proceedings of the Information Theory and Applications Workshop (ITA), 2019, San Diego.
 
-* [C19] **M. Polese**, M. Giordani, A. Roy, D. Castor, and M. Zorzi, "Distributed Path Selection Strategies for Integrated Access and Backhaul at mmWaves", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1805.04351" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8647977/" target="_blank">IEEExplore</a>.
+* [C19] M. Rebato, **M. Polese**, and M. Zorzi, "Multi-Sector and Multi-Panel Performance in 5G mmWave Cellular Networks", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1808.04905" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8647528/" target="_blank">IEEExplore</a>.
 
-* [C18] M. Rebato, **M. Polese**, and M. Zorzi, "Multi-Sector and Multi-Panel Performance in 5G mmWave Cellular Networks", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1808.04905" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8647528/" target="_blank">IEEExplore</a>.
+* [C18] **M. Polese**, M. Giordani, A. Roy, D. Castor, and M. Zorzi, "Distributed Path Selection Strategies for Integrated Access and Backhaul at mmWaves", 2018 IEEE Global Communications Conference (GLOBECOM), Dec 2018. Available on <a href="https://arxiv.org/abs/1805.04351" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8647977/" target="_blank">IEEExplore</a>.
 
 * [C17] **M. Polese**, M. Giordani, A. Roy, S. Goyal, D. Castor, and M. Zorzi, "End-to-End Simulation of Integrated Access and Backhaul at mmWaves", in IEEE 23rd International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD), September 2018. Available on <a href="https://arxiv.org/abs/1808.00376" target="_blank">arXiv</a>, <a href="/assets/pdf/camad_v1.pdf" target="_blank">slides</a>.
 
-* [C16] **Michele Polese**, Michele Zorzi, "Impact of Channel Models on the End-to-End Performance of mmWave Cellular Networks", IEEE SPAWC 2018 (invited paper). Available on <a href="https://arxiv.org/abs/1806.06125" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8445856/" target="_blank">IEEExplore</a>, <a href="/assets/pdf/spawc_v1.pdf" target="_blank">poster</a>.
+* [C16] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Initial Access Frameworks for 3GPP NR at mmWave Frequencies", IEEE MedHocNet 2018. Available on <a href="https://arxiv.org/abs/1805.05187" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8407094" target="_blank">IEEExplore</a>.
 
-* [C15] Marco Giordani, **Michele Polese**, Arnab Roy, Douglas Castor, Michele Zorzi, "Initial Access Frameworks for 3GPP NR at mmWave Frequencies", IEEE MedHocNet 2018. Available on <a href="https://arxiv.org/abs/1805.05187" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8407094" target="_blank">IEEExplore</a>.
+* [C15] **Michele Polese**, Michele Zorzi, "Impact of Channel Models on the End-to-End Performance of mmWave Cellular Networks", IEEE SPAWC 2018 (invited paper). Available on <a href="https://arxiv.org/abs/1806.06125" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8445856/" target="_blank">IEEExplore</a>, <a href="/assets/pdf/spawc_v1.pdf" target="_blank">poster</a>.
 
 * [C14] T. Zugno, **M. Polese**, M. Zorzi, "Integration of Carrier Aggregation and Dual Connectivity for the ns-3 mmWave Module", Proceedings of the Workshop on ns-3 (WNS3 ’18), Surathkal, India, 2018. Available on <a href="https://arxiv.org/abs/1802.06706" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3199909" target="_blank">ACM DL</a>.
 
@@ -55,9 +68,9 @@ comments: false
 
 * [C12] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Coitt Kessler, Michele Zorzi, "mmWaves for Future Public Safety Communications", I-TENDER Workshop, co-located with CoNEXT 2017, Seoul, South Korea, 2017. Available on <a href="https://dl.acm.org/citation.cfm?id=3152905" target="_blank">ACM DL</a>. The slides of the presentation are available <a href="/assets/pdf/itender.pdf">here</a>. 
 
-* [C11] Mattia Gentil, Alessandro Galeazzi, Federico Chiariotti, **Michele Polese**, Andrea Zanella, Michele Zorzi, "A Deep Neural Network Approach for Customized Prediction of Mobile Devices Discharging Time", IEEE GLOBECOM Communication Software, Services and Multimedia Apps. Symposium, Singapore, 2017. Available on <a href="http://ieeexplore.ieee.org/document/8254532/" target="_blank">IEEExplore</a>. The poster of the presentation is available <a href="/assets/pdf/poster_location_battery.pdf">at this link</a>.
+* [C11] **Michele Polese**, Marco Mezzavilla, Menglei Zhang, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "milliProxy: a TCP Proxy Architecture for 5G mmWave Cellular Systems", in Proceedings of the 51st Asilomar Conference on Signals, Systems and Computers, Asilomar, California, USA, 2017. Available on <a href="https://arxiv.org/abs/1712.02700" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8335489/" target="_blank">IEEExplore</a>.
 
-* [C10] **Michele Polese**, Marco Mezzavilla, Menglei Zhang, Jing Zhu, Sundeep Rangan, Shivendra Panwar, Michele Zorzi, "milliProxy: a TCP Proxy Architecture for 5G mmWave Cellular Systems", in Proceedings of the 51st Asilomar Conference on Signals, Systems and Computers, Asilomar, California, USA, 2017. Available on <a href="https://arxiv.org/abs/1712.02700" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8335489/" target="_blank">IEEExplore</a>.
+* [C10] Mattia Gentil, Alessandro Galeazzi, Federico Chiariotti, **Michele Polese**, Andrea Zanella, Michele Zorzi, "A Deep Neural Network Approach for Customized Prediction of Mobile Devices Discharging Time", IEEE GLOBECOM Communication Software, Services and Multimedia Apps. Symposium, Singapore, 2017. Available on <a href="http://ieeexplore.ieee.org/document/8254532/" target="_blank">IEEExplore</a>. The poster of the presentation is available <a href="/assets/pdf/poster_location_battery.pdf">at this link</a>.
 
 * [C9] **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Mobility Management for TCP in mmWave Networks", 1st ACM Workshop on Millimeter-Wave Networks and Sensing Systems - co-located with Mobicom, Snowbird, Utah, USA, 2017. Available on <a href="https://dl.acm.org/citation.cfm?id=3130243">ACM DL</a>. The slides of the presentation are available <a href="/assets/pdf/mmnets_pdf.pdf">here</a>.
 
