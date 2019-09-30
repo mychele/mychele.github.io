@@ -36,13 +36,13 @@ comments: false
 
 ## Conferences
 
-* [C27] M. Drago, **M. Polese**, S. Kucera, D. Kozlov, V. Kirillov, and M. Zorzi, "QoS Provisioning in 60 GHz Communications by Physical and Transport Layer Coordination,"" in IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems (MASS), Nov 2019.
+* [C27] M. Drago, **M. Polese**, S. Kucera, D. Kozlov, V. Kirillov, and M. Zorzi, "QoS Provisioning in 60 GHz Communications by Physical and Transport Layer Coordination," in IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems (MASS), Nov 2019.
 
-* [C26] L. Bertizzolo, **M. Polese**, L. Bonati, A. Gosain, M. Zorzi, and T. Melodia, “mmBAC: Location-aided mmWave Backhaul Management for UAV-based Aerial Cells,” in Proceedings of the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets ’19), Los Cabos, Mexico, 2019. Available <a href="https://ece.northeastern.edu/wineslab/papers/BertizzoloMmnets19.pdf" target="_blank">online</a>
+* [C26] L. Bertizzolo, **M. Polese**, L. Bonati, A. Gosain, M. Zorzi, and T. Melodia, "mmBAC: Location-aided mmWave Backhaul Management for UAV-based Aerial Cells," in Proceedings of the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets ’19), Los Cabos, Mexico, 2019. Available <a href="https://ece.northeastern.edu/wineslab/papers/BertizzoloMmnets19.pdf" target="_blank">online</a>
 
 * [C25] **M. Polese**, F. Restuccia, A. Gosain, J. Jornet, S. Bhardwaj, V. Ariyarathna, S. Mandal, K. Zheng, A. Dhananjay, M. Mezzavilla, J. Buckwalter, M. Rodwell, X. Wang, M. Zorzi, A. Madanayake, and T. Melodia, "MillimeTera: Toward A Large-Scale Open-Source mmWave and Terahertz Experimental Testbed," in Proceedings of the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets ’19), Los Cabos, Mexico, 2019.
 
-* [C24] Tommaso Zugno, **Michele Polese**, Mattia Lecci, and Michele Zorzi, "Simulation of Next-generation Cellular Networks with ns-3: Open Challenges and New Directions,"" in Proceedings of the 2019 Workshop on Next-Generation Wireless with ns-3 (WNGW 2019), Florence, Italy, 2019. Available on <a href="http://doi.acm.org/10.1145/3337941.3337951" target="_blank">ACM DL</a>.
+* [C24] Tommaso Zugno, **Michele Polese**, Mattia Lecci, and Michele Zorzi, "Simulation of Next-generation Cellular Networks with ns-3: Open Challenges and New Directions," in Proceedings of the 2019 Workshop on Next-Generation Wireless with ns-3 (WNGW 2019), Florence, Italy, 2019. Available on <a href="http://doi.acm.org/10.1145/3337941.3337951" target="_blank">ACM DL</a>.
 
 * [C23] A. De Biasio, F. Chiariotti, **M. Polese**, A. Zanella, M. Zorzi, "A QUIC Implementation for ns-3", Proceedings of the Workshop on ns-3 (WNS3 ’19), Firenze, Italy, 2019. Available on <a href="https://arxiv.org/abs/1902.06121" target="_blank">arXiv</a> and <a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">ACM DL</a>, <a href="/assets/pdf/QUIC-ns3.pdf" target="_blank">slides</a>. **Best Paper Award**.
 
