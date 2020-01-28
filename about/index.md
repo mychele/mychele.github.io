@@ -7,7 +7,9 @@ comments: false
 ---
 
 # Hello!
-* I am a Ph.D. Candidate at the Department of Information Engineering of the University of Padova. My supervisor is <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/polese_cv_20190619.pdf">This is my CV</a>.
+* I am a Postdoc and Adjunct Professor at the Department of Information Engineering of the University of Padova. My supervisor is <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/polese_cv_20190619.pdf">This is my CV</a>.
+
+* This is our vision on future 6G networks, to be published in the IEEE Communications Magazine: "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>. 
 
 * Our COMST paper (<a href="https://ieeexplore.ieee.org/document/8344116" target="_blank">Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks"</a>) won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
