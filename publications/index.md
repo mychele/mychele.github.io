@@ -121,7 +121,7 @@ comments: false
 
 
 ## Ph.D. Thesis
-* Michele Polese, End-to-end Design and Performance Evaluation of mmWave Cellular Networks, Ph.D. thesis, Department of Information Engineering, University of Padova, February 2020, available on <a href="/assets/pdf/dissertation.pdf" target="_blank"></a>. The slides are available here: <a href="/assets/pdf/phd-defense-slides.pdf" target="_blank"></a>.
+* Michele Polese, End-to-end Design and Performance Evaluation of mmWave Cellular Networks, Ph.D. thesis, Department of Information Engineering, University of Padova, February 2020, available <a href="/assets/pdf/dissertation.pdf" target="_blank">at this link</a>. The slides are available here: <a href="/assets/pdf/phd-defense-slides.pdf" target="_blank">here</a>.
 
 
 ## Master's Thesis
