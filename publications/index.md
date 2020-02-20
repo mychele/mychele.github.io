@@ -120,6 +120,10 @@ comments: false
 * [P1] <a href="/assets/pdf/poster_mptcp.pdf">TCP in 5G mmWave networks: Time and path diversity</a> - based on [J2, C4], presented at the 2017 Brooklyn 5G Summit, NY, USA, and the 2nd mmW RCN Workshop, Madison, Wisconsin, USA.
 
 
+## Ph.D. Thesis
+* Michele Polese, End-to-end Design and Performance Evaluation of mmWave Cellular Networks, Ph.D. thesis, Department of Information Engineering, University of Padova, February 2020, available on <a href="/assets/pdf/dissertation.pdf" target="_blank"></a>. The slides are available here: <a href="/assets/pdf/phd-defense-slides.pdf" target="_blank"></a>.
+
+
 ## Master's Thesis
 * Michele Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
 
