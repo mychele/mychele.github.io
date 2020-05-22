@@ -13,7 +13,7 @@ comments: false
 
 * [J12] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", IEEE Communications Magazine, vol. 58, no. 3, pp. 55-61, March 2020. Available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/9040264" target="_blank">IEEExplore</a>. Slides on this topic can be found at <a href="http://www.6gsummit.com/wp-content/uploads/2019/04/Day3_Session7_Giordani_PadovaUniversity.pdf" target="_blank">this link</a>.
 
-* [J11] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>. Slides can be found at <a href="/assets/pdf/wineslab-meeting.pdf" target="_blank">this link</a>.
+* [J11] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
 
 * [J10] F. Meneghello, M. Calore, D. Zucchetto, M. Polese, and A. Zanella, “IoT: Internet of Threats? A survey of practical security vulnerabilities in real IoT devices,” IEEE Internet of Things Journal, 2019, available on <a href="https://ieeexplore.ieee.org/document/8796409" target="_blank">IEEExplore</a>.
 
