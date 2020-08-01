@@ -5,17 +5,27 @@ tags: [publications, Michele Polese]
 date: 2016-07-28
 comments: false
 ---
+
+Visit my profile on Google Scholar for the most updated list: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>
+
+
 ## Journals
 
-* [J14] T. Zugno, M. Drago, M. Giordani, **M. Polese**, M. Zorzi, "Towards Standardization of Millimeter Wave Vehicle-to-Vehicle Networks: Open Challenges and Performance Evaluation", submitted to IEEE Communications Magazine, 2020, available on <a href="https://arxiv.org/abs/1910.00300" target="_blank">arXiv</a>.
+* [J17] M. Lecci, P. Testolina, **M. Polese**, M. Giordani, and M. Zorzi, "Accuracy vs. Complexity for mmWave Ray-Tracing: A Full Stack Perspective", available on <a href="https://arxiv.org/abs/2007.07125" target="_blank">arXiv</a>, 2020.
 
-* [J13] **Michele Polese**, Marco Giordani, Tommaso Zugno, Arnab Roy, Sanjay Goyal, Douglas Castor, and Michele Zorzi, "Integrated Access and Backhaul in 5G mmWave Networks: Potentials and Challenges," IEEE Communications Magazine, vol. 58, no. 3, pp. 62-68, March 2020. Available on <a href="https://arxiv.org/pdf/1906.01099.pdf" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/9040265" target="_blank">IEEExplore</a>.
+* [J16] **M. Polese**, J. Jornet, T. Melodia, M. Zorzi, "Toward End-to-End, Full-Stack 6G Terahertz Networks", available on <a href="https://arxiv.org/abs/2005.07989" target="_blank">arXiv</a>, 2020.
 
-* [J12] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", IEEE Communications Magazine, vol. 58, no. 3, pp. 55-61, March 2020. Available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/9040264" target="_blank">IEEExplore</a>. Slides on this topic can be found at <a href="http://www.6gsummit.com/wp-content/uploads/2019/04/Day3_Session7_Giordani_PadovaUniversity.pdf" target="_blank">this link</a>.
+* [J15] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, and T. Melodia, "Open, Programmable, and Virtualized 5G Networks: State-of-the-Art and the Road Ahead," available on <a href="https://arxiv.org/abs/2005.10027" target="_blank">arXiv</a>, 2020.
 
-* [J11] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", submitted to IEEE Transactions on Mobile Computing, available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
+* [J14] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", IEEE Transactions on Mobile Computing, 2020. Available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>  and <a href="https://ieeexplore.ieee.org/document/9107476" target="_blank">IEEExplore</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
 
-* [J10] F. Meneghello, M. Calore, D. Zucchetto, M. Polese, and A. Zanella, “IoT: Internet of Threats? A survey of practical security vulnerabilities in real IoT devices,” IEEE Internet of Things Journal, 2019, available on <a href="https://ieeexplore.ieee.org/document/8796409" target="_blank">IEEExplore</a>.
+* [J13] T. Zugno, M. Drago, M. Giordani, **M. Polese**, M. Zorzi, "Towards Standardization of Millimeter Wave Vehicle-to-Vehicle Networks: Open Challenges and Performance Evaluation", submitted to IEEE Communications Magazine, 2020, available on <a href="https://arxiv.org/abs/1910.00300" target="_blank">arXiv</a>.
+
+* [J12] **Michele Polese**, Marco Giordani, Tommaso Zugno, Arnab Roy, Sanjay Goyal, Douglas Castor, and Michele Zorzi, "Integrated Access and Backhaul in 5G mmWave Networks: Potentials and Challenges," IEEE Communications Magazine, vol. 58, no. 3, pp. 62-68, March 2020. Available on <a href="https://arxiv.org/pdf/1906.01099.pdf" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/9040265" target="_blank">IEEExplore</a>.
+
+* [J11] Marco Giordani, **Michele Polese**, Marco Mezzavilla, Sundeep Rangan, Michele Zorzi, "Towards 6G Networks: Use Cases and Technologies", IEEE Communications Magazine, vol. 58, no. 3, pp. 55-61, March 2020. Available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/9040264" target="_blank">IEEExplore</a>. Slides on this topic can be found at <a href="http://www.6gsummit.com/wp-content/uploads/2019/04/Day3_Session7_Giordani_PadovaUniversity.pdf" target="_blank">this link</a>.
+
+* [J10] F. Meneghello, M. Calore, D. Zucchetto, **M. Polese**, and A. Zanella, “IoT: Internet of Threats? A survey of practical security vulnerabilities in real IoT devices,” IEEE Internet of Things Journal, 2019, available on <a href="https://ieeexplore.ieee.org/document/8796409" target="_blank">IEEExplore</a>.
 
 * [J9] **Michele Polese**, Federico Chiariotti, Elia Bonetto, Filippo Rigotto, Andrea Zanella, Michele Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", IEEE Communications Surveys and Tutorials, available on <a href="https://arxiv.org/abs/1810.03884" target="_blank">arXiv</a> and <a href="https://ieeexplore.ieee.org/document/8786240" target="_blank">IEEExplore</a>.
 
@@ -38,13 +48,23 @@ comments: false
 
 ## Conferences
 
-* [C33] M. Boschiero, M. Giordani, **M. Polese**, M. Zorzi, "Coverage Analysis of UAVs in Millimeter Wave Networks: A Stochastic Geometry Approach", submitted to IWCMC 2020.
+* [C37] **M. Polese**, L. Bertizzolo, L. Bonati, A. Gosain, and T. Melodia, "An Experimental mmWave Channel Model for UAV-to-UAV Communications," in Proc. of ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets), London, UK, Sep. 2020. Available on <a href="https://arxiv.org/abs/2007.11869" target="_blank">arXiv</a>. The measurements dataset is <a href="https://github.com/wineslab/uav-to-uav-60-ghz-channel-model" target="_blank">publicly available on GitHub</a>.
+
+* [C37] M. Lecci, **M. Polese**, C. Lai, J. Wang, C. Gentile, N. Golmie, M. Zorzi, "Quasi-Deterministic Channel Model for mmWaves: Mathematical Formalization and Validation", available on <a href="https://arxiv.org/abs/2006.01235" target="_blank">arXiv</a>, 2020.
+
+* [C36] T. Zugno, M. Drago, **M. Polese**, M. Giordani, M. Zorzi, "NR V2X Communications at Millimeter Waves: An End-to-End Performance Evaluation", available on <a href="https://arxiv.org/abs/2005.10148" target="_blank">arXiv</a>, 2020.
+
+* [C35] S. D'Oro, L. Bonati, F. Restuccia, **M. Polese**, M. Zorzi and T. Melodia, "Sl-EDGE: Network Slicing at the Edge", in Proc. of ACM Intl. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc), October 2020. Available <a href="https://ece.northeastern.edu/wineslab/papers/doroMobihoc2020.pdf" target="_blank">here</a>.
+
+* [C34] M. Pagin, F. Agostini, T. Zugno, **M. Polese**, M. Zorzi, "Enabling RAN Slicing Through Carrier Aggregation in mmWave Cellular Networks", in Proc. of the 18th Mediterranean Communication and Computer Networking Conference (MedComNet 2020), June 2020. Available on <a href="https://arxiv.org/pdf/2005.10142.pdf" target="_blank">arXiv</a>. **Mario Gerla Best Paper Award**.
+
+* [C33] M. Boschiero, M. Giordani, M. Polese, M. Zorzi, "Coverage Analysis of UAVs in Millimeter Wave Networks: A Stochastic Geometry Approach", in Proc. of the 16th Intl Wireless Communications and Mobile Computing Conference (IWCMC 2020), June 2020. Available on <a href="https://arxiv.org/pdf/2003.01391.pdf" target="_blank">arXiv</a>.
 
 * [C32] M. Lecci, P. Testolina, M. Giordani, **M. Polese**, T. Ropitault, C. Gentile, N. Varshney, A. Bodi, M. Zorzi, "Simplified Ray Tracing for the Millimeter Wave Channel: A Performance Evaluation", Proceedings of the Workshop on Information Theory and Applications (ITA). Available on <a href="https://arxiv.org/abs/2002.09179" target="_blank">arXiv</a>. 
 
 * [C31] T. Zugno, M. Drago, **M. Polese**, M. Giordani, M. Zorzi, "MilliCar - An ns-3 Module for mmWave NR V2X Networks", Proceedings of the Workshop on ns-3 (WNS3), 2020. Available on <a href="https://arxiv.org/abs/2002.10347" target="_blank">arXiv</a>. 
 
-* [C30] T. Zugno, **M. Polese**, N. Patriciello, B. Bojović, S. Lagen, M. Zorzi, "Implementation of A Spatial Channel Model for ns-3", Proceedings of the Workshop on ns-3 (WNS3), 2020. Available on <a href="https://arxiv.org/abs/2002.09341" target="_blank">arXiv</a>. 
+* [C30] T. Zugno, **M. Polese**, N. Patriciello, B. Bojović, S. Lagen, M. Zorzi, "Implementation of A Spatial Channel Model for ns-3", Proceedings of the Workshop on ns-3 (WNS3), 2020. Available on <a href="https://arxiv.org/abs/2002.09341" target="_blank">arXiv</a>. **Best Paper Award**.
 
 * [C29] P. Testolina, M. Lecci, **M. Polese**, M Giordani, M Zorzi, "Scalable and Accurate Modeling of the Millimeter Wave Channel", IEEE International Conference on Computing, Networking and Communications (ICNC), Big Island, HI, 2020. Available on <a href="https://arxiv.org/abs/1910.09912" target="_blank">arXiv</a>. 
 
@@ -136,4 +156,3 @@ comments: false
 * Michele Polese, Performance Comparison of Dual Connectivity and Hard Handover for LTE-5G Tight Integration in mmWave Cellular Networks, Master’s thesis, Department of Information Engineering, University of Padova, July 2016, available on <a href="http://arxiv.org/abs/1607.04330" target="_blank">arXiv</a>.
 
 
-Visit my profile on Google Scholar: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>

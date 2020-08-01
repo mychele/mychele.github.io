@@ -7,7 +7,7 @@ comments: false
 ---
 
 # Hello!
-* I am a Research Scientist at the Institute for the Wireless Internet of Things, Northeastern University, Boston. My supervisor is <a href="" target="_blank">Prof. Tommaso Melodia</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/polese_cv_20190619.pdf">This is my CV</a>.
+* I am a Research Scientist at the Institute for the Wireless Internet of Things, Northeastern University, Boston. My supervisor is <a href="" target="_blank">Prof. Tommaso Melodia</a>. My research involves 5G networks, and a particular attention is given to end to end performance, mobility, reliability and consistency of performance of mmWave cellular. <a href="/assets/pdf/2020-05-neu-teaching.pdf">This is my CV</a>.
 
 * Previously, I was a Postdoc and Adjunct Professor at the Department of Information Engineering of the University of Padova, where I also obtained my Ph.D. in 2020. My supervisor was <a href="https://scholar.google.it/citations?hl=en&user=Z7d93ZYAAAAJ&view_op=list_works" target="_blank">Prof. Michele Zorzi</a>. 
 
