@@ -13,6 +13,8 @@ comments: false
 
 * This is our vision on future 6G networks, to be published in the IEEE Communications Magazine: "Towards 6G Networks: Use Cases and Technologies", available on <a href="https://arxiv.org/abs/1903.12216" target="_blank">arXiv</a>. 
 
+* Take a look at <a href="/assets/pdf/itu-open.pdf" target="_blank">this presentation </a>on "Toward Open, Programmable, and Virtualized 5G Networks" for the ITU AI/ML in 5G Challenge.
+
 * Our COMST paper (<a href="https://ieeexplore.ieee.org/document/8344116" target="_blank">Mezzavilla, Zhang, Polese et al, "End-to-end Simulations of 5G mmWave Networks"</a>) won the Best Journal Paper Award of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
 * Our WNS3 paper (<a href="https://dl.acm.org/citation.cfm?id=3321351" target="_blank">De Biasio, Chiariotti, Polese, Zanella, Zorzi, "A QUIC Implementation for ns-3"</a>) won the Best Paper Award at WNS3 2019.
