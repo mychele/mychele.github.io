@@ -11,11 +11,19 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Journals
 
-* [J17] M. Lecci, P. Testolina, **M. Polese**, M. Giordani, and M. Zorzi, "Accuracy vs. Complexity for mmWave Ray-Tracing: A Full Stack Perspective", available on <a href="https://arxiv.org/abs/2007.07125" target="_blank">arXiv</a>, 2020.
+* [J21] **M. Polese**, P. Teymoori, J. Zhu, "Guest Editorial: Transport Layer Innovations for Future Networks", in IEEE Communications Magazine, vol. 59, no. 4, pp. 14-15, April 2021. Available on <a href="https://ieeexplore.ieee.org/abstract/document/9433514">IEEExplore</a>.
 
-* [J16] **M. Polese**, J. Jornet, T. Melodia, M. Zorzi, "Toward End-to-End, Full-Stack 6G Terahertz Networks", available on <a href="https://arxiv.org/abs/2005.07989" target="_blank">arXiv</a>, 2020.
+* [J20] M. Pagin, T. Zugno, **M. Polese**, and M. Zorzi, "Resource Management for 5G NR Integrated Access and Backhaul: a Semi-centralized Approach", available on <a href="https://arxiv.org/abs/2102.09938" target="_blank">arXiv</a>, 2021.
 
-* [J15] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, and T. Melodia, "Open, Programmable, and Virtualized 5G Networks: State-of-the-Art and the Road Ahead," available on <a href="https://arxiv.org/abs/2005.10027" target="_blank">arXiv</a>, 2020.
+* [J19] L. Bonati, S. D'Oro, **M. Polese**, S. Basagni, and T. Melodia, "Intelligence and Learning in O-RAN for Data-driven NextG Cellular Networks", available on <a href="https://arxiv.org/abs/2012.01263" target="_blank">arXiv</a>, 2020.
+
+* [J18] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Hybrid Beamforming in 5G mmWave Networks: a Full-stack Perspective", available on <a href="https://arxiv.org/pdf/2010.04220.pdf" target="_blank">arXiv</a>, 2020.
+
+* [J17] M. Lecci, P. Testolina, **M. Polese**, M. Giordani, and M. Zorzi, "Accuracy vs. Complexity for mmWave Ray-Tracing: A Full Stack Perspective", to be published on IEEE Transactions on Wireless Communications. Available on <a href="https://arxiv.org/abs/2007.07125" target="_blank">arXiv</a>, 2020.
+
+* [J16] **M. Polese**, J. Jornet, T. Melodia, M. Zorzi, "Toward End-to-End, Full-Stack 6G Terahertz Networks", IEEE Communications Magazine, vol. 58, no. 11, pp. 48-54, December 2020. Available on <a href="https://arxiv.org/abs/2005.07989" target="_blank">arXiv</a>, 2020.
+
+* [J15] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, and T. Melodia, "Open, Programmable, and Virtualized 5G Networks: State-of-the-Art and the Road Ahead," Computer Networks (COMNET), vol. 182, August 2020. Available on <a href="https://arxiv.org/abs/2005.10027" target="_blank">arXiv</a>, 2020.
 
 * [J14] **Michele Polese**, Rittwik Jana, Velin Kounev, Ke Zhang, Supratim Deb, Michele Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", IEEE Transactions on Mobile Computing, 2020. Available on <a href="https://arxiv.org/abs/1808.07647" target="_blank">arXiv</a>  and <a href="https://ieeexplore.ieee.org/document/9107476" target="_blank">IEEExplore</a>. Slides can be found at <a href="/assets/pdf/icnc-zorzi.pdf" target="_blank">this link</a>.
 
@@ -47,6 +55,12 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 
 ## Conferences
+
+* [C] **M. Polese**, F. Restuccia, and T. Melodia, "DeepBeam: Deep Waveform Learning for Coordination-Free Beam Management in mmWave Networks", Proc. of ACM Intl. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc), October 2021. The paper can be found on <a href="" target="_blank">arXiv</a>. The dataset will be published on the <a href="" target="_blank">Northeastern Digital Library</a>. <a href="/assets/pdf/deepbeam-itu-handout.pdf" target="_blank">Slides on the topic</a>.
+
+* [] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Full-stack Hybrid Beamforming in mmWave 5G Networks", Proc. of the 19th Mediterranean Communication and Computer Networking Conference (MedComNet 2021), June 2021.
+
+* [] U. Paro, F. Chiariotti, A. Deshpande, M. Polese, A. Zanella, M. Zorzi, "Extending the ns-3 QUIC Module", Proc. of the 23rd ACM Intl. Conf. on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWIM), Alicante, Spain, 2020.
 
 * [C37] **M. Polese**, L. Bertizzolo, L. Bonati, A. Gosain, and T. Melodia, "An Experimental mmWave Channel Model for UAV-to-UAV Communications," in Proc. of ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets), London, UK, Sep. 2020. Available on <a href="https://arxiv.org/abs/2007.11869" target="_blank">arXiv</a>. The measurements dataset is <a href="https://github.com/wineslab/uav-to-uav-60-ghz-channel-model" target="_blank">publicly available on GitHub</a>.
 

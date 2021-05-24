@@ -15,7 +15,10 @@ comments: false
 
 *   **Technical Program Committee (TPC) Member**
 
-    *   [IEEE Consumer Communications & Networking Conference](https://ccnc2021.ieee-ccnc.org), 2021
+    *   [IEEE Consumer Communications & Networking Conference](https://ccnc2021.ieee-ccnc.org), 2021-2022
+    *   [IEEE MASS](https://eng.auburn.edu/conference/ieee-mass2021/), 2021
+    *	[MobiArch](http://mobiwac-symposium.org/2021/), 2021
+    *	[IEEE 1st Workshop on ICT for Integrated Smart Mobility Solutions](http://wowmom2021.iit.cnr.it/workshops/isms-2021/), 2021
     *   [Workshop on ns-3](https://www.nsnam.org/research/wns3/), 2019-2020
 
 *   **Conference Organization**
@@ -45,6 +48,11 @@ comments: false
 *   **Conference Reviewer**
 
     *   IEEE European Wireless, 5G-WF, 6G Summit, Globecom, ICC, ICNC, ISNCC, LCN, VTC, WCNC, WoWMoM, ACM WNS3, WNGW.
+
+
+## Reviewer for Scientific Project Proposals
+
+* French National Research Agency (ANR), 2021
 
 
 ## Invited Talks and Webinars
