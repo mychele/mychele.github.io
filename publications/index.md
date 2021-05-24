@@ -56,7 +56,7 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Conferences
 
-* [C] **M. Polese**, F. Restuccia, and T. Melodia, "DeepBeam: Deep Waveform Learning for Coordination-Free Beam Management in mmWave Networks", Proc. of ACM Intl. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc), October 2021. The paper can be found on <a href="" target="_blank">arXiv</a>. The dataset will be published on the <a href="" target="_blank">Northeastern Digital Library</a>. <a href="/assets/pdf/deepbeam-itu-handout.pdf" target="_blank">Slides on the topic</a>.
+* [C] **M. Polese**, F. Restuccia, and T. Melodia, "DeepBeam: Deep Waveform Learning for Coordination-Free Beam Management in mmWave Networks", Proc. of ACM Intl. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc), October 2021. The paper can be found on <a href="" target="_blank">arXiv</a>. The dataset will be published on the <a href="" target="_blank">Northeastern Digital Library</a>. <a href="http://www.dei.unipd.it/~polesemi/deepbeam-itu-handout.pdf" target="_blank">Slides on the topic</a>.
 
 * [] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Full-stack Hybrid Beamforming in mmWave 5G Networks", Proc. of the 19th Mediterranean Communication and Computer Networking Conference (MedComNet 2021), June 2021.
 
