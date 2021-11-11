@@ -1,13 +1,12 @@
 # Site
 title:              Michele Polese
 bio:                'Principal Research Scientist'
-workplace:          'Institute for the Wireless Internet of Things
-                    Northeastern University'
+workplace:          'Institute for the Wireless Internet of Things\Northeastern University'
 description:        "I am a Research Scientist at the Institute for the Wireless Internet of Things, Northeastern University, Boston."
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/antenna-2.png'
-background:         'assets/img/bg/piave.jpg'
+background:         'assets/img/bg/cortina.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://polese.io #http://127.0.0.1:4000/
