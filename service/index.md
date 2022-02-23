@@ -23,6 +23,7 @@ comments: false
     *   [IEEE ICC](https://icc2021.ieee-icc.org), BFHN SAC 2022
     *   [5th IEEE VTC Workshop on NextG Millimeter-Wave Channel Measurement, Models, & Systems](https://tinyurl.com/mmw2021-fall), 2021
     *   WONS'22
+    *   EAI WiCON 2022
 
 *   **Conference Organization**
 

@@ -66,7 +66,7 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [C40] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Full-stack Hybrid Beamforming in mmWave 5G Networks", Proc. of the 19th Mediterranean Communication and Computer Networking Conference (MedComNet 2021), June 2021.
 
-* [C39] U. Paro, F. Chiariotti, A. Deshpande, M. Polese, A. Zanella, M. Zorzi, "Extending the ns-3 QUIC Module", Proc. of the 23rd ACM Intl. Conf. on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWIM), Alicante, Spain, 2020.
+* [C39] U. Paro, F. Chiariotti, A. Deshpande, M. Polese, A. Zanella, M. Zorzi, "Extending the ns-3 QUIC Module", Proc. of the 23rd ACM Intl. Conf. on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWIM), Alicante, Spain, 2020. Available <a href="/assets/pdf/mswim-2020-quic.pdf" target="_blank">here</a>.
 
 * [C38] **M. Polese**, L. Bertizzolo, L. Bonati, A. Gosain, and T. Melodia, "An Experimental mmWave Channel Model for UAV-to-UAV Communications," in Proc. of ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets), London, UK, Sep. 2020. Available on <a href="https://arxiv.org/abs/2007.11869" target="_blank">arXiv</a>. The measurements dataset is <a href="https://github.com/wineslab/uav-to-uav-60-ghz-channel-model" target="_blank">publicly available on GitHub</a>.
 
