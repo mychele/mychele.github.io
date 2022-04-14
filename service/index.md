@@ -16,7 +16,7 @@ comments: false
 *   **Technical Program Committee (TPC) Member**
 
     *   [IEEE Consumer Communications & Networking Conference](https://ccnc2021.ieee-ccnc.org), 2021-2022
-    *   [IEEE MASS](https://eng.auburn.edu/conference/ieee-mass2021/), 2021
+    *   [IEEE MASS](https://eng.auburn.edu/conference/ieee-mass2021/), 2021-2022
     *	[MobiArch](http://mobiwac-symposium.org/2021/), 2021
     *	[IEEE 1st Workshop on ICT for Integrated Smart Mobility Solutions](http://wowmom2021.iit.cnr.it/workshops/isms-2021/), 2021
     *   [Workshop on ns-3](https://www.nsnam.org/research/wns3/), 2019-2020
@@ -24,6 +24,8 @@ comments: false
     *   [5th IEEE VTC Workshop on NextG Millimeter-Wave Channel Measurement, Models, & Systems](https://tinyurl.com/mmw2021-fall), 2021
     *   WONS'22
     *   EAI WiCON 2022
+    *   VTC Spring Workshops 2022 - Data Driven Optimization for 6G Wireless Networks
+
 
 *   **Conference Organization**
 
