@@ -11,6 +11,12 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Journals
 
+* [J26] S. D'Oro, **M. Polese**, L. Bonati, H. Cheng, and T. Melodia, "dApps: Distributed Applications for Real-time Inference and Control in O-RAN," available on <a href="https://arxiv.org/pdf/2203.02370.pdf" target="_blank">arXiv</a>, 2022.
+
+* [J25] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges", available on <a href="https://arxiv.org/pdf/2202.01032.pdf" target="_blank">arXiv</a>, 2022.
+
+* [J24] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms", available on <a href="https://arxiv.org/pdf/2112.09559.pdf" target="_blank">arXiv</a>, 2021.
+
 * [J23] **M. Polese**, X. Cantos-Roman, A. Singh, M.J. Marcus, T.J. Maccarone, T. Melodia, J. M. Jornet, "Coexistence and Spectrum Sharing Above 100 GHz", available on <a href="https://arxiv.org/pdf/2110.15187.pdf" target="_blank">arXiv</a>, 2021.
 
 * [J22] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Hybrid Beamforming in 5G mmWave Networks: a Full-stack Perspective", IEEE Transactions on Wireless Communications, (Early Access), 2021. Available on <a href="https://ieeexplore.ieee.org/abstract/document/9515585" target="_blank">IEEExplore</a>.
@@ -19,7 +25,7 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [J20] M. Pagin, T. Zugno, **M. Polese**, and M. Zorzi, "Resource Management for 5G NR Integrated Access and Backhaul: a Semi-centralized Approach", IEEE Transactions on Wireless Communications, (Early Access), 2021. Available on <a href="https://arxiv.org/abs/2102.09938" target="_blank">arXiv</a>.
 
-* [J19] L. Bonati, S. D'Oro, **M. Polese**, S. Basagni, and T. Melodia, "Intelligence and Learning in O-RAN for Data-driven NextG Cellular Networks", in IEEE Communications Magazine (to appear). Available on <a href="https://arxiv.org/abs/2012.01263" target="_blank">arXiv</a>, 2020.
+* [J19] L. Bonati, S. D'Oro, **M. Polese**, S. Basagni, and T. Melodia, "Intelligence and Learning in O-RAN for Data-driven NextG Cellular Networks", in IEEE Communications Magazine. Available on <a href="https://arxiv.org/abs/2012.01263" target="_blank">arXiv</a>, 2020.
 
 * [J18] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Hybrid Beamforming in 5G mmWave Networks: a Full-stack Perspective", available on <a href="https://arxiv.org/pdf/2010.04220.pdf" target="_blank">arXiv</a>, 2020.
 
@@ -60,9 +66,17 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Conferences
 
+* [C46] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: An Open Toolbox for Data Collection and Experimentation with AI in O-RAN," Proc. of IEEE WCNC Workshop on Open RAN Architecture for 5G Evolution and 6G</strong>, Austin, TX, USA, April 2022. The paper can also be found on <a href="https://arxiv.org/pdf/2202.10318.pdf" target="_blank">arXiv</a>.
+
+* [C45] S. D'Oro, L. Bonati, **M. Polese**, T. Melodia, "OrchestRAN: Network Automation through Orchestrated Intelligence in the Open RAN," Proc. of IEEE Intl. Conf. on Computer Communications (INFOCOM), May 2022. The paper can also be found on <a href="https://arxiv.org/pdf/2201.05632.pdf" target="_blank">arXiv</a>.
+
+* [C44] L. Bonati, P. Johari, **M. Polese**, S. D'Oro, S. Mohanti, M. Tehrani-Moayyed, D. Villa, S. Shrivastava, C. Tassie, K. Yoder, A. Bagga, P. Patel, V. Petkov, M. Seltser, F. Restuccia, A. Gosain, K.R. Chowdhury, S. Basagni, T. Melodia, "Colosseum: Large-Scale Wireless Experimentation Through Hardware-in-the-Loop Network Emulation," Proc. of IEEE Intl. Symp. on Dynamic Spectrum Access Networks (DySPAN), Virtual Conference, December 2021.
+
+* [C43] T. Melodia, S. Basagni, K.R. Chowdhury, A. Gosain, **M. Polese**, P. Johari, and L. Bonati, "Tutorial: Colosseum, the World’s Largest Wireless Network Emulator," Proc. of ACM Intl. Conf. on Mobile Computing and Networking (MobiCom), New Orleans, LA, USA, October 2021.
+
 * [C42] A. Ashtari Gargari, **M. Polese**, M. Zorzi, "Full-stack Comparison of Channel Models for Networks Above 100 GHz in an Indoor Scenario" Proc. of ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets), New Orleans, LA, US, Feb. 2022. 
 
-* [C41] **M. Polese**, F. Restuccia, and T. Melodia, "DeepBeam: Deep Waveform Learning for Coordination-Free Beam Management in mmWave Networks", Proc. of ACM Intl. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc), October 2021. The paper can be found on <a href="" target="_blank">arXiv</a>. The dataset will be published on the <a href="" target="_blank">Northeastern Digital Library</a>. <a href="http://www.dei.unipd.it/~polesemi/deepbeam-itu-handout.pdf" target="_blank">Slides on the topic</a>.
+* [C41] **M. Polese**, F. Restuccia, and T. Melodia, "DeepBeam: Deep Waveform Learning for Coordination-Free Beam Management in mmWave Networks", Proc. of ACM Intl. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc), October 2021. The paper can be found on <a href="https://arxiv.org/abs/2012.14350" target="_blank">arXiv</a>. The dataset is published at <a href="DeepBeam.net" target="_blank">DeepBeam.net</a>. <a href="http://www.dei.unipd.it/~polesemi/deepbeam-itu-handout.pdf" target="_blank">Slides on the topic</a>.
 
 * [C40] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Full-stack Hybrid Beamforming in mmWave 5G Networks", Proc. of the 19th Mediterranean Communication and Computer Networking Conference (MedComNet 2021), June 2021.
 
@@ -145,6 +159,12 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 * [C1] **M. Polese**, M. Centenaro, A. Zanella and M. Zorzi, "M2M massive access in LTE: RACH performance evaluation in a Smart City scenario," 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia, 2016. Available on <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7511430&newsearch=true&queryText=michele%20polese" target="_blank">IEEExplore</a> or <a href="https://arxiv.org/abs/1601.05098" target="_blank">arXiv</a>.
 
 ## Book Chapters
+
+* [B3] M. Giordani, **M. Polese**, A. Laya, E. Bertin, M. Zorzi, "6G Drivers for B2B Market: E2E Services and Use Cases", in Shaping Future 6G Networks: Needs, Impacts and Technologies, Wiley, 1st Edition, 2021. Available at <a href="https://books.google.com/books?hl=en&lr=&id=qJtKEAAAQBAJ&oi=fnd&pg=RA1-PA9&dq=info:mwqqH5xgxqQJ:scholar.google.com&ots=B8_DqHt8-L&sig=w4az6XdgYqM2xJVdVxOgB7DMIsc#v=onepage&q&f=false" target="_blank">this link</a> and on <a href="https://www.amazon.com/Shaping-Future-6G-Networks-Technologies/dp/111976551X/ref=sr_1_1?keywords=9781119765516&linkCode=qs&qid=1650473325&s=books&sr=1-1" target="_blank">Amazon</a>.
+
+
+* [B2] **M. Polese**, M. Giordani, M. Mezzavilla, S. Rangan, M. Zorzi, "6G Enabling Technologies", in 6G Mobile Wireless Networks, Springer International Publishing, 1st Edition, 2021. Available at <a href="https://link.springer.com/chapter/10.1007/978-3-030-72777-2_3" target="_blank">this link</a> and on <a href="https://www.amazon.com/Mobile-Wireless-Networks-Computer-Communications-ebook/dp/B09DK7ZLVZ/ref=sr_1_2?crid=2977K8760HCYR&keywords=6G+Mobile+Wireless+Networks&qid=1650473349&s=books&sprefix=6g+mobile+wireless+networks%2Cstripbooks%2C46&sr=1-2" target="_blank">Amazon</a>.
+
 
 * [B1] **M. Polese**, M. Giordani, M. Zorzi, "3GPP NR: the standard for 5G cellular networks", in 5G Italy White eBook: from Research to Market, 2018. Available at <a href="https://www.5gitaly.eu/wp-content/uploads/2019/01/5G-Italy-White-eBook-3GPP-NR.pdf" target="_blank">this link</a>. The slides of a high-level presentation on 3GPP NR are available <a href="/assets/pdf/nr-5g-italy.pdf">here</a>.
 

@@ -56,6 +56,10 @@ comments: false
     *   IEEE European Wireless, 5G-WF, 6G Summit, Globecom, ICC, ICNC, ISNCC, LCN, VTC, WCNC, WoWMoM, ACM WNS3, WNGW.
 
 
+## Thesis Committees
+
+* Jacob Hall, Master, Northeastern University, 2022
+
 ## Reviewer for Scientific Project Proposals
 
 * French National Research Agency (ANR), 2021
