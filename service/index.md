@@ -15,7 +15,7 @@ comments: false
 
 *   **Technical Program Committee (TPC) Member**
 
-    *   [IEEE Consumer Communications & Networking Conference](https://ccnc2021.ieee-ccnc.org), 2021-2022
+    *   [IEEE Consumer Communications & Networking Conference](https://ccnc2021.ieee-ccnc.org), 2021-2023
     *   [IEEE MASS](https://eng.auburn.edu/conference/ieee-mass2021/), 2021-2022
     *	[MobiArch](http://mobiwac-symposium.org/2021/), 2021
     *	[IEEE 1st Workshop on ICT for Integrated Smart Mobility Solutions](http://wowmom2021.iit.cnr.it/workshops/isms-2021/), 2021
@@ -71,4 +71,8 @@ comments: false
 *   mmWaves in 5G NR Cellular Networks: a System Level Perspective - webinar for the [IEEE Future Networks initiative](https://ieee.webex.com/ieee/onstage/playback.php?RCID=722a9b6083d57fec282406316b6358ea), 2019
 *   mmWaves in 5G NR Cellular Networks: a System Level Perspective - talk at Qualcomm, 2019
 
+
+## Outreach
+
+* Presentation at Building Bridges at Northeastern (semi-annual event to provide high school students with the opportunity to explore Northeastern University’s College of Engineering) https://stem.northeastern.edu/programs/ayp/building-bridges/
 
