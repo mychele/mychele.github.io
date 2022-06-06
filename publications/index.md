@@ -11,6 +11,8 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Journals
 
+* [J27] **M. Polese**, V. Ariyarathna, P. Sen, J. V. Siles, F. Restuccia, T. Melodia, J. M. Jornet, "Dynamic spectrum sharing between active and passive users above 100 GHz", Communications Engineering 1, 6, Nature (2022). Available on <a href="https://www.nature.com/articles/s44172-022-00002-x.pdf" target="_blank">the Nature website</a>. <a href="https://news.northeastern.edu/2022/05/26/6g-wireless-future" target="_blank">News article</a>, <a href="https://engineeringcommunity.nature.com/posts/dynamic-spectrum-sharing-between-active-and-passive-users-above-100-ghz" target="_blank">blog post</a>.
+
 * [J26] S. D'Oro, **M. Polese**, L. Bonati, H. Cheng, and T. Melodia, "dApps: Distributed Applications for Real-time Inference and Control in O-RAN," available on <a href="https://arxiv.org/pdf/2203.02370.pdf" target="_blank">arXiv</a>, 2022.
 
 * [J25] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges", available on <a href="https://arxiv.org/pdf/2202.01032.pdf" target="_blank">arXiv</a>, 2022.
