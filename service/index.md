@@ -20,15 +20,18 @@ comments: false
     *	[MobiArch](http://mobiwac-symposium.org/2021/), 2021
     *	[IEEE 1st Workshop on ICT for Integrated Smart Mobility Solutions](http://wowmom2021.iit.cnr.it/workshops/isms-2021/), 2021
     *   [Workshop on ns-3](https://www.nsnam.org/research/wns3/), 2019-2020
-    *   [IEEE ICC](https://icc2021.ieee-icc.org), BFHN SAC 2022
+    *   [IEEE ICC](https://icc2023.ieee-icc.org), BFHN SAC 2022-2023, CRQM symposium 2023
     *   [5th IEEE VTC Workshop on NextG Millimeter-Wave Channel Measurement, Models, & Systems](https://tinyurl.com/mmw2021-fall), 2021
-    *   WONS'22
+    *   WONS, 2022-2023
     *   EAI WiCON 2022
     *   VTC Spring Workshops 2022 - Data Driven Optimization for 6G Wireless Networks
+    *   WS07: Sixth Ieee International Workshop On Terahertz Communications
+    *	VTC2022: Fall Recent Results and Workshops
 
 
 *   **Conference Organization**
 
+    *   Co-chair, [2022 IEEE Globecom Workshops (GC Wkshps): Workshop on Next-Generation Radio Access Networks: Architectures, Interfaces, and Implementations](https://globecom2022.ieee-globecom.org/workshop/ws20-next-generation-radio-access-networks-architectures-interfaces-and-implementations)
     *   Special Session co-organizer, [Future trends for standardization and design of vehicular networks - European Wireless 2020](https://ew2020.european-wireless.org/wp-uploads/2020/01/WS2020-VeicularNetworks.pdf)
 
 *   **Journal Reviewer**
