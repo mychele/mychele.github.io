@@ -68,7 +68,7 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Conferences
 
-* [C46] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: An Open Toolbox for Data Collection and Experimentation with AI in O-RAN," Proc. of IEEE WCNC Workshop on Open RAN Architecture for 5G Evolution and 6G</strong>, Austin, TX, USA, April 2022. The paper can also be found on <a href="https://arxiv.org/pdf/2202.10318.pdf" target="_blank">arXiv</a>. Some <a href="/assets/pdf/lsn-polese-o-ran/pdf" target="_blank">O-RAN slides</a>.
+* [C46] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: An Open Toolbox for Data Collection and Experimentation with AI in O-RAN," Proc. of IEEE WCNC Workshop on Open RAN Architecture for 5G Evolution and 6G</strong>, Austin, TX, USA, April 2022. The paper can also be found on <a href="https://arxiv.org/pdf/2202.10318.pdf" target="_blank">arXiv</a>. Some <a href="/assets/pdf/lsn-polese-o-ran.pdf" target="_blank">O-RAN slides</a>.
 
 * [C45] S. D'Oro, L. Bonati, **M. Polese**, T. Melodia, "OrchestRAN: Network Automation through Orchestrated Intelligence in the Open RAN," Proc. of IEEE Intl. Conf. on Computer Communications (INFOCOM), May 2022. The paper can also be found on <a href="https://arxiv.org/pdf/2201.05632.pdf" target="_blank">arXiv</a>.
 
