@@ -11,13 +11,21 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Journals
 
-* [J27] **M. Polese**, V. Ariyarathna, P. Sen, J. V. Siles, F. Restuccia, T. Melodia, J. M. Jornet, "Dynamic spectrum sharing between active and passive users above 100 GHz", Communications Engineering 1, 6, Nature (2022). Available on <a href="https://www.nature.com/articles/s44172-022-00002-x.pdf" target="_blank">the Nature website</a>. <a href="https://news.northeastern.edu/2022/05/26/6g-wireless-future" target="_blank">News article</a>, <a href="https://engineeringcommunity.nature.com/posts/dynamic-spectrum-sharing-between-active-and-passive-users-above-100-ghz" target="_blank">blog post</a>.
+* [J31] A. Lacava, **M. Polese**, R. Sivaraj, R. Soundrarajan, B. Shanker Bhati, T. Singh, T. Zugno, F. Cuomo, T. Melodia, "Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures," in IEEE Transactions on Mobile Computing. Available on <a href="https://ieeexplore.ieee.org/abstract/document/10102369/">IEEExplore</a>.
 
-* [J26] S. D'Oro, **M. Polese**, L. Bonati, H. Cheng, and T. Melodia, "dApps: Distributed Applications for Real-time Inference and Control in O-RAN," available on <a href="https://arxiv.org/pdf/2203.02370.pdf" target="_blank">arXiv</a>, 2022.
+* [J30] D. Villa, M. Tehrani-Moayyed, C. Robinson, L. Bonati, P. Johari, M. Polese, S. Basagni, T. Melodia, "Colosseum as a Digital Twin: Bridging Real-World Experimentation and Wireless Network Emulation," arXiv:2303.17063 [cs.NI], pp. 1-15, March 2023. Available on <a href="https://arxiv.org/pdf/2303.17063.pdf" target="_blank">arXiv</a>.
 
-* [J25] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges", available on <a href="https://arxiv.org/pdf/2202.01032.pdf" target="_blank">arXiv</a>, 2022.
+* [J29] L. Bonati, M. Polese, S. D'Oro, S. Basagni, T. Melodia, "NeutRAN: An Open RAN Neutral Host Architecture for Zero-Touch RAN and Spectrum Sharing," arXiv:2301.07653 [cs.NI], pp. 1-13, January 2023. Available on <a href="https://arxiv.org/pdf/2301.07653.pdf" target="_blank">arXiv</a>.
 
-* [J24] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms", available on <a href="https://arxiv.org/pdf/2112.09559.pdf" target="_blank">arXiv</a>, 2021.
+* [J28] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges", IEEE Communications Surveys and Tutorials, January 2023. Also available on <a href="https://arxiv.org/pdf/2202.01032.pdf" target="_blank">arXiv</a>, 2022.
+
+* [J27] L. Bonati, M. Polese, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: AI/ML Development, Data Collection, and Testing for O-RAN on PAWR Platforms," Computer Networks, vol. 220, pp. 1-11, January 2023.
+
+* [J26] **M. Polese**, V. Ariyarathna, P. Sen, J. V. Siles, F. Restuccia, T. Melodia, J. M. Jornet, "Dynamic spectrum sharing between active and passive users above 100 GHz", Communications Engineering 1, 6, Nature (2022). Available on <a href="https://www.nature.com/articles/s44172-022-00002-x.pdf" target="_blank">the Nature website</a>. <a href="https://news.northeastern.edu/2022/05/26/6g-wireless-future" target="_blank">News article</a>, <a href="https://engineeringcommunity.nature.com/posts/dynamic-spectrum-sharing-between-active-and-passive-users-above-100-ghz" target="_blank">blog post</a>.
+
+* [J25] S. D'Oro, **M. Polese**, L. Bonati, H. Cheng, and T. Melodia, "dApps: Distributed Applications for Real-time Inference and Control in O-RAN," IEEE Communications Magazine. Available on <a href="https://arxiv.org/pdf/2203.02370.pdf" target="_blank">arXiv</a>, 2022.
+
+* [J24] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms", IEEE Transactions on Mobile Computing, pp. 1-14, July 2022. Also available on <a href="https://arxiv.org/pdf/2112.09559.pdf" target="_blank">arXiv</a>, 2021.
 
 * [J23] **M. Polese**, X. Cantos-Roman, A. Singh, M.J. Marcus, T.J. Maccarone, T. Melodia, J. M. Jornet, "Coexistence and Spectrum Sharing Above 100 GHz", available on <a href="https://arxiv.org/pdf/2110.15187.pdf" target="_blank">arXiv</a>, 2021.
 
@@ -67,6 +75,18 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 
 ## Conferences
+
+* [C52] C. Robinson, L. Bonati, T. van Nieuwstadt, T. Reiss, P. Johari, M. Polese, H. Nguyen, C. Wat- son, T. Melodia, "eSWORD: Implementation of Wireless Jamming Attacks in a Real-World Emulated Network", IEEE Communications and Networking Conference (WCNC), Glasgow, Scotland, March 2023.
+
+* [C51] M. Bordin, M. Giordani, M. Polese, T. Melodia, and M. Zorzi, "Autonomous Driving From the Sky: Design and End-to-End Performance Evaluation", Proceedings of the IEEE GLOBECOM Workshop on 6G Communication Systems (NetMan6G), Rio de Janeiro, Brazil, December 2022
+
+* [C50] N. Neasamoni Santhi, M. Polese, T. Melodia "An End-to-End Programmable Testbed for the Experimental Evaluation of Video Streaming at mmWaves", Proceedings of the IEEE GLOBECOM Workshop on High Capacity Wireless Communications (HCWC), Rio de Janeiro, Brazil, December 2022.
+
+* [C49] P. Sen, J. Hall, M. Polese, V. Petrov, D. Bodet, F. Restuccia, T. Melodia, J. M. Jornet, "Terahertz Communications Can Work in Rain and Snow: Impact of Adverse Weather Conditions on Channels at 140 GHz," Proc. of ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets), Sidney, Australia, Oct 2022.
+
+* [C48] E. Moro, M. Polese, I. Filippini, S. Basagni, A. Capone, T. Melodia, "IABEST: An Integrated Access and Backhaul 5G Testbed for Large-scale Experimentation," Proc. of ACM MobiCom Demos, Sidney, Australia, Oct 2022
+
+* [C47] L. Bonati, M. Polese, S. D'Oro, S. Basagni, T. Melodia, "Intelligent Closed-loop RAN Control with xApps in OpenRAN Gym," Proc. of European Wireless 2022, Dresden, Germany, September 2022.
 
 * [C46] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: An Open Toolbox for Data Collection and Experimentation with AI in O-RAN," Proc. of IEEE WCNC Workshop on Open RAN Architecture for 5G Evolution and 6G</strong>, Austin, TX, USA, April 2022. The paper can also be found on <a href="https://arxiv.org/pdf/2202.10318.pdf" target="_blank">arXiv</a>. Some <a href="/assets/pdf/lsn-polese-o-ran.pdf" target="_blank">O-RAN slides</a>.
 
