@@ -7,8 +7,8 @@ comments: false
 ---
 
 # Hello!
-* I am an Assistant Research Professor at the Institute for the Wireless Internet of Things, Northeastern University, Boston (<a href="/assets/pdf/polese-cv-2023-10-01" target="_blank">CV</a>). My research interests are on 
-	- open, programmable, intelligent next-generation cellular networks
+* I am a Research Assistant Professor at the Institute for the Wireless Internet of Things, Northeastern University, Boston (<a href="/assets/pdf/polese-cv-2023-10-01" target="_blank">CV</a>). My research interests are on 
+	- open, programmable, intelligent next-generation cellular networks (Open RAN)
 	- spectrum sharing and active/passive user coexistence
 	- mmWave and terahertz mobile networks
 	- open-source networking software
@@ -22,7 +22,7 @@ comments: false
 
 * I am interested in social and political issues, in particular the ones related to technology and the disruption brought by it. 
 
-* I play the acoustic and the electric guitar, the banjo and the ukulele. Check out <a href="https://www.youtube.com/watch?v=y0ej1ZjzlDs" target="_blank">this video</a> from one of my band.
+* I play the acoustic and the electric guitar, the banjo, the ukulele, and the bass. Check out <a href="https://www.youtube.com/watch?v=y0ej1ZjzlDs" target="_blank">this video</a> from one of my bands.
 
 * I read a lot of books.
 
