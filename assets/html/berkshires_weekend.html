@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Winter Weekend in the Berkshires</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  @page { size: letter; margin: 0; }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cream: #F6F1EB;
+    --warm-white: #FDFAF6;
+    --ink: #1C1917;
+    --slate: #44403C;
+    --muted: #78716C;
+    --blush: #C9918A;
+    --blush-soft: #E8CFC9;
+    --blush-bg: #F5E6E2;
+    --pine: #4A6D5E;
+    --pine-soft: #8BAA9D;
+    --frost: #B8CCD8;
+    --frost-soft: #DCE8EF;
+    --night: #2C3A4A;
+    --gold: #C4A265;
+    --gold-soft: #E8D5B0;
+  }
+
+  body {
+    font-family: 'Jost', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ===== COVER PAGE ===== */
+  .cover {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    background: var(--night);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    page-break-after: always;
+  }
+
+  .cover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 80%, rgba(74,109,94,0.25) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(184,204,216,0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(201,145,138,0.1) 0%, transparent 60%);
+  }
+
+  /* Snowfall */
+  .snowflakes {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .snowflake {
+    position: absolute;
+    color: rgba(255,255,255,0.15);
+    font-size: 1rem;
+    top: -20px;
+    animation: snowfall linear infinite;
+  }
+
+  @keyframes snowfall {
+    0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { transform: translateY(11in) rotate(360deg); opacity: 0; }
+  }
+
+  .cover-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2in 1in;
+  }
+
+  .cover-eyebrow {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--frost);
+    margin-bottom: 2rem;
+  }
+
+  .cover-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.15;
+    color: var(--warm-white);
+    margin-bottom: 0.3em;
+  }
+
+  .cover-title em {
+    font-style: italic;
+    color: var(--blush-soft);
+  }
+
+  .cover-divider {
+    width: 50px;
+    height: 1px;
+    background: var(--gold);
+    margin: 1.8rem auto;
+    opacity: 0.6;
+  }
+
+  .cover-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--frost);
+    margin-bottom: 0.4em;
+    letter-spacing: 0.02em;
+  }
+
+  .cover-date {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 1.5rem;
+  }
+
+  .cover-heart {
+    margin-top: 2.5rem;
+    font-size: 0.85rem;
+    color: var(--blush);
+    opacity: 0.7;
+  }
+
+  /* Mountain silhouette at bottom of cover */
+  .mountains {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 180px;
+    z-index: 1;
+  }
+
+  .mountains svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* ===== ITINERARY PAGE ===== */
+  .itinerary {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    background: var(--warm-white);
+    padding: 0.65in 0.8in 0.6in;
+    position: relative;
+  }
+
+  .itinerary::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--pine-soft), var(--blush), var(--frost), var(--gold-soft));
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: 0.35in;
+    padding-bottom: 0.2in;
+    border-bottom: 1px solid #E8E2DB;
+  }
+
+  .page-header h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.6rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Day block */
+  .day {
+    margin-bottom: 0.32in;
+  }
+
+  .day-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.18in;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid var(--ink);
+  }
+
+  .day-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--ink);
+  }
+
+  .day-date {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+  }
+
+  .day-tag {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.78rem;
+    color: var(--blush);
+    margin-left: auto;
+  }
+
+  /* Items */
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 0.15in;
+    padding: 7px 0;
+    position: relative;
+  }
+
+  .item:not(:last-child) {
+    border-bottom: 1px solid #F0EBE5;
+  }
+
+  .item-time {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--pine);
+    padding-top: 2px;
+  }
+
+  .item-body {}
+
+  .item-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: var(--ink);
+    margin-bottom: 1px;
+  }
+
+  .item-desc {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.68rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* Footer */
+  .page-footer {
+    text-align: center;
+    margin-top: 0.3in;
+    padding-top: 0.15in;
+    border-top: 1px solid #E8E2DB;
+  }
+
+  .page-footer p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.72rem;
+    color: var(--blush);
+  }
+
+  .footer-heart {
+    color: var(--blush);
+    font-size: 0.6rem;
+    margin-top: 4px;
+    opacity: 0.5;
+  }
+
+  /* ===== PRINT ===== */
+  @media print {
+    body { background: white; }
+    .cover { height: 11in; min-height: unset; }
+    .itinerary { height: 11in; min-height: unset; }
+    .snowflake { animation: none !important; opacity: 0.12; }
+  }
+
+  @media screen and (max-width: 900px) {
+    .cover, .itinerary { width: 100%; min-height: auto; }
+  }
+
+  @media screen and (max-width: 600px) {
+    .cover {
+      min-height: 100svh;
+    }
+
+    .cover-content {
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    .cover-eyebrow {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      margin-bottom: 1.5rem;
+    }
+
+    .cover-title {
+      font-size: 2.2rem;
+    }
+
+    .cover-subtitle {
+      font-size: 1rem;
+    }
+
+    .cover-date {
+      font-size: 0.65rem;
+    }
+
+    .mountains { height: 120px; }
+
+    /* Itinerary page */
+    .itinerary {
+      padding: 1.2rem 1.2rem 2rem;
+    }
+
+    .page-header {
+      margin-bottom: 1rem;
+      padding-bottom: 0.8rem;
+    }
+
+    .day {
+      margin-bottom: 1.5rem;
+    }
+
+    .day-header {
+      flex-wrap: wrap;
+      gap: 0.2rem 0.5rem;
+      margin-bottom: 0.6rem;
+      padding-bottom: 5px;
+    }
+
+    .day-name {
+      font-size: 1.1rem;
+    }
+
+    .day-date {
+      font-size: 0.65rem;
+    }
+
+    .day-tag {
+      width: 100%;
+      margin-left: 0;
+      font-size: 0.72rem;
+    }
+
+    .item {
+      grid-template-columns: 48px 1fr;
+      gap: 0.5rem;
+      padding: 8px 0;
+    }
+
+    .item-time {
+      font-size: 0.55rem;
+    }
+
+    .item-title {
+      font-size: 0.78rem;
+    }
+
+    .item-desc {
+      font-size: 0.65rem;
+    }
+
+    .page-footer {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .cover-content {
+      padding: 2.5rem 1rem 4rem;
+    }
+
+    .cover-title {
+      font-size: 1.85rem;
+    }
+
+    .itinerary {
+      padding: 1rem;
+    }
+
+    .item {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .item-time {
+      margin-bottom: 1px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== COVER ===== -->
+<div class="cover">
+  <div class="snowflakes">
+    <div class="snowflake" style="left:8%; animation-duration:8s; animation-delay:0s; font-size:0.6rem;">✦</div>
+    <div class="snowflake" style="left:15%; animation-duration:12s; animation-delay:1s; font-size:0.4rem;">·</div>
+    <div class="snowflake" style="left:25%; animation-duration:9s; animation-delay:3s; font-size:0.7rem;">✧</div>
+    <div class="snowflake" style="left:35%; animation-duration:11s; animation-delay:0.5s; font-size:0.3rem;">·</div>
+    <div class="snowflake" style="left:45%; animation-duration:10s; animation-delay:2s; font-size:0.5rem;">✦</div>
+    <div class="snowflake" style="left:55%; animation-duration:13s; animation-delay:4s; font-size:0.4rem;">✧</div>
+    <div class="snowflake" style="left:65%; animation-duration:8.5s; animation-delay:1.5s; font-size:0.6rem;">·</div>
+    <div class="snowflake" style="left:75%; animation-duration:11.5s; animation-delay:3.5s; font-size:0.5rem;">✦</div>
+    <div class="snowflake" style="left:85%; animation-duration:9.5s; animation-delay:0.8s; font-size:0.35rem;">✧</div>
+    <div class="snowflake" style="left:92%; animation-duration:10.5s; animation-delay:2.5s; font-size:0.45rem;">·</div>
+  </div>
+
+  <div class="cover-content">
+    <div class="cover-eyebrow">A Winter Weekend</div>
+    <h1 class="cover-title">The <em>Berkshires</em></h1>
+    <div class="cover-divider"></div>
+    <p class="cover-subtitle">Mountains, art, and a little bit of magic</p>
+    <p class="cover-subtitle">for Abby</p>
+    <p class="cover-date">February 14 – 16, 2026</p>
+    <div class="cover-heart">♥</div>
+  </div>
+
+  <div class="mountains">
+    <svg viewBox="0 0 816 180" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Back range -->
+      <path d="M0,180 L0,120 L80,75 L140,100 L200,55 L260,85 L340,40 L400,70 L460,50 L530,80 L600,45 L680,65 L740,55 L816,80 L816,180 Z" fill="rgba(74,109,94,0.2)"/>
+      <!-- Front range -->
+      <path d="M0,180 L0,140 L60,105 L120,125 L180,90 L250,110 L320,75 L380,100 L450,85 L520,105 L590,80 L660,95 L730,85 L816,110 L816,180 Z" fill="rgba(44,58,74,0.35)"/>
+      <!-- Snow caps -->
+      <path d="M195,57 L200,55 L205,57 L202,55.5 L200,55 L198,55.5 Z" fill="rgba(255,255,255,0.15)"/>
+      <path d="M335,42 L340,40 L345,42 L342,40.8 L340,40 L338,40.8 Z" fill="rgba(255,255,255,0.15)"/>
+      <path d="M455,52 L460,50 L465,52 L462,50.8 L460,50 L458,50.8 Z" fill="rgba(255,255,255,0.15)"/>
+      <path d="M595,47 L600,45 L605,47 L602,45.8 L600,45 L598,45.8 Z" fill="rgba(255,255,255,0.15)"/>
+      <!-- Treeline -->
+      <path d="M0,180 L0,155 Q40,148 80,152 Q120,147 160,150 Q200,144 240,148 Q280,143 320,146 Q360,141 400,145 Q440,140 480,143 Q520,139 560,142 Q600,138 640,141 Q680,137 720,140 Q760,136 816,140 L816,180 Z" fill="rgba(30,45,35,0.4)"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ===== ITINERARY ===== -->
+<div class="itinerary">
+  <div class="page-header">
+    <h2>Our Weekend Itinerary</h2>
+  </div>
+
+  <!-- SATURDAY -->
+  <div class="day">
+    <div class="day-header">
+      <span class="day-name">Saturday</span>
+      <span class="day-date">February 14</span>
+      <span class="day-tag">Valentine's Day</span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-time">Morning</div>
+        <div class="item-body">
+          <div class="item-title">Leave Boston</div>
+          <div class="item-desc">Head west — the Berkshires are calling.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Late AM</div>
+        <div class="item-body">
+          <div class="item-title">Yankee Candle Village</div>
+          <div class="item-desc">South Deerfield. A warm, fragrant first stop.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Lunch</div>
+        <div class="item-body">
+          <div class="item-title">Shelburne Falls</div>
+          <div class="item-desc">A charming village along the Deerfield River. Try Gypsy Apple Bistro, The Blue Rock, or Wells Provisions for New Orleans–style fare.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Afternoon</div>
+        <div class="item-body">
+          <div class="item-title">The Mohawk Trail</div>
+          <div class="item-desc">One of the most beautiful drives in Massachusetts. Stop at the Hairpin Turn for the overlook.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">3–4 PM</div>
+        <div class="item-body">
+          <div class="item-title">Check in — The Trail in Adams</div>
+          <div class="item-desc">Artist-decorated boutique inn at the foot of Mount Greylock. Organic everything. Settle in.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Evening</div>
+        <div class="item-body">
+          <div class="item-title">Aperitivo at the Distillery</div>
+          <div class="item-desc">Forager Gin & Ski Bum Rum at Greylock WORKS. Craft cocktails in a beautifully restored mill.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">8 PM</div>
+        <div class="item-body">
+          <div class="item-title">Dinner at STATE Food + Drink</div>
+          <div class="item-desc">Vietnamese-American & California roots. Seasonal, locally sourced. Also at Greylock WORKS.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUNDAY -->
+  <div class="day">
+    <div class="day-header">
+      <span class="day-name">Sunday</span>
+      <span class="day-date">February 15</span>
+      <span class="day-tag">art & trails</span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-time">Morning</div>
+        <div class="item-body">
+          <div class="item-title">Breakfast at the Inn</div>
+          <div class="item-desc">Organic breakfast with fresh fruits, baked goods, and good coffee. No rush.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">10 AM</div>
+        <div class="item-body">
+          <div class="item-title">MASS MoCA</div>
+          <div class="item-desc">One of the world's largest contemporary art museums. Open 10–5. Give it at least two or three hours.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Afternoon</div>
+        <div class="item-body">
+          <div class="item-title">The Cascades Trail</div>
+          <div class="item-desc">A short walk to a waterfall in North Adams. Bring sturdy boots — it may be icy.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Late PM</div>
+        <div class="item-body">
+          <div class="item-title">The Clark Art Institute</div>
+          <div class="item-desc">World-class art in Williamstown. They lend free snowshoes to explore the grounds.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Dinner</div>
+        <div class="item-body">
+          <div class="item-title">Williamstown or North Adams</div>
+          <div class="item-desc">Mezze Bistro + Bar · Casita · The Airport Rooms · Coyote Flaco</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MONDAY -->
+  <div class="day">
+    <div class="day-header">
+      <span class="day-name">Monday</span>
+      <span class="day-date">February 16</span>
+      <span class="day-tag">Presidents' Day</span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-time">Morning</div>
+        <div class="item-body">
+          <div class="item-title">Breakfast & Check Out</div>
+          <div class="item-desc">One last organic breakfast. Say goodbye to Adams.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">9 AM</div>
+        <div class="item-body">
+          <div class="item-title">Cross-Country Skiing at Notchview</div>
+          <div class="item-desc">3,000 acres of groomed Nordic trails in Windsor, 30 min from Adams. Ski rentals on site — arrive early on the holiday weekend.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-time">Afternoon</div>
+        <div class="item-body">
+          <div class="item-title">Drive Home to Boston</div>
+          <div class="item-desc">Warm, tired, and happy.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer">
+    <p>Happy Valentine's Day, Abby &ensp;♥</p>
+    <div class="footer-heart">✦ &ensp; ✦ &ensp; ✦</div>
+  </div>
+</div>
+
+</body>
+</html>
