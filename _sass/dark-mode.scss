@@ -18,6 +18,15 @@
         &:visited { color: #bbb; }
         &:hover { color: #ff6b5b; }
     }
+    .btn, .social-btn {
+        background: #3a3a3a;
+        color: #e0e0e0;
+        border-color: #555;
+        &:hover {
+            color: #ff6b5b;
+            background: #444;
+        }
+    }
     p code, li code, p pre, li pre {
         background-color: #2e2e2e;
         border-color: #444;
