@@ -7,7 +7,7 @@ comments: false
 ---
 
 # Hello!
-* I am a Research Assistant Professor at the Institute for the Wireless Internet of Things, Northeastern University, Boston (<a href="/assets/pdf/polese-cv-2026.pdf" target="_blank">CV</a>). My research interests are on
+* I am a Research Assistant Professor at the Institute for Intelligent Networked Systems (INSI), Northeastern University, Boston (<a href="/assets/pdf/polese-cv-2026.pdf" target="_blank">CV</a>). My research interests are on
 	- next-generation AI-driven wireless networks, 5G/6G, AI-RAN, and Open RAN
 	- open, intelligent, and programmable end-to-end network architectures
 	- spectrum sharing and active/passive user coexistence

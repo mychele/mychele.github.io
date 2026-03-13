@@ -64,7 +64,7 @@ body {
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 2px 8px rgba($color_shark,0.08);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
@@ -74,6 +74,25 @@ body {
 		width: 80%;
 	}
 }
+// Home page typography classes (replaces inline styles)
+.home-title {
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+.home-bio {
+	font-size: 1rem;
+	font-weight: 300;
+}
+.home-workplace {
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+.home-news {
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: left;
+}
+
 .row {
 	margin-top: 15px;
 	text-align: center;
@@ -93,7 +112,7 @@ body {
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 2px 8px rgba($color_shark,0.08);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -109,7 +128,7 @@ body {
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 2px 8px rgba($color_shark,0.08);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;

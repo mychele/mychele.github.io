@@ -8,7 +8,7 @@
 	background: $white;
 	color: $color_shark;
 	&:hover {
-		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
+		box-shadow: 0 1px 3px rgba($color_shark,0.12);
 		color: $red;
 	}
 }
@@ -84,17 +84,11 @@
 
 // hr break
 hr {
-	border: 0;
-	height: 1px;
-	opacity: .8;
+	border: none;
+	border-top: 1px solid #e0e0e0;
 	margin: 1em 0;
-	background-image: linear-gradient(to right, $color_gallery, $color_stack, $color_gallery);
 	&.hr-line {
-		border: 0;
-		height: 1px;
-		opacity: .15;
-		margin: 1em 0;
-		background-image: linear-gradient(to right, $color_gallery, $color_stack, $color_gallery);
+		border-top-color: rgba(0,0,0,0.08);
 	}
 }
 
