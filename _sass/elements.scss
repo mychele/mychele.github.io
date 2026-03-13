@@ -87,20 +87,14 @@ hr {
 	border: 0;
 	height: 1px;
 	opacity: .8;
-    margin: 1em 0;
-	background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+	margin: 1em 0;
+	background-image: linear-gradient(to right, $color_gallery, $color_stack, $color_gallery);
 	&.hr-line {
 		border: 0;
 		height: 1px;
 		opacity: .15;
 		margin: 1em 0;
-		background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+		background-image: linear-gradient(to right, $color_gallery, $color_stack, $color_gallery);
 	}
 }
 
@@ -114,8 +108,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 0;
-    -ms-interpolation-mode: bicubic;
-    image-rendering: optimizeQuality;
 }
 .img-circle {
 	border-radius: 50%;
@@ -191,18 +183,6 @@ kbd {
 	box-shadow: inset 0 -1px 0 $color_pink_swan;
 }
 
-// go up button
-.goup-container {
-    border-radius: 3px !important;
-    border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka !important;
-    border: 1px solid;
-	@media #{$small} {
-		display: none !important;
-	}
-}
-.goup-arrow {
-    border-color: transparent transparent $color_tuatara !important;
-}
 
 // reading time
 .reading-time {
