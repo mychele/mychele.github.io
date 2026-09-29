@@ -2,12 +2,20 @@
 layout: page
 title: News
 tags: [news, Michele Polese]
-date: 2025-12-01
+date: 2026-09-29
 comments: false
 ---
 
 <div style="font-size:1rem;font-weight:300;text-align:left;vertical-align:left">
 <ul>
+	<li><p>07/2026: I have been appointed Technical Director of the Institute for Intelligent Networked Systems (INSI) at Northeastern.</p></li>
+	<li><p>2026: I am now an Associate Editor for IEEE Transactions on Mobile Computing.</p></li>
+	<li><p>2026: zTouch Networks won the Deutsche Telekom/T-Mobile T-Challenge 2026 and an AI-RAN Alliance Innovation Award.</p></li>
+	<li><p>2026: Keynote at ACM WiseML (co-located with ACM WiSec) on open, programmable, intelligent, and secure AI-RAN.</p></li>
+	<li><p>2026: We organized the <a href="https://open6g.us/ai" target="_blank">Open6G+AI Workshop</a> at Northeastern, with workshops, tutorials, and a hackathon.</p></li>
+	<li><p>2026: New grant - Northeastern PI on SpectraNet (National Spectrum Consortium / OUSD R&amp;E), on RAN-as-a-sensor spectrum sharing.</p></li>
+	<li><p>2026: Papers at IEEE INFOCOM, ACM WiSec, IEEE DySPAN, IEEE NetSoft, ICCCN, IEEE VTC-Spring, and INFOCOM Workshops.</p></li>
+	<li><p>10/2025: dApps presented at the O-RAN ALLIANCE all-members meeting; the nGRG research report on dApps is <a href="https://tinyurl.com/oran-dapps-report" target="_blank">published</a>.</p></li>
 	<li><p>11/2025: Best Paper Award at CNSM 2024 and Best Short Paper Award at IEEE VNC 2024.</p></li>
 	<li><p>05/2025: Press on the completion of the O-RAN ALLIANCE project on <a href="https://www.lightreading.com/open-ran/o-ran-alliance-boasts-of-digital-twins" target="_blank">digital twins</a>. News comments on <a href="https://www.cnn.com/2025/05/09/us/can-dept-of-transportation-and-sean-duffy-fix-air-traffic-control-system" target="_blank">CNN</a> and <a href="https://www.axios.com/local/boston/2025/04/14/carplay-android-auto-dead-zones-wifi-interference" target="_blank">Axios</a>.</p></li>
 	<li><p>2025: New grants - PI on NSF POSE Phase II CROSSComm and NSF Open Spectrum.</p></li>

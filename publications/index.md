@@ -2,22 +2,36 @@
 layout: page
 title: Publications
 tags: [publications, Michele Polese]
-date: 2025-12-01
+date: 2026-09-29
 comments: false
 ---
 
-Visit my profile on Google Scholar for the most updated list: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>. Citations: 12433, h-index: 46 (12/2025).
+Visit my profile on Google Scholar for the most updated list: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>. Citations: 15210, h-index: 51 (07/2026).
 
-55 journals, 5 submitted, 84 conference papers, 4 book chapters since 2016. Three publications have garnered over 1000 citations each, and an additional 18 over 100 citations each.
+62 journals, 97 conference papers, 4 book chapters since 2016. Four publications have garnered over 1000 citations each, and an additional 19 over 100 citations each.
 
 
 ## Journals
 
-* [J55] **M. Polese**, N. Mohamadi, S. D'Oro, and T. Melodia, "Beyond Connectivity: An Open Architecture for AI-RAN Convergence in 6G," arXiv preprint arXiv:2507.06911, 2025. Available on <a href="https://arxiv.org/abs/2507.06911" target="_blank">arXiv</a>.
+* [J62] A. Feraudo, S. Maxenti, A. Lacava, L. Bonati, P. Bellavista, **M. Polese**, and T. Melodia, "xDevSM: An Open-Source Framework for Portable, AI-Ready xApps Across Heterogeneous O-RAN Deployments," arXiv preprint arXiv:2602.03821, 2026. Available on <a href="https://arxiv.org/abs/2602.03821" target="_blank">arXiv</a>.
+
+* [J61] T. Aghayev, M. Elkael, **M. Polese**, M. D. Nguyen, G. Gemmi, A. Lacava, A. Saeizadeh, R. Prasad, P. Testolina, A. Feraudo, S. Nanda, P. Johari, S. D'Oro, and T. Melodia, "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing," arXiv preprint arXiv:2605.27360, 2026. Available on <a href="https://arxiv.org/abs/2605.27360" target="_blank">arXiv</a>.
+
+* [J60] F. Klement, A. Brighente, **M. Polese**, M. Conti, and S. Katzenbeisser, "ORCA - An Automated Threat Analysis Pipeline for O-RAN Continuous Development," arXiv preprint arXiv:2601.13681, 2026. Available on <a href="https://arxiv.org/abs/2601.13681" target="_blank">arXiv</a>.
+
+* [J59] D. Villa, M. Belgiovine, N. Hedberg, **M. Polese**, C. Dick, and T. Melodia, "Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on NVIDIA Aerial Testbed," arXiv preprint arXiv:2512.06493, 2025. Available on <a href="https://arxiv.org/abs/2512.06493" target="_blank">arXiv</a>.
+
+* [J58] **M. Polese**, R. Gangula, and T. Melodia, "Enabling Programmable Inference and ISAC at the 6GR Edge with dApps," arXiv preprint arXiv:2603.29146, 2026. Available on <a href="https://arxiv.org/abs/2603.29146" target="_blank">arXiv</a>.
+
+* [J57] J. Chen, **M. Polese**, and O. Simeone, "From High-Level Requirements to KPIs: Conformal Signal Temporal Logic Learning for Wireless Communications," arXiv preprint arXiv:2602.20018, 2026. Available on <a href="https://arxiv.org/abs/2602.20018" target="_blank">arXiv</a>.
+
+* [J56] S. Montebugnoli, L. Bonati, A. Sabbioni, L. Foschini, P. Bellavista, S. D'Oro, **M. Polese**, and T. Melodia, "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN," arXiv preprint arXiv:2601.14009, 2026. Available on <a href="https://arxiv.org/abs/2601.14009" target="_blank">arXiv</a>.
+
+* [J55] **M. Polese**, N. Mohamadi, S. D'Oro, and T. Melodia, "Beyond Connectivity: An Open Architecture for AI-RAN Convergence in 6G," IEEE Communications Magazine (to appear), arXiv preprint arXiv:2507.06911, 2025. Available on <a href="https://arxiv.org/abs/2507.06911" target="_blank">arXiv</a>.
 
 * [J54] R. Soundrarajan, C. Fiandrino, **M. Polese**, S. D'Oro, L. Bonati, and T. Melodia, "On AI Verification in Open RAN," IEEE Communications Magazine (to appear), arXiv preprint arXiv:2510.18417, 2025.
 
-* [J53] M. Elkael, S. D'Oro, L. Bonati, **M. Polese**, Y. Lee, K. Furueda, and T. Melodia, "Agentran: An agentic AI architecture for autonomous control of open 6G networks," arXiv preprint arXiv:2508.17778, 2025.
+* [J53] M. Elkael, S. D'Oro, L. Bonati, **M. Polese**, Y. Lee, K. Furueda, and T. Melodia, "Agentran: An agentic AI architecture for autonomous control of open 6G networks," IEEE Communications Magazine (to appear), arXiv preprint arXiv:2508.17778, 2025.
 
 * [J52] R. Prasad, M. Elkael, G. Gemmi, O. M. Bushnaq, D. Mishra, P. Raut, J. Simonjan, **M. Polese**, and T. Melodia, "Joint routing, resource allocation, and energy optimization for integrated access and backhaul with open RAN," arXiv preprint arXiv:2509.05467, 2025.
 
@@ -25,19 +39,19 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [J50] F. Kaltenberger, T. Melodia, I. Ghauri, **M. Polese**, R. Knopp, T. T. Nguyen, S. Velumani, D. Villa, L. Bonati, R. Schmidt, S. Arora, M. Irazabal, and N. Nikaein, "Driving Innovation in 6G Wireless Technologies: The OpenAirInterface Approach," Computer Networks, pp. 1-37, in press 2025.
 
-* [J49] M. Elkael, **M. Polese**, R. Prasad, S. Maxenti, and T. Melodia, "ALLSTaR: Automated LLM-Driven Scheduler Generation and Testing for Intent-Based RAN," 2025. Available on <a href="https://arxiv.org/abs/2505.18389" target="_blank">arXiv</a>.
+* [J49] M. Elkael, **M. Polese**, R. Prasad, S. Maxenti, and T. Melodia, "ALLSTaR: Automated LLM-Driven Scheduler Generation and Testing for Intent-Based RAN," IEEE Transactions on Mobile Computing (to appear), 2025. Available on <a href="https://arxiv.org/abs/2505.18389" target="_blank">arXiv</a>.
 
-* [J48] S. Maxenti, R. Shirkhani, M. Elkael, L. Bonati, S. D'Oro, T. Melodia, and **M. Polese**, "AutoRAN: Automated and Zero-Touch Open RAN Systems," 2025. Available on <a href="https://arxiv.org/abs/2504.11233" target="_blank">arXiv</a>.
+* [J48] S. Maxenti, R. Shirkhani, M. Elkael, L. Bonati, S. D'Oro, T. Melodia, and **M. Polese**, "AutoRAN: Automated and Zero-Touch Open RAN Systems," IEEE Transactions on Mobile Computing (to appear), 2025. Available on <a href="https://arxiv.org/abs/2504.11233" target="_blank">arXiv</a>.
 
 * [J47] E. J. Oughton, G. Geraci, **M. Polese**, M. Ghosh, W. Webb, and D. Bubley, "The future of wireless broadband in the peak smartphone era: 6G, Wi-Fi 7, and Wi-Fi 8," IEEE Wireless Communications, pp. 1-8, 2025.
 
-* [J46] E. Baena, P. Testolina, **M. Polese**, D. Koutsonikolas, J. Jornet, and T. Melodia, "Space-O-RAN: Enabling intelligent, open, and interoperable non terrestrial networks in 6G," IEEE Communications Magazine (to appear), arXiv CS.NI 2502.15936, 2025. Available on <a href="https://arxiv.org/abs/2502.15936" target="_blank">arXiv</a>.
+* [J46] E. Baena, P. Testolina, **M. Polese**, D. Koutsonikolas, J. Jornet, and T. Melodia, "Space-O-RAN: Enabling intelligent, open, and interoperable non terrestrial networks in 6G," IEEE Communications Magazine, vol. 64, no. 2, pp. 112-118, Feb 2026. Available on <a href="https://arxiv.org/abs/2502.15936" target="_blank">arXiv</a>.
 
 * [J45] A. Lacava, L. Bonati, N. Mohamadi, R. Gangula, F. Kaltenberger, P. Johari, S. D'Oro, F. Cuomo, **M. Polese**, and T. Melodia, "dApps: Enabling real-time AI-based Open RAN control," Computer Networks, p. 111342, 2025.
 
-* [J44] J. Groen, S. Di Valerio, I. Karim, D. Villa, Y. Zhang, L. Bonati, **M. Polese**, S. D'Oro, T. Melodia, E. Bertino, F. Cuomo, and K. Chowdhury, "TIMESAFE: Timing Interruption Monitoring and Security Assessment for Fronthaul Environments," arXiv:2412.13049, pp. 1-13, December 2024.
+* [J44] J. Groen, S. Di Valerio, I. Karim, D. Villa, Y. Zhang, L. Bonati, **M. Polese**, S. D'Oro, T. Melodia, E. Bertino, F. Cuomo, and K. Chowdhury, "TIMESAFE: Timing Interruption Monitoring and Security Assessment for Fronthaul Environments," ACM Transactions on Privacy and Security, vol. 29, no. 1, pp. 1-30, 2026.
 
-* [J43] J. Groen, S. D'Oro, U. Demir, L. Bonati, D. Villa, **M. Polese**, T. Melodia, and K. Chowdhury, "Securing O-RAN Open Interfaces," IEEE Transactions on Mobile Computing, 2024.
+* [J43] J. Groen, S. D'Oro, U. Demir, L. Bonati, D. Villa, **M. Polese**, T. Melodia, and K. Chowdhury, "Securing O-RAN Open Interfaces," IEEE Transactions on Mobile Computing, vol. 23, no. 12, pp. 11265-11277, 2024.
 
 * [J42] P. Testolina, **M. Polese**, and T. Melodia, "Sharing Spectrum and Services in the 7-24 GHz Upper Midband," IEEE Communications Magazine, vol. 62, no. 8, pp. 170-177, August 2024.
 
@@ -57,11 +71,11 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [J34] S. D'Oro, L. Bonati, **M. Polese**, and T. Melodia, "OrchestRAN: Orchestrating network intelligence in the open RAN," IEEE Transactions on Mobile Computing, 2023.
 
-* [J33] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, and T. Melodia, "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges," IEEE Communications Surveys & Tutorials, vol. 25, no. 2, pp. 1376-1411, Second quarter 2023, **1066 citations**. Also available on <a href="https://arxiv.org/pdf/2202.01032.pdf" target="_blank">arXiv</a>.
+* [J33] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, and T. Melodia, "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges," IEEE Communications Surveys & Tutorials, vol. 25, no. 2, pp. 1376-1411, Second quarter 2023, **1524 citations**. Also available on <a href="https://arxiv.org/pdf/2202.01032.pdf" target="_blank">arXiv</a>.
 
 * [J32] **M. Polese**, M. Dohler, F. Dressler, M. Erol-Kantarci, R. Jana, R. Knopp, and T. Melodia, "Empowering the 6G Cellular Architecture with Open RAN," IEEE Journal on Selected Areas in Communications, 2023.
 
-* [J31] A. Lacava, **M. Polese**, R. Sivaraj, R. Soundrarajan, B. Shanker Bhati, T. Singh, T. Zugno, F. Cuomo, T. Melodia, "Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures," IEEE Transactions on Mobile Computing, pp. 1-16, 2023, **147 citations**.
+* [J31] A. Lacava, **M. Polese**, R. Sivaraj, R. Soundrarajan, B. Shanker Bhati, T. Singh, T. Zugno, F. Cuomo, T. Melodia, "Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures," IEEE Transactions on Mobile Computing, pp. 1-16, 2023, **201 citations**.
 
 * [J30] D. Villa, M. Tehrani-Moayyed, C. Robinson, L. Bonati, P. Johari, **M. Polese**, T. Melodia, "Colosseum as a Digital Twin: Bridging Real-World Experimentation and Wireless Network Emulation," IEEE Transactions on Mobile Computing, vol. 23, no. 10, pp. 9150-9166, 2024.
 
@@ -69,13 +83,13 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [J28] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: AI/ML Development, Data Collection, and Testing for O-RAN on PAWR Platforms," Computer Networks, vol. 220, p. 109502, 2023.
 
-* [J27] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms", IEEE Transactions on Mobile Computing, vol. 22, no. 10, pp. 5787-5800, Oct 2023, **218 citations**.
+* [J27] **M. Polese**, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms", IEEE Transactions on Mobile Computing, vol. 22, no. 10, pp. 5787-5800, Oct 2023, **304 citations**.
 
 * [J26] **M. Polese**, X. Cantos-Roman, A. Singh, M.J. Marcus, T.J. Maccarone, T. Melodia, J. M. Jornet, "Coexistence and Spectrum Sharing Above 100 GHz", Proceedings of the IEEE, vol. 111, no. 8, pp. 928-954, Aug 2023.
 
 * [J25] P. Testolina, **M. Polese**, J. M. Jornet, T. Melodia, and M. Zorzi, "Modeling Interference for the Coexistence of 6G Networks and Passive Sensing Systems," IEEE Transactions on Wireless Communications, vol. 23, no. 8, pp. 9220-9234, Aug 2024.
 
-* [J24] S. D'Oro, **M. Polese**, L. Bonati, H. Cheng, and T. Melodia, "dApps: Distributed Applications for Real-time Inference and Control in O-RAN," IEEE Communications Magazine, vol. 60, no. 11, pp. 52-58, Nov 2022, **122 citations**.
+* [J24] S. D'Oro, **M. Polese**, L. Bonati, H. Cheng, and T. Melodia, "dApps: Distributed Applications for Real-time Inference and Control in O-RAN," IEEE Communications Magazine, vol. 60, no. 11, pp. 52-58, Nov 2022, **175 citations**.
 
 * [J23] **M. Polese**, V. Ariyarathna, P. Sen, J. V. Siles, F. Restuccia, T. Melodia, J. M. Jornet, "Dynamic spectrum sharing between active and passive users above 100 GHz", Communications Engineering, Nature, vol. 1, no. 1, pp. 1-9, May 2022.
 
@@ -83,41 +97,41 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [J21] F. Gomez-Cuba, T. Zugno, J. Kim, **M. Polese**, S. Bahk, M. Zorzi, "Hybrid Beamforming in 5G mmWave Networks: a Full-stack Perspective", IEEE Transactions on Wireless Communications, vol. 21, no. 2, pp. 1288-1303, Feb 2022.
 
-* [J20] **M. Polese**, R. Jana, V. Kounev, K. Zhang, S. Deb, and M. Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", IEEE Transactions on Mobile Computing, vol. 20, no. 12, pp. 3367-3382, Dec 2021, **141 citations**.
+* [J20] **M. Polese**, R. Jana, V. Kounev, K. Zhang, S. Deb, and M. Zorzi, "Machine Learning at the Edge: A Data-Driven Architecture with Applications to 5G Cellular Networks", IEEE Transactions on Mobile Computing, vol. 20, no. 12, pp. 3367-3382, Dec 2021, **151 citations**.
 
 * [J19] M. Lecci, P. Testolina, **M. Polese**, M. Giordani, and M. Zorzi, "Accuracy vs. Complexity for mmWave Ray-Tracing: A Full Stack Perspective", IEEE Transactions on Wireless Communications, vol. 20, no. 12, pp. 7826-7841, Dec 2021.
 
-* [J18] L. Bonati, S. D'Oro, **M. Polese**, S. Basagni, and T. Melodia, "Intelligence and Learning in O-RAN for Data-driven NextG Cellular Networks", IEEE Communications Magazine, vol. 59, no. 10, pp. 21-27, Oct 2021, **388 citations**.
+* [J18] L. Bonati, S. D'Oro, **M. Polese**, S. Basagni, and T. Melodia, "Intelligence and Learning in O-RAN for Data-driven NextG Cellular Networks", IEEE Communications Magazine, vol. 59, no. 10, pp. 21-27, Oct 2021, **472 citations**.
 
 * [J17] **M. Polese**, P. Teymoori, J. Zhu, "Guest Editorial: Transport Layer Innovations for Future Networks", IEEE Communications Magazine, vol. 59, no. 4, pp. 14-15, Apr 2021.
 
-* [J16] **M. Polese**, J. Jornet, T. Melodia, M. Zorzi, "Toward End-to-End, Full-Stack 6G Terahertz Networks", IEEE Communications Magazine, vol. 58, no. 11, pp. 48-54, Nov 2020, **231 citations**.
+* [J16] **M. Polese**, J. Jornet, T. Melodia, M. Zorzi, "Toward End-to-End, Full-Stack 6G Terahertz Networks", IEEE Communications Magazine, vol. 58, no. 11, pp. 48-54, Nov 2020, **254 citations**.
 
 * [J15] T. Zugno, M. Drago, M. Giordani, **M. Polese**, M. Zorzi, "Towards Standardization of Millimeter Wave Vehicle-to-Vehicle Networks", IEEE Communications Magazine, vol. 58, no. 9, pp. 79-85, Sep 2020.
 
-* [J14] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, and T. Melodia, "Open, Programmable, and Virtualized 5G Networks: State-of-the-Art and the Road Ahead," Computer Networks (COMNET), vol. 182, Aug 2020, **332 citations**.
+* [J14] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, and T. Melodia, "Open, Programmable, and Virtualized 5G Networks: State-of-the-Art and the Road Ahead," Computer Networks (COMNET), vol. 182, Aug 2020, **399 citations**.
 
-* [J13] **M. Polese**, M. Giordani, T. Zugno, A. Roy, S. Goyal, D. Castor, and M. Zorzi, "Integrated Access and Backhaul in 5G mmWave Networks: Potentials and Challenges," IEEE Communications Magazine, vol. 58, no. 3, pp. 62-68, Mar 2020, **306 citations**.
+* [J13] **M. Polese**, M. Giordani, T. Zugno, A. Roy, S. Goyal, D. Castor, and M. Zorzi, "Integrated Access and Backhaul in 5G mmWave Networks: Potentials and Challenges," IEEE Communications Magazine, vol. 58, no. 3, pp. 62-68, Mar 2020, **328 citations**.
 
-* [J12] M. Giordani, **M. Polese**, M. Mezzavilla, S. Rangan, M. Zorzi, "Towards 6G Networks: Use Cases and Technologies", IEEE Communications Magazine, vol. 58, no. 3, pp. 55-61, Mar 2020, **2417 citations**.
+* [J12] M. Giordani, **M. Polese**, M. Mezzavilla, S. Rangan, M. Zorzi, "Towards 6G Networks: Use Cases and Technologies", IEEE Communications Magazine, vol. 58, no. 3, pp. 55-61, Mar 2020, **2912 citations**.
 
-* [J11] **M. Polese**, F. Chiariotti, E. Bonetto, F. Rigotto, A. Zanella, M. Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", IEEE Communications Surveys and Tutorials, vol. 21, no. 4, pp. 3584-3608, Fourth quarter 2019, **203 citations**.
+* [J11] **M. Polese**, F. Chiariotti, E. Bonetto, F. Rigotto, A. Zanella, M. Zorzi, "A Survey on Recent Advances in Transport Layer Protocols", IEEE Communications Surveys and Tutorials, vol. 21, no. 4, pp. 3584-3608, Fourth quarter 2019, **217 citations**.
 
-* [J10] F. Meneghello, M. Calore, D. Zucchetto, **M. Polese**, and A. Zanella, "IoT: Internet of Threats? A survey of practical security vulnerabilities in real IoT devices," IEEE Internet of Things Journal, vol. 6, no. 5, pp. 8182-8201, Oct 2019, **1012 citations**.
+* [J10] F. Meneghello, M. Calore, D. Zucchetto, **M. Polese**, and A. Zanella, "IoT: Internet of Threats? A survey of practical security vulnerabilities in real IoT devices," IEEE Internet of Things Journal, vol. 6, no. 5, pp. 8182-8201, Oct 2019, **1108 citations**.
 
 * [J9] M. Giordani, **M. Polese**, A. Roy, D. Castor, and M. Zorzi, "Standalone and Non-Standalone Beam Management for 3GPP NR at mmWaves", IEEE Communications Magazine, vol. 57, no. 4, pp. 123-129, Apr 2019.
 
-* [J8] M. Giordani, **M. Polese**, A. Roy, D. Castor, and M. Zorzi, "A Tutorial on Beam Management for 3GPP NR at mmWave Frequencies", IEEE Communications Surveys & Tutorials, vol. 21, no. 1, pp. 173-196, First quarter 2019, **891 citations**.
+* [J8] M. Giordani, **M. Polese**, A. Roy, D. Castor, and M. Zorzi, "A Tutorial on Beam Management for 3GPP NR at mmWave Frequencies", IEEE Communications Surveys & Tutorials, vol. 21, no. 1, pp. 173-196, First quarter 2019, **1014 citations**.
 
 * [J7] M. Zhang, **M. Polese**, M. Mezzavilla, J. Zhu, S. Rangan, S. Panwar, M. Zorzi, "Will TCP work in mmWave 5G Cellular Networks?", IEEE Communications Magazine, vol. 57, no. 1, pp. 65-71, Jan 2019.
 
-* [J6] M. Mezzavilla, M. Zhang, **M. Polese**, R. Ford, S. Dutta, S. Rangan, and M. Zorzi, "End-to-End Simulation of 5G mmWave Networks", IEEE Communications Surveys & Tutorials, vol. 20, no. 3, pp. 2237-2263, Third quarter 2018, **558 citations**. **Best Journal Paper Award** of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
+* [J6] M. Mezzavilla, M. Zhang, **M. Polese**, R. Ford, S. Dutta, S. Rangan, and M. Zorzi, "End-to-End Simulation of 5G mmWave Networks", IEEE Communications Surveys & Tutorials, vol. 20, no. 3, pp. 2237-2263, Third quarter 2018, **602 citations**. **Best Journal Paper Award** of the IEEE ComSoc Technical Committee on Communications Systems Integration and Modeling (CSIM) 2019.
 
 * [J5] M. Dalla Cia, F. Mason, D. Peron, F. Chiariotti, **M. Polese**, T. Mahmoodi, M. Zorzi, A. Zanella, "Using Smart City Data in 5G Self-Organizing Networks", IEEE IoT Journal, vol. 5, no. 2, pp. 645-654, Apr 2018.
 
 * [J4] M. Mezzavilla, **M. Polese**, A. Zanella, A. Dhananjay, S. Rangan, C. Kessler, T. S. Rappaport, and M. Zorzi, "Public Safety Communications above 6 GHz: Challenges and Opportunities", IEEE Access, vol. 6, pp. 316-329, 2018.
 
-* [J3] **M. Polese**, M. Giordani, M. Mezzavilla, S. Rangan, M. Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", IEEE Journal on Selected Areas in Communications, vol. 35, no. 9, pp. 2069-2084, Sep 2017, **423 citations**.
+* [J3] **M. Polese**, M. Giordani, M. Mezzavilla, S. Rangan, M. Zorzi, "Improved Handover Through Dual Connectivity in 5G mmWave Mobile Networks", IEEE Journal on Selected Areas in Communications, vol. 35, no. 9, pp. 2069-2084, Sep 2017, **441 citations**.
 
 * [J2] **M. Polese**, R. Jana, M. Zorzi, "TCP and MP-TCP in 5G mmWave Networks", IEEE Internet Computing, vol. 21, no. 5, pp. 12-19, Sep 2017.
 
@@ -126,13 +140,39 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 ## Conferences
 
+* [C97] M. Elkael, **M. Polese**, Y. Lee, K. Furueda, and T. Melodia, "AUGUSTE: Online-Learning dApp for Predictive URLLC Scheduling," arXiv preprint arXiv:2606.03664, 2026. Available on <a href="https://arxiv.org/abs/2606.03664" target="_blank">arXiv</a>.
+
+* [C96] N. Giustini, A. Lacava, L. Bonati, S. Maxenti, **M. Polese**, T. Melodia, and F. Cuomo, "Stormshield: Fingerprint-based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs," in Proceedings of ACM WiSec, 2026.
+
+* [C95] G. Gemmi, **M. Polese**, and T. Melodia, "A Techno-Economic Framework for Cost Modeling and Revenue Opportunities in Open and Programmable AI-RAN," in Proceedings of ICCCN, 2026.
+
+* [C94] E. Baena, P. Testolina, **M. Polese**, S. Aliaga, A. Benincasa, D. Koutsonikolas, J. Jornet, and T. Melodia, "Agentic Semantic Control for Autonomous Wireless Space Networks: Extending Space-O-RAN with MCP-Driven Distributed Intelligence," arXiv preprint arXiv:2506.10925, 2025. Available on <a href="https://arxiv.org/abs/2506.10925" target="_blank">arXiv</a>.
+
+* [C93] R. Shirkhani, S. Maxenti, L. Bonati, N. Mohamadi, M. Elkael, U. Hashmi, J. Mitra, **M. Polese**, T. Melodia, and S. D'Oro, "TENORAN: Automating Fine-Grained Energy Efficiency Profiling in Open RAN Systems," in IEEE INFOCOM 2026 Workshops, 2026.
+
+* [C92] H. Amininasab, H. Farooqui, D. Moltchanov, S. Andreev, **M. Polese**, M. Valkama, and J. M. Jornet, "On the Spatial Consistency of Sub-Terahertz Channel Characteristics for Beyond-6G Systems," in IEEE VTC2026-Spring, 2026.
+
+* [C91] M. Tsampazi, P. Testolina, **M. Polese**, and T. Melodia, "Satellite-Terrestrial Spectrum Sharing in FR3 through QoS-Aware Power Control and Spatial Nulling," in IEEE DySPAN, 2026.
+
+* [C90] R. Shirkhani, R. Prasad, L. Bonati, T. Melodia, and **M. Polese**, "RANalyzer: Automated Continuous RAN Software Evaluation and Regression Analysis," in IEEE NetSoft, 2026.
+
+* [C89] N. N. Santhi, D. Villa, **M. Polese**, S. D'Oro, Y. Lee, K. Furueda, and T. Melodia, "ARCHES: Adaptive Real-Time Switching of AI Models for the RAN," arXiv preprint arXiv:2604.23397, 2026. Available on <a href="https://arxiv.org/abs/2604.23397" target="_blank">arXiv</a>.
+
+* [C88] R. Prasad, **M. Polese**, and T. Melodia, "BLINC: Context-Specific Causal Learning for Automated RAN Configuration," arXiv preprint arXiv:2604.27084, 2026. Available on <a href="https://arxiv.org/abs/2604.27084" target="_blank">arXiv</a>.
+
+* [C87] P. Brach del Prever, N. Mohamadi, S. D'Oro, L. Bonati, **M. Polese**, Ł. Kułacz, P. Jaworski, A. Kliks, H. Lehmann, and T. Melodia, "Predicting Conflict Impact on Performance in O-RAN," in IEEE INFOCOM 2026 Workshops, 2026.
+
+* [C86] M. Jabbari, A. Duttagupta, C. Fiandrino, L. Bonati, S. D'Oro, **M. Polese**, M. Fiore, and T. Melodia, "SIA: Symbolic Interpretability for Anticipatory Deep Reinforcement Learning in Network Control," in IEEE INFOCOM, 2026.
+
+* [C85] M. Jabbari, A. Duttagupta, C. Fiandrino, L. Bonati, S. D'Oro, **M. Polese**, M. Fiore, and T. Melodia, "Interpreting Anticipatory Deep Reinforcement Learning for Proactive Mobile Network Control," in IEEE INFOCOM Posters, 2026.
+
 * [C84] N. Neasamoni Santhi, D. Villa, **M. Polese**, and T. Melodia, "Interfo-RAN: Real-time in-band cellular uplink interference detection with GPU-accelerated dApps," in Proceedings of ACM MobiHoc '25, 2025, p. 71-80.
 
-* [C83] P. B. del Prever, P. Testolina, A. Masihi, S. Petrushkevich, **M. Polese**, T. Melodia, and J. M. Jornet, "Pointing-Error-Induced Fading in an Open-Loop THz Uplink with Hardware Impairments," IEEE MILCOM Workshops (to appear), 2025.
+* [C83] P. B. del Prever, P. Testolina, A. Masihi, S. Petrushkevich, **M. Polese**, T. Melodia, and J. M. Jornet, "Pointing-Error-Induced Fading in an Open-Loop THz Uplink with Hardware Impairments," IEEE MILCOM Workshops, 2025.
 
-* [C82] N. Longhi, S. D'Oro, L. Bonati, **M. Polese**, R. Verdone, and T. Melodia, "TailO-RAN: O-RAN Control on Scheduler Parameters to Tailor RAN Performance," IEEE GLOBECOM (to appear), 2025.
+* [C82] N. Longhi, S. D'Oro, L. Bonati, **M. Polese**, R. Verdone, and T. Melodia, "TailO-RAN: O-RAN Control on Scheduler Parameters to Tailor RAN Performance," IEEE GLOBECOM, 2025.
 
-* [C81] T. Ropitault, M. Bordin, P. Testolina, **M. Polese**, P. Johari, N. Golmie, and T. Melodia, "Enabling Site-Specific Cellular Network Simulation Through Ray-Tracing-Driven ns-3," IEEE CCNC (to appear), 2026.
+* [C81] T. Ropitault, M. Bordin, P. Testolina, **M. Polese**, P. Johari, N. Golmie, and T. Melodia, "Enabling Site-Specific Cellular Network Simulation Through Ray-Tracing-Driven ns-3," IEEE CCNC, 2026.
 
 * [C80] P. Testolina, E. Beshaj, **M. Polese**, and T. Melodia, "Spectrum sharing across terrestrial and non-terrestrial services in the FR3 upper midband," in 2025 IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN), 2025, pp. 1-9.
 
@@ -204,9 +244,9 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 * [C46] L. Bonati, **M. Polese**, S. D'Oro, S. Basagni, T. Melodia, "OpenRAN Gym: An Open Toolbox for Data Collection and Experimentation with AI in O-RAN," Proc. of IEEE WCNC Workshop on Open RAN Architecture for 5G Evolution and 6G, Austin, TX, USA, April 2022.
 
-* [C45] S. D'Oro, L. Bonati, **M. Polese**, T. Melodia, "OrchestRAN: Network Automation through Orchestrated Intelligence in the Open RAN," Proc. of IEEE INFOCOM, May 2022, **129 citations**.
+* [C45] S. D'Oro, L. Bonati, **M. Polese**, T. Melodia, "OrchestRAN: Network Automation through Orchestrated Intelligence in the Open RAN," Proc. of IEEE INFOCOM, May 2022, **161 citations**.
 
-* [C44] L. Bonati, P. Johari, **M. Polese**, S. D'Oro, S. Mohanti, M. Tehrani-Moayyed, D. Villa, S. Shrivastava, C. Tassie, K. Yoder, A. Bagga, P. Patel, V. Petkov, M. Seltser, F. Restuccia, A. Gosain, K.R. Chowdhury, S. Basagni, T. Melodia, "Colosseum: Large-Scale Wireless Experimentation Through Hardware-in-the-Loop Network Emulation," Proc. of IEEE DySPAN, December 2021, **164 citations**.
+* [C44] L. Bonati, P. Johari, **M. Polese**, S. D'Oro, S. Mohanti, M. Tehrani-Moayyed, D. Villa, S. Shrivastava, C. Tassie, K. Yoder, A. Bagga, P. Patel, V. Petkov, M. Seltser, F. Restuccia, A. Gosain, K.R. Chowdhury, S. Basagni, T. Melodia, "Colosseum: Large-Scale Wireless Experimentation Through Hardware-in-the-Loop Network Emulation," Proc. of IEEE DySPAN, December 2021, **193 citations**.
 
 * [C43] T. Melodia, S. Basagni, K.R. Chowdhury, A. Gosain, **M. Polese**, P. Johari, and L. Bonati, "Tutorial: Colosseum, the World's Largest Wireless Network Emulator," Proc. of ACM MobiCom, New Orleans, LA, USA, October 2021.
 
