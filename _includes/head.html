@@ -1,26 +1,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.seo_title %}{% assign seo_title = page.seo_title %}{% elsif page.title %}{% capture seo_title %}{{ page.title }} &#8211; {{ site.title }}{% endcapture %}{% else %}{% assign seo_title = site.title %}{% endif %}
+    {% if page.description %}{% assign seo_description = page.description %}{% elsif page.layout == 'post' and page.excerpt %}{% assign seo_description = page.excerpt | markdownify | strip_html | strip_newlines | strip %}{% else %}{% assign seo_description = site.description %}{% endif %}
+    {% assign seo_description = seo_description | escape_once %}
+    {% if page.feature %}{% capture seo_image %}{{ page.feature }}{% endcapture %}{% unless seo_image contains 'http://' or seo_image contains 'https://' %}{% capture seo_image %}{{ site.url }}/{{ page.feature }}{% endcapture %}{% endunless %}{% else %}{% capture seo_image %}{{ site.url }}/{{ site.seo_image }}{% endcapture %}{% endif %}
+    {% if page.og_type %}{% assign og_type = page.og_type %}{% elsif page.layout == 'post' %}{% assign og_type = 'article' %}{% else %}{% assign og_type = 'website' %}{% endif %}
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     <!-- Twitter Cards -->
-    {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ feature }}">
-    {% else %}<meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/{{ site.logo }}">{% endif %}
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <meta name="twitter:card" content="{% if page.feature %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:image" content="{{ seo_image }}">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ seo_description }}">
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
     <!-- Open Graph -->
     <meta property="og:locale" content="{{ site.locale }}">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <meta property="og:type" content="{{ og_type }}">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/{{ site.logo }}">
+    <meta property="og:image" content="{{ seo_image }}">
+    <meta property="og:image:alt" content="{% if page.feature %}{{ page.title }}{% else %}Photo of {{ site.title }}{% endif %}">
+    {% if og_type == 'profile' %}<meta property="profile:first_name" content="Michele">
+    <meta property="profile:last_name" content="Polese">{% endif %}
     {% if site.google.verify %}
     <meta name="google-site-verification" content="{{ site.google.verify }}">{% endif %}
     {% if site.bing-verify %}<meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
@@ -48,18 +53,4 @@
     <style>.feature {background-image:url({{ feature }});}</style>
     {% endif %}
     <!-- JSON-LD markup -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Person",
-      "name": "{{ site.title }}",
-      "jobTitle": "{{ site.bio }}",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Institute for Intelligent Networked Systems (INSI), Northeastern University"
-      },
-      "url": "{{ site.url }}",
-      "email": "{{ site.email }}",
-      "image": "{{ site.url }}/{{ site.logo }}"
-    }
-    </script>
+    {% include json-ld.html %}

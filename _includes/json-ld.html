@@ -1,0 +1,50 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "{{ site.title }}",
+      "givenName": "Michele",
+      "familyName": "Polese",
+      "jobTitle": ["Research Assistant Professor", "Technical Director, Institute for Intelligent Networked Systems (INSI)"],
+      "description": "Research Assistant Professor and Technical Director of the Institute for Intelligent Networked Systems (INSI) at Northeastern University, working on Open RAN, AI-RAN, dApps, spectrum sharing, and 6G.",
+      "url": "{{ site.url }}/",
+      "email": "mailto:{{ site.email }}",
+      "image": "{{ site.url }}/{{ site.seo_image }}",
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "Northeastern University",
+        "url": "https://www.northeastern.edu",
+        "department": {
+          "@type": "ResearchOrganization",
+          "name": "Institute for Intelligent Networked Systems (INSI)"
+        }
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Padova",
+        "url": "https://www.unipd.it"
+      },
+      "knowsAbout": ["Open RAN", "O-RAN", "AI-RAN", "dApps", "E3 interface", "6G", "5G", "Spectrum sharing", "Wireless testbeds", "Millimeter-wave and terahertz networks", "Network simulation"],
+      "sameAs": {{ site.same_as | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "{{ site.title }}",
+      "publisher": { "@id": "{{ site.url }}/#person" }
+    }{% if page.url == '/' or page.url == '/about/' %},
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ page.url | prepend: site.url }}#profilepage",
+      "url": "{{ page.url | prepend: site.url }}",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "mainEntity": { "@id": "{{ site.url }}/#person" }{% if page.date %},
+      "dateModified": "{{ page.date | date_to_xmlschema }}"{% endif %}
+    }{% endif %}
+  ]
+}
+</script>

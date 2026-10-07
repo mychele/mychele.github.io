@@ -2,7 +2,8 @@
 title:              Michele Polese
 bio:                'Research Assistant Professor, Technical Director'
 workplace:          "Institute for Intelligent Networked Systems (INSI)\nNortheastern University"
-description:        "I am a Research Assistant Professor and the Technical Director of the Institute for Intelligent Networked Systems (INSI), Northeastern University, Boston."
+description:        "I am a Research Assistant Professor and the Technical Director of the Institute for Intelligent Networked Systems (INSI), Northeastern University, Boston, working on Open RAN, AI-RAN, dApps, spectrum sharing, and 6G."
+seo_image:          'assets/img/MP.jpg'   # headshot used for social previews and structured data
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/antenna-2.png'
@@ -34,7 +35,7 @@ disqus_shortname:   mychele
 #google:
   #plus:            #username
   #analytics:
-  #verify:
+  #verify:          # Google Search Console HTML-tag token (not needed if verified via DNS)
   #ad-client:
   #ad-slot:
 #bing-verify:
@@ -60,6 +61,17 @@ linkedin:          michelepolese
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
+
+# Profiles describing the same person, used in the Person JSON-LD (sameAs)
+same_as:
+  - https://scholar.google.com/citations?user=JmMEy-QAAAAJ
+  - https://orcid.org/0000-0002-9740-134X
+  - https://dblp.org/pid/175/1389.html
+  - https://www.linkedin.com/in/michelepolese
+  - https://github.com/mychele
+  - https://coe.northeastern.edu/people/polese-michele/
+  - https://www.researchgate.net/profile/Michele-Polese
+  - https://dl.acm.org/profile/99659089620
 
 # Gems
 plugins:

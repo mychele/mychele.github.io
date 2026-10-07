@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teaching
+description: "Teaching by Michele Polese: network programming at Northeastern University and the University of Padova, plus tutorials on 5G, Open RAN, and AI-RAN at IEEE and ACM conferences."
 tags: [teaching, Michele Polese]
 date: 2026-09-29
 comments: false

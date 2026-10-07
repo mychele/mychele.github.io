@@ -1,6 +1,7 @@
 ---
 layout: page
 title: News
+description: "News and updates from Michele Polese: appointments, awards, grants, keynotes, papers, and Open RAN / AI-RAN milestones."
 tags: [news, Michele Polese]
 date: 2026-09-29
 comments: false

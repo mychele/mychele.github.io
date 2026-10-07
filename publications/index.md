@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Publications
+seo_title: "Publications – Michele Polese | Open RAN, AI-RAN, Spectrum Sharing, 6G"
+description: "Full publication list of Michele Polese: 60+ journal and 90+ conference papers on Open RAN, AI-RAN, dApps, spectrum sharing, mmWave and THz networks, and 6G. 15,000+ citations, h-index 51."
 tags: [publications, Michele Polese]
 date: 2026-09-29
 comments: false

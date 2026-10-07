@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Service
+description: "Professional service of Michele Polese: editorial boards, conference and workshop organization, AI-RAN Alliance and O-RAN ALLIANCE leadership, invited talks, patents, and open-source software."
 tags: [service, Michele Polese]
 date: 2026-09-29
 comments: false

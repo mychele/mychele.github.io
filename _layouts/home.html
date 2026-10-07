@@ -13,13 +13,11 @@ layout: compress
         <div class="container animated fadeIn">
             <div class="row">
                     <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-square zoombtn animated rotateIn">
+                        <img src="{{ site.logo }}" alt="{{ site.title }} logo" class="img-square zoombtn animated rotateIn">
                     </a>
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p class="home-title">{{ site.title }}</p>
-			            </a>
-                    </h3>
+                    <h1 class="title home-title">
+                        <a class="zoombtn" href="{{ site.url }}">{{ site.title }}</a>
+                    </h1>
                     <hr class="hr-line">
                     <h3 class="title">
                         <a href="{{ site.url }}">
@@ -47,6 +45,9 @@ layout: compress
                          <p>
                          <a class="btn zoombtn" href="{{ site.url }}/about">
                          About
+                         </a>
+                         <a class="btn zoombtn" href="{{ site.url }}/research">
+                         Research
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/publications">
                          Publications
