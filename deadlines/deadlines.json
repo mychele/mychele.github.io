@@ -273,7 +273,7 @@
     {
       "id": "hotos27",
       "name": "HotOS ’27",
-      "status": "unconfirmed",
+      "status": "posted",
       "tags": [
         "systems"
       ],
@@ -282,7 +282,9 @@
           "label": "Paper",
           "date": "2027-02-01"
         }
-      ]
+      ],
+      "where": "Burghausen, May 24–26, 2027",
+      "url": "https://www.sigops.org/s/conferences/hotos/2027"
     },
     {
       "id": "iwqos27",
