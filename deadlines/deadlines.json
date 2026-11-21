@@ -1,0 +1,736 @@
+{
+  "lastChecked": "2026-11-21",
+  "deadlines": [
+    {
+      "id": "mobisys27",
+      "name": "MobiSys 2027",
+      "status": "posted",
+      "tags": [
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Abstract",
+          "date": "2026-11-27"
+        },
+        {
+          "label": "Paper",
+          "date": "2026-12-04"
+        }
+      ],
+      "where": "Ho Chi Minh City",
+      "url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/"
+    },
+    {
+      "id": "conext27-dec",
+      "name": "CoNEXT 2027",
+      "cycle": "December cycle",
+      "status": "posted",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Registration",
+          "date": "2026-11-27"
+        },
+        {
+          "label": "Paper",
+          "date": "2026-12-04"
+        }
+      ],
+      "where": "Rio de Janeiro, Dec 6–9, 2027"
+    },
+    {
+      "id": "secon27",
+      "name": "SECON 2027",
+      "status": "unconfirmed",
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2026-11-30"
+        }
+      ],
+      "where": "Lisbon, May 2027",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-conference-sensing-communication-and-networking-2027"
+    },
+    {
+      "id": "hpsr27",
+      "name": "HPSR 2027",
+      "status": "unconfirmed",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2026-11-30"
+        }
+      ],
+      "where": "Paris, June 2027",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-conference-high-performance-switching-and-routing-2027"
+    },
+    {
+      "id": "wisec27-1",
+      "name": "WiSec 2027",
+      "cycle": "Cycle 1",
+      "status": "unconfirmed",
+      "tags": [
+        "security",
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2026-11-30"
+        }
+      ]
+    },
+    {
+      "id": "osdi27",
+      "name": "OSDI ’27",
+      "status": "posted",
+      "tags": [
+        "systems"
+      ],
+      "dates": [
+        {
+          "label": "Abstract",
+          "date": "2026-12-01",
+          "zone": "est"
+        },
+        {
+          "label": "Paper",
+          "date": "2026-12-08",
+          "zone": "est"
+        }
+      ],
+      "where": "Baltimore, Jul 7–9, 2027"
+    },
+    {
+      "id": "wowmom27",
+      "name": "WoWMoM 2027",
+      "status": "unconfirmed",
+      "tags": [
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2026-12-01"
+        }
+      ],
+      "where": "Irvine, CA, June 2027",
+      "note": "Last year’s deadline was extended by about ten days."
+    },
+    {
+      "id": "dyspan27",
+      "name": "DySPAN 2027",
+      "status": "posted",
+      "tags": [
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2026-12-07"
+        }
+      ],
+      "where": "Ottawa, May 17–20, 2027",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-symposium-dynamic-spectrum-access-networks-2027"
+    },
+    {
+      "id": "infocom27-ws",
+      "name": "INFOCOM 2027 workshops",
+      "status": "unconfirmed",
+      "tags": [
+        "networking",
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Papers",
+          "date": "2026-12-29"
+        }
+      ],
+      "where": "Honolulu, May 24–27, 2027",
+      "note": "The workshop list is not posted yet. At least one workshop has announced Dec 29, the same date as last year’s common deadline.",
+      "url": "https://infocom2027.ieee-infocom.org/"
+    },
+    {
+      "id": "icmlcn27",
+      "name": "ICMLCN 2027",
+      "status": "posted",
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2026-12-30"
+        }
+      ],
+      "where": "Paris",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-conference-machine-learning-communication-and-networking-2027"
+    },
+    {
+      "id": "sigmetrics27-w",
+      "name": "SIGMETRICS 2027",
+      "cycle": "Winter round",
+      "status": "posted",
+      "tags": [
+        "measurement",
+        "systems"
+      ],
+      "dates": [
+        {
+          "label": "Abstract",
+          "date": "2027-01-04"
+        },
+        {
+          "label": "Paper",
+          "date": "2027-01-11"
+        }
+      ],
+      "where": "Atlanta, Jun 7–10, 2027, at FCRC",
+      "url": "https://sigmetrics.org/sigmetrics2027/pages/cfp.html"
+    },
+    {
+      "id": "icdcs27",
+      "name": "ICDCS 2027",
+      "status": "posted",
+      "tags": [
+        "systems"
+      ],
+      "dates": [
+        {
+          "label": "Abstract",
+          "date": "2027-01-06"
+        },
+        {
+          "label": "Paper",
+          "date": "2027-01-13"
+        }
+      ],
+      "where": "Melbourne, Jul 5–8, 2027",
+      "note": "No extensions. 11 pages including references; five submissions per author at most.",
+      "url": "https://icdcs2027.icdcs.org/calls/call-for-research-papers/"
+    },
+    {
+      "id": "eucnc27",
+      "name": "EuCNC & 6G Summit 2027",
+      "status": "posted",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Mid-January (indicative)",
+        "from": "2027-01-11",
+        "to": "2027-01-22"
+      },
+      "sort": "2027-01-15",
+      "where": "Dublin, Jun 8–11, 2027"
+    },
+    {
+      "id": "netsoft27",
+      "name": "NetSoft 2027",
+      "status": "estimate",
+      "tags": [
+        "networking"
+      ],
+      "estimate": {
+        "text": "Mid-January, not posted yet",
+        "from": "2027-01-07",
+        "to": "2027-01-26"
+      },
+      "sort": "2027-01-12",
+      "where": "Seoul",
+      "note": "Jan 7 in 2025; Jan 12, extended to Jan 26, in 2026.",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-conference-network-softwarization-2027"
+    },
+    {
+      "id": "icc27-ws",
+      "name": "ICC 2027 workshops",
+      "status": "posted",
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Papers",
+          "date": "2027-01-17"
+        }
+      ],
+      "where": "Washington, DC, May 30–Jun 3, 2027",
+      "url": "https://icc2027.ieee-icc.org/"
+    },
+    {
+      "id": "hotos27",
+      "name": "HotOS ’27",
+      "status": "unconfirmed",
+      "tags": [
+        "systems"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-02-01"
+        }
+      ]
+    },
+    {
+      "id": "iwqos27",
+      "name": "IWQoS 2027",
+      "status": "unconfirmed",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-02-01"
+        }
+      ]
+    },
+    {
+      "id": "vtc27f",
+      "name": "VTC2027-Fall",
+      "status": "unconfirmed",
+      "tags": [
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-02-01"
+        }
+      ],
+      "where": "Osaka, Sept 27–30, 2027",
+      "note": "Much earlier than past Fall editions, so worth confirming.",
+      "url": "https://vtsociety.org/event/conference/2027-ieee-106th-vehicular-technology-conference"
+    },
+    {
+      "id": "sigcomm27",
+      "name": "SIGCOMM 2027",
+      "status": "posted",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-02-02"
+        }
+      ],
+      "where": "Bangkok, Aug 8–12, 2027",
+      "note": "Hard deadline. New process this year: no rebuttals or one-shot revisions, some papers accepted to CCR instead, and every submission needs a reciprocal reviewer.",
+      "url": "https://conferences.sigcomm.org/sigcomm/2027/cfp/"
+    },
+    {
+      "id": "vtc27s-ws",
+      "name": "VTC2027-Spring workshops",
+      "status": "estimate",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Early February, not posted yet",
+        "from": "2027-02-01",
+        "to": "2027-02-10"
+      },
+      "sort": "2027-02-05",
+      "where": "Hamburg, Jun 20–23, 2027",
+      "note": "The main track closed Sept 1, 2026.",
+      "url": "https://events.vtsociety.org/vtc2027-spring/"
+    },
+    {
+      "id": "vnc27",
+      "name": "VNC 2027",
+      "status": "estimate",
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "estimate": {
+        "text": "Mid-January to early March, not posted yet",
+        "from": "2027-01-15",
+        "to": "2027-03-01"
+      },
+      "sort": "2027-02-10"
+    },
+    {
+      "id": "wisec27-2",
+      "name": "WiSec 2027",
+      "cycle": "Cycle 2",
+      "status": "unconfirmed",
+      "tags": [
+        "security",
+        "wireless"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-02-15"
+        }
+      ]
+    },
+    {
+      "id": "icccn27",
+      "name": "ICCCN 2027",
+      "status": "unconfirmed",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-02-19"
+        }
+      ]
+    },
+    {
+      "id": "ifipnet27",
+      "name": "IFIP Networking 2027",
+      "status": "estimate",
+      "tags": [
+        "networking"
+      ],
+      "estimate": {
+        "text": "February to early March, not posted yet",
+        "from": "2027-02-08",
+        "to": "2027-03-07"
+      },
+      "sort": "2027-02-20",
+      "note": "Feb 8 in 2026; Mar 7 in 2025."
+    },
+    {
+      "id": "medcomnet27",
+      "name": "MedComNet 2027",
+      "status": "estimate",
+      "tags": [
+        "networking",
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Late January to mid-March, not posted yet",
+        "from": "2027-01-21",
+        "to": "2027-03-14"
+      },
+      "sort": "2027-02-21"
+    },
+    {
+      "id": "meditcom27",
+      "name": "MeditCom 2027",
+      "status": "estimate",
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "estimate": {
+        "text": "Late February, not posted yet",
+        "from": "2027-02-20",
+        "to": "2027-02-28"
+      },
+      "sort": "2027-02-26",
+      "where": "Cagliari",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-mediterranean-conference-communications-and-networking-2027"
+    },
+    {
+      "id": "mobicom27-w",
+      "name": "MobiCom 2027",
+      "cycle": "Winter round",
+      "status": "estimate",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Early March; the official site says TBD",
+        "from": "2027-03-01",
+        "to": "2027-03-08"
+      },
+      "sort": "2027-03-05",
+      "where": "Athens, Oct 18–22, 2027",
+      "url": "https://sigmobile.org/mobicom/2027/cfp.html"
+    },
+    {
+      "id": "pimrc27",
+      "name": "PIMRC 2027",
+      "status": "estimate",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Mid-March, not posted yet",
+        "from": "2027-03-10",
+        "to": "2027-03-20"
+      },
+      "sort": "2027-03-16",
+      "where": "Lisbon",
+      "note": "Mar 16 in both 2025 and 2026.",
+      "url": "https://www.comsoc.org/conferences-events/ieee-international-symposium-personal-indoor-and-mobile-radio-communications-2027"
+    },
+    {
+      "id": "imc27-2",
+      "name": "IMC 2027",
+      "cycle": "Cycle 2",
+      "status": "posted",
+      "tags": [
+        "measurement"
+      ],
+      "dates": [
+        {
+          "label": "Abstract",
+          "date": "2027-03-31"
+        },
+        {
+          "label": "Paper",
+          "date": "2027-04-07"
+        }
+      ],
+      "where": "Atlanta, Oct 25–29, 2027"
+    },
+    {
+      "id": "sosp27",
+      "name": "SOSP 2027",
+      "status": "estimate",
+      "tags": [
+        "systems"
+      ],
+      "estimate": {
+        "text": "Around April 1, abstracts in late March",
+        "from": "2027-03-25",
+        "to": "2027-04-01"
+      },
+      "sort": "2027-04-01"
+    },
+    {
+      "id": "globecom27",
+      "name": "Globecom 2027",
+      "status": "estimate",
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "estimate": {
+        "text": "Early to mid-April, not posted yet",
+        "from": "2027-04-01",
+        "to": "2027-04-15"
+      },
+      "sort": "2027-04-08",
+      "where": "Abu Dhabi, Dec 6–10, 2027"
+    },
+    {
+      "id": "mobihoc27",
+      "name": "MobiHoc 2027",
+      "status": "estimate",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Early to mid-April, not posted yet",
+        "from": "2027-04-01",
+        "to": "2027-04-20"
+      },
+      "sort": "2027-04-10"
+    },
+    {
+      "id": "lcn27",
+      "name": "LCN 2027",
+      "status": "unconfirmed",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Paper",
+          "date": "2027-04-16"
+        }
+      ],
+      "where": "Oct 19–21, 2027"
+    },
+    {
+      "id": "nsdi28-s",
+      "name": "NSDI ’28",
+      "cycle": "Spring round",
+      "status": "estimate",
+      "tags": [
+        "systems",
+        "networking"
+      ],
+      "estimate": {
+        "text": "Mid-April, not posted yet",
+        "from": "2027-04-12",
+        "to": "2027-04-23"
+      },
+      "sort": "2027-04-16",
+      "where": "Santa Clara, May 9–11, 2028"
+    },
+    {
+      "id": "eurosys28-s",
+      "name": "EuroSys 2028",
+      "cycle": "Spring round",
+      "status": "estimate",
+      "tags": [
+        "systems"
+      ],
+      "estimate": {
+        "text": "Mid-May, abstracts a week earlier",
+        "from": "2027-05-07",
+        "to": "2027-05-14"
+      },
+      "sort": "2027-05-14"
+    },
+    {
+      "id": "icnp27",
+      "name": "ICNP 2027",
+      "status": "estimate",
+      "tags": [
+        "networking"
+      ],
+      "estimate": {
+        "text": "Mid-to-late May, not posted yet",
+        "from": "2027-05-15",
+        "to": "2027-05-22"
+      },
+      "sort": "2027-05-20",
+      "note": "Abstracts May 15 and papers May 22 last year."
+    },
+    {
+      "id": "conext27-jun",
+      "name": "CoNEXT 2027",
+      "cycle": "June cycle",
+      "status": "posted",
+      "tags": [
+        "networking"
+      ],
+      "dates": [
+        {
+          "label": "Registration",
+          "date": "2027-05-28"
+        },
+        {
+          "label": "Paper",
+          "date": "2027-06-04"
+        }
+      ],
+      "where": "Rio de Janeiro, Dec 6–9, 2027"
+    },
+    {
+      "id": "milcom27",
+      "name": "MILCOM 2027",
+      "status": "estimate",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Late May to mid-June, not posted yet",
+        "from": "2027-05-18",
+        "to": "2027-06-10"
+      },
+      "sort": "2027-06-01"
+    },
+    {
+      "id": "atc27",
+      "name": "ATC 2027",
+      "status": "estimate",
+      "tags": [
+        "systems"
+      ],
+      "estimate": {
+        "text": "Early to mid-June, not posted yet",
+        "from": "2027-06-03",
+        "to": "2027-06-14"
+      },
+      "sort": "2027-06-10",
+      "note": "Now run as the ACM SIGOPS Annual Technical Conference."
+    },
+    {
+      "id": "sigmetrics28-s",
+      "name": "SIGMETRICS 2028",
+      "cycle": "Summer round",
+      "status": "estimate",
+      "tags": [
+        "measurement",
+        "systems"
+      ],
+      "estimate": {
+        "text": "July, not posted yet",
+        "from": "2027-07-08",
+        "to": "2027-07-20"
+      },
+      "sort": "2027-07-15"
+    },
+    {
+      "id": "mobicom28-s",
+      "name": "MobiCom 2028",
+      "cycle": "Summer round",
+      "status": "estimate",
+      "tags": [
+        "wireless"
+      ],
+      "estimate": {
+        "text": "Early September, not posted yet",
+        "from": "2027-08-30",
+        "to": "2027-09-06"
+      },
+      "sort": "2027-09-02",
+      "note": "Sept 2 last year."
+    },
+    {
+      "id": "nsdi28-f",
+      "name": "NSDI ’28",
+      "cycle": "Fall round",
+      "status": "estimate",
+      "tags": [
+        "systems",
+        "networking"
+      ],
+      "estimate": {
+        "text": "Mid-September, not posted yet",
+        "from": "2027-09-08",
+        "to": "2027-09-17"
+      },
+      "sort": "2027-09-10",
+      "note": "Abstracts were due Sept 10 last year."
+    },
+    {
+      "id": "sigmetrics28-f",
+      "name": "SIGMETRICS 2028",
+      "cycle": "Fall round",
+      "status": "estimate",
+      "tags": [
+        "measurement",
+        "systems"
+      ],
+      "estimate": {
+        "text": "Early October, not posted yet",
+        "from": "2027-10-01",
+        "to": "2027-10-10"
+      },
+      "sort": "2027-10-08",
+      "note": "Oct 2 and Oct 9 last year."
+    },
+    {
+      "id": "imc28-1",
+      "name": "IMC 2028",
+      "cycle": "Cycle 1",
+      "status": "estimate",
+      "tags": [
+        "measurement"
+      ],
+      "estimate": {
+        "text": "Mid-November, not posted yet",
+        "from": "2027-11-08",
+        "to": "2027-11-19"
+      },
+      "sort": "2027-11-15",
+      "note": "Registration Nov 10 and papers Nov 17 last year."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+---
+layout: page
+title: Networking &amp; Systems Deadlines
+description: "Upcoming paper deadlines for networking, wireless and systems conferences, with countdowns and estimates for calls not yet posted."
+tags: [deadlines, conferences, networking, wireless, systems]
+comments: false
+---
+<div id="deadlines" class="deadlines">
+  <p class="lede">Paper deadlines for networking, wireless and systems venues from November 2026 through 2027. Times are AoE unless a row says otherwise. <strong id="checked">Loading deadlines…</strong></p>
+  <div class="strip-scroll" aria-label="Timeline of deadlines">
+    <div class="strip" id="strip">
+      <div class="strip-tip" id="tip"></div>
+    </div>
+    <div class="strip-foot"></div>
+  </div>
+
+  <div class="controls" role="region" aria-label="Filters">
+    <div class="row">
+      <input class="search" id="q" type="search" placeholder="Search by name, city or note" aria-label="Search deadlines">
+      <div class="chips" id="chips" role="group" aria-label="Topic"></div>
+    </div>
+    <div class="row row-toggles">
+      <div class="toggles">
+        <label><input type="checkbox" id="est" checked> Include estimates</label>
+        <label><input type="checkbox" id="closed"> Show closed</label>
+      </div>
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span><i class="l-posted"></i>Posted on the official site</span>
+      <span><i class="l-unconfirmed"></i>Unconfirmed, from a tracker or one workshop</span>
+      <span><i class="l-estimate"></i>Estimate, based on past years</span>
+    </div>
+  </div>
+
+  <div class="list" id="list" aria-live="polite"></div>
+
+  <div class="foot">
+    <p>Check the conference’s own call for papers before planning around a date. Estimates move once a call is posted, and many IEEE deadlines get extended.</p>
+    <p id="count-line"></p>
+  </div>
+</div>
+<script src="{{ site.url }}/deadlines/deadlines.js"></script>
