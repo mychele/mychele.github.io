@@ -10,6 +10,8 @@ comments: false
 
 AI-RAN brings AI and the radio access network onto shared, accelerated infrastructure: AI is used to improve the RAN (AI-for-RAN), AI workloads run alongside RAN workloads on the same compute (AI-and-RAN), and the RAN becomes a platform for AI services at the edge (AI-on-RAN). My work focuses on open and programmable architectures for this convergence, on how AI models are deployed, verified, and orchestrated in the RAN, and on testing all of this on real GPU-accelerated systems.
 
+{% include ai-ran-explorer.html %}
+
 ## Community and industry
 
 * Chair of the **AI-RAN Alliance AI-and-RAN Working Group (WG2)**, elected position (2025-2028), leading tasks on architecture and AI/ML workflows.
