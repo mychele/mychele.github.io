@@ -2,3 +2,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .DS_Store
+
+# Film photo originals (large scans); web versions are built into assets/img/film/
+assets/img/film-photos/

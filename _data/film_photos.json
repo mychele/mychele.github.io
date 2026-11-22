@@ -1,0 +1,354 @@
+[
+  {
+    "name": "2026-11-18-color-01",
+    "date": "2026-11-18",
+    "type": "color",
+    "width": 2000,
+    "height": 1338,
+    "source": "color/000031.JPG"
+  },
+  {
+    "name": "2026-09-16-color-04",
+    "date": "2026-09-16",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000051060020.jpg"
+  },
+  {
+    "name": "2026-09-16-color-03",
+    "date": "2026-09-16",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000051060015.jpg"
+  },
+  {
+    "name": "2026-09-16-color-02",
+    "date": "2026-09-16",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000051060014.jpg"
+  },
+  {
+    "name": "2026-09-16-color-01",
+    "date": "2026-09-16",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000051060001.jpg"
+  },
+  {
+    "name": "2026-04-05-bw-03",
+    "date": "2026-04-05",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000003150007.jpg"
+  },
+  {
+    "name": "2026-04-05-bw-02",
+    "date": "2026-04-05",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000003150002.jpg"
+  },
+  {
+    "name": "2026-04-05-bw-01",
+    "date": "2026-04-05",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000003150001.jpg"
+  },
+  {
+    "name": "2026-02-06-color-01",
+    "date": "2026-02-06",
+    "type": "color",
+    "width": 2000,
+    "height": 1338,
+    "source": "color/R1-03365-0019.JPG"
+  },
+  {
+    "name": "2025-11-05-color-02",
+    "date": "2025-11-05",
+    "type": "color",
+    "width": 2000,
+    "height": 1338,
+    "source": "color/R1-03282-006A.JPG"
+  },
+  {
+    "name": "2025-11-05-color-01",
+    "date": "2025-11-05",
+    "type": "color",
+    "width": 2000,
+    "height": 1338,
+    "source": "color/R1-03282-005A.JPG"
+  },
+  {
+    "name": "2025-10-27-color-04",
+    "date": "2025-10-27",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000015180021.jpg"
+  },
+  {
+    "name": "2025-10-27-color-03",
+    "date": "2025-10-27",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000015180010.jpg"
+  },
+  {
+    "name": "2025-10-27-color-02",
+    "date": "2025-10-27",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000015180005.jpg"
+  },
+  {
+    "name": "2025-10-27-color-01",
+    "date": "2025-10-27",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000015180003.jpg"
+  },
+  {
+    "name": "2025-04-01-color-02",
+    "date": "2025-04-01",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000059190014.jpg"
+  },
+  {
+    "name": "2025-04-01-color-01",
+    "date": "2025-04-01",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000059190003.jpg"
+  },
+  {
+    "name": "2025-01-21-bw-01",
+    "date": "2025-01-21",
+    "type": "bw",
+    "width": 1676,
+    "height": 1024,
+    "source": "Untitled-7.tif"
+  },
+  {
+    "name": "2024-11-06-color-05",
+    "date": "2024-11-06",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000043910037.jpg"
+  },
+  {
+    "name": "2024-11-06-color-04",
+    "date": "2024-11-06",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000043910034.jpg"
+  },
+  {
+    "name": "2024-11-06-color-03",
+    "date": "2024-11-06",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000043910028.jpg"
+  },
+  {
+    "name": "2024-11-06-color-02",
+    "date": "2024-11-06",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000043910009.jpg"
+  },
+  {
+    "name": "2024-11-06-color-01",
+    "date": "2024-11-06",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000043910006.jpg"
+  },
+  {
+    "name": "2024-07-09-color-05",
+    "date": "2024-07-09",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000004430031.jpg"
+  },
+  {
+    "name": "2024-07-09-color-04",
+    "date": "2024-07-09",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000004430026.jpg"
+  },
+  {
+    "name": "2024-07-09-color-03",
+    "date": "2024-07-09",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000004430021.jpg"
+  },
+  {
+    "name": "2024-07-09-color-02",
+    "date": "2024-07-09",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000004430017.jpg"
+  },
+  {
+    "name": "2024-07-09-color-01",
+    "date": "2024-07-09",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000004430009.jpg"
+  },
+  {
+    "name": "2024-06-24-bw-03",
+    "date": "2024-06-24",
+    "type": "bw",
+    "width": 1676,
+    "height": 1016,
+    "source": "img20240624_11321116.tif"
+  },
+  {
+    "name": "2024-06-24-bw-02",
+    "date": "2024-06-24",
+    "type": "bw",
+    "width": 2000,
+    "height": 1257,
+    "source": "img20240624_11154441.tif"
+  },
+  {
+    "name": "2024-06-24-bw-01",
+    "date": "2024-06-24",
+    "type": "bw",
+    "width": 2000,
+    "height": 1206,
+    "source": "img20240624_10532323.tif"
+  },
+  {
+    "name": "2024-04-26-color-02",
+    "date": "2024-04-26",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000086550008.jpg"
+  },
+  {
+    "name": "2024-04-26-color-01",
+    "date": "2024-04-26",
+    "type": "color",
+    "width": 2000,
+    "height": 1326,
+    "source": "color/000086550003.jpg"
+  },
+  {
+    "name": "2024-04-24-bw-01",
+    "date": "2024-04-24",
+    "type": "bw",
+    "width": 1219,
+    "height": 2000,
+    "source": "img20240424_13324837.tif"
+  },
+  {
+    "name": "2024-01-12-bw-02",
+    "date": "2024-01-12",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000034200024.jpg"
+  },
+  {
+    "name": "2024-01-12-bw-01",
+    "date": "2024-01-12",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000034200013.jpg"
+  },
+  {
+    "name": "2023-12-12-bw-01",
+    "date": "2023-12-12",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000020420017.jpg"
+  },
+  {
+    "name": "2023-11-01-bw-02",
+    "date": "2023-11-01",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000002010018.jpg"
+  },
+  {
+    "name": "2023-11-01-bw-01",
+    "date": "2023-11-01",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000002010004.jpg"
+  },
+  {
+    "name": "2023-07-20-bw-02",
+    "date": "2023-07-20",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000045440016.jpg"
+  },
+  {
+    "name": "2023-07-20-bw-01",
+    "date": "2023-07-20",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000045440006.jpg"
+  },
+  {
+    "name": "2023-03-24-bw-02",
+    "date": "2023-03-24",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000013660015.jpg"
+  },
+  {
+    "name": "2023-03-24-bw-01",
+    "date": "2023-03-24",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000013660008.jpg"
+  },
+  {
+    "name": "2023-03-08-bw-01",
+    "date": "2023-03-08",
+    "type": "bw",
+    "width": 2000,
+    "height": 1326,
+    "source": "000007700022.tif"
+  }
+]

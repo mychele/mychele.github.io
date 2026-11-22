@@ -1,0 +1,97 @@
+// Film photography page (/film/), scoped under #film and #film-viewer
+#film {
+	.film-lede { text-align: center; color: $color_fuscous_gray; max-width: 60ch; margin: 0 auto 1rem; }
+	.film-year {
+		@include font-rem(15);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: $color_fuscous_gray;
+		margin: 2rem 0 0.6rem;
+	}
+	// Justified rows: each photo grows in proportion to its aspect ratio (--r = width / height)
+	.film-grid {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		&::after { content: ""; flex-grow: 1e4; }
+	}
+	.film-item {
+		display: block;
+		flex-grow: calc(var(--r) * 100);
+		flex-basis: calc(var(--r) * 150px);
+		background: $color_gallery;
+		overflow: hidden;
+		border-radius: 2px;
+		&:focus-visible { outline: 2px solid $info; outline-offset: 2px; }
+	}
+	.film-item img {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: var(--r);
+		object-fit: cover;
+		transition: opacity .2s;
+	}
+	.film-item:hover img { opacity: .88; }
+	@media #{$small} {
+		.film-item { flex-basis: calc(var(--r) * 100px); }
+	}
+}
+
+#film-viewer {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	max-width: 100vw;
+	max-height: 100vh;
+	width: 100vw;
+	height: 100vh;
+	&::backdrop { background: rgba(0, 0, 0, 0.92); }
+	figure {
+		margin: 0;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 3rem 4rem 1rem;
+		pointer-events: none;
+		@media #{$small} { padding: 3rem 0.5rem 1rem; }
+	}
+	img {
+		max-width: 100%;
+		max-height: calc(100vh - 7rem);
+		object-fit: contain;
+		pointer-events: auto;
+		transition: opacity .2s;
+		&.is-loading { opacity: .3; }
+	}
+	figcaption {
+		color: #ccc;
+		@include font-rem(13);
+		margin-top: 0.8rem;
+		text-align: center;
+	}
+	button {
+		position: absolute;
+		background: transparent;
+		border: 0;
+		color: #ddd;
+		cursor: pointer;
+		font: 300 2.6rem/1 $font1;
+		padding: 0.5rem 0.9rem;
+		&:hover { color: $white; }
+		&:focus-visible { outline: 2px solid $white; outline-offset: 2px; }
+	}
+	.film-prev { left: 0.25rem; top: 50%; transform: translateY(-50%); }
+	.film-next { right: 0.25rem; top: 50%; transform: translateY(-50%); }
+	.film-close { right: 0.25rem; top: 0.25rem; font-size: 2.2rem; }
+}
+
+@media (prefers-color-scheme: dark) {
+	#film {
+		.film-lede, .film-year { color: #a8a8a8; }
+		.film-item { background: #2e2e2e; }
+	}
+}

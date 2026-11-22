@@ -1,0 +1,41 @@
+---
+layout: page
+title: Film Photography
+description: "Film photographs by Michele Polese, black and white and color, newest first."
+tags: [film photography, photos, Michele Polese]
+comments: false
+redirect_from:
+  - /travel/
+---
+<div id="film" class="film">
+  <p class="film-lede">Photos I shot on film, newest first, dated by when each roll was scanned. Select a photo to see it larger.</p>
+  {% assign photos = site.data.film_photos %}
+  {% assign current = "" %}
+  {% for p in photos %}
+    {% assign year = p.date | slice: 0, 4 %}
+    {% if year != current %}
+      {% unless forloop.first %}</div>{% endunless %}
+      <h2 class="film-year" id="y{{ year }}">{{ year }}</h2>
+      <div class="film-grid">
+      {% assign current = year %}
+    {% endif %}
+    {% capture base %}{{ site.url }}/assets/img/film/{{ p.name }}{% endcapture %}
+    {% if p.type == "bw" %}{% assign kind = "Black and white" %}{% else %}{% assign kind = "Color" %}{% endif %}
+    {% capture label %}{% if p.caption %}{{ p.caption }}. {% endif %}{{ kind }}, scanned {{ p.date | date: "%B %Y" }}{% endcapture %}
+    <a class="film-item" href="{{ base }}-2000.webp" data-full="{{ base }}-2000.webp" data-label="{{ label | escape }}" style="--r: {{ p.width | times: 1.0 | divided_by: p.height | round: 4 }}">
+      <img src="{{ base }}-600.webp" srcset="{{ base }}-600.webp 600w, {{ base }}-1200.webp 1200w" sizes="(max-width: 30em) 50vw, 300px" width="{{ p.width }}" height="{{ p.height }}" loading="{% if forloop.index <= 6 %}eager{% else %}lazy{% endif %}" decoding="async" alt="{{ label | escape }}">
+    </a>
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+</div>
+
+<dialog class="film-viewer" id="film-viewer" aria-label="Photo viewer">
+  <figure>
+    <img id="film-viewer-img" alt="">
+    <figcaption id="film-viewer-caption"></figcaption>
+  </figure>
+  <button type="button" class="film-nav film-prev" id="film-prev" aria-label="Previous photo">&#8249;</button>
+  <button type="button" class="film-nav film-next" id="film-next" aria-label="Next photo">&#8250;</button>
+  <button type="button" class="film-close" id="film-close" aria-label="Close">&times;</button>
+</dialog>
+<script src="{{ site.url }}/assets/js/film.js"></script>
