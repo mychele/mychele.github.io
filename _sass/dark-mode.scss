@@ -1,45 +1,40 @@
-// Dark mode — imported last so it overrides all other color rules
+// Dark mode — imported last so it overrides all other color rules.
+// The theme reads from CSS variables, so most of this is a palette swap: the
+// paper becomes a dark print and the edge prints keep their amber.
 @media (prefers-color-scheme: dark) {
+    :root {
+        --paper: #1d1a17;
+        --paper-2: #26221e;
+        --ink: #ece6db;
+        --ink-soft: #a69e91;
+        --rule: #3a342d;
+        --accent: #ff8f5a;
+    }
     body {
-        background-color: #1a1a1a;
-        color: #e0e0e0;
         @media #{$small} {
-            background: #1a1a1a;
+            background: var(--paper);
         }
     }
-    .container, .wrapper, #disqus_thread {
-        background-color: #242424;
-        color: #e0e0e0;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    }
-    a, h1.title a, h3.title a {
-        color: #e0e0e0;
-        &:link { color: #e0e0e0; }
-        &:visited { color: #bbb; }
-        &:hover { color: #ff6b5b; }
-    }
+    .print { background: #e9e4da; }
+    .sheet .content a, .log a { text-decoration-color: rgba(255, 143, 90, 0.5); }
     .btn, .social-btn {
-        background: #3a3a3a;
-        color: #e0e0e0;
-        border-color: #555;
+        background: #3a342d;
+        color: var(--ink);
+        border-color: #4a433a;
         &:hover {
-            color: #ff6b5b;
-            background: #444;
+            color: var(--accent);
+            background: #443d35;
         }
     }
     p code, li code, p pre, li pre {
-        background-color: #2e2e2e;
-        border-color: #444;
-        color: #e0e0e0;
+        background-color: #2a2622;
+        border-color: #3a342d;
+        color: var(--ink);
     }
     hr {
         border-top-color: rgba(255,255,255,0.1);
         &.hr-line {
             border-top-color: rgba(255,255,255,0.08);
         }
-    }
-    #goup {
-        background: #2c2c2c;
-        color: #e0e0e0;
     }
 }

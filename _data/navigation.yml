@@ -1,7 +1,30 @@
-# Site navigation links
+# Site navigation links, in menu order. "short" is the label in the top bar when the title is long.
+
+- title: About
+  url: /about/
+
+- title: Research
+  url: /research/
+
+- title: Publications
+  url: /publications/
+
+- title: Service
+  url: /service/
+
+- title: Teaching
+  url: /teaching/
+
+- title: News
+  url: /news/
 
 - title: Projects
   url: /projects/
 
 - title: Networking & Systems Conference Deadlines
+  short: Deadlines
   url: /deadlines/
+
+- title: Film Photography
+  short: Film
+  url: /film/

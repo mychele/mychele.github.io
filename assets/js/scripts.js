@@ -2,73 +2,19 @@
 (function () {
   "use strict";
 
-  // --- Mobile nav toggle ---
-  var trigger = document.querySelector(".dl-trigger");
-  var menu = document.querySelector(".dl-menu");
-  if (trigger && menu) {
-    trigger.addEventListener("click", function (e) {
-      e.preventDefault();
-      var isOpen = menu.classList.contains("dl-menuopen");
-      menu.classList.toggle("dl-menuopen");
-      trigger.classList.toggle("dl-active");
-      // Toggle about submenu
-      var submenu = menu.querySelector(".dl-submenu");
-      if (submenu && isOpen) {
-        submenu.classList.remove("dl-submenu-open");
-      }
+  // --- Top bar menu toggle on narrow screens ---
+  var bar = document.querySelector(".topbar");
+  var toggle = document.querySelector(".topbar-toggle");
+  if (bar && toggle) {
+    toggle.addEventListener("click", function () {
+      var open = bar.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.textContent = open ? "Close" : "Menu";
     });
-    // About submenu toggle
-    var aboutLink = menu.querySelector("li > a[href='#']");
-    if (aboutLink) {
-      aboutLink.addEventListener("click", function (e) {
-        e.preventDefault();
-        var submenu = this.nextElementSibling;
-        if (submenu && submenu.classList.contains("dl-submenu")) {
-          submenu.classList.toggle("dl-submenu-open");
-        }
-      });
-    }
-    // Close menu when clicking outside
-    document.addEventListener("click", function (e) {
-      if (!e.target.closest(".dl-menuwrapper")) {
-        menu.classList.remove("dl-menuopen");
-        trigger.classList.remove("dl-active");
-        var openSub = menu.querySelector(".dl-submenu-open");
-        if (openSub) openSub.classList.remove("dl-submenu-open");
-      }
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && bar.classList.contains("is-open")) toggle.click();
     });
   }
-
-  // --- Safari back-button cache fix ---
-  window.onpageshow = function (event) {
-    var container = document.querySelector(".container");
-    var wrapper = document.querySelector(".wrapper");
-    if (container && container.classList.contains("fadeOut")) {
-      container.classList.remove("fadeOut");
-      container.classList.add("fadeIn");
-    }
-    if (wrapper && wrapper.classList.contains("fadeOut")) {
-      wrapper.classList.remove("fadeOut");
-      wrapper.classList.add("fadeIn");
-    }
-  };
-  window.onunload = function () {};
-
-  // --- Zoom button transition (page exit animation) ---
-  document.querySelectorAll(".zoombtn").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      var container = document.querySelector(".container");
-      var wrapper = document.querySelector(".wrapper");
-      if (container) {
-        container.classList.remove("fadeIn");
-        container.classList.add("fadeOut");
-      }
-      if (wrapper) {
-        wrapper.classList.remove("fadeIn");
-        wrapper.classList.add("fadeOut");
-      }
-    });
-  });
 
   // --- Add lightbox class to image links ---
   document

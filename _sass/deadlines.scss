@@ -1,10 +1,10 @@
 // Conference deadlines page (/deadlines/), scoped under #deadlines
 #deadlines {
-	--dl-panel: #{$color_alabaster};
-	--dl-ink: #{$color_tuatara};
-	--dl-ink-soft: #{$color_fuscous_gray};
-	--dl-rule: #{$color_mischka};
-	--dl-bg: #{$white};
+	--dl-panel: var(--paper-2);
+	--dl-ink: var(--ink);
+	--dl-ink-soft: var(--ink-soft);
+	--dl-rule: var(--rule);
+	--dl-bg: var(--paper);
 	--dl-posted: #1f6f99;
 	--dl-unconfirmed: #b0601c;
 	--dl-estimate: #{$color_stack};
@@ -62,7 +62,7 @@
 
 	// Controls
 	.controls {
-		position: sticky; top: 0; z-index: 5;
+		position: sticky; top: var(--bar); z-index: 5;
 		background: var(--dl-bg);
 		padding: 14px 0 12px;
 		border-bottom: 1px solid var(--dl-rule);
@@ -98,9 +98,10 @@
 	.list { padding-bottom: 32px; }
 	.month { margin-top: 30px; }
 	.month h2 {
-		font-size: 15px; font-weight: 600; color: var(--dl-ink-soft);
-		text-transform: uppercase; letter-spacing: 0.06em;
-		margin: 0 0 8px;
+		font-family: var(--mono); font-size: 0.72rem; font-weight: 400; color: var(--dl-ink-soft);
+		text-transform: uppercase; letter-spacing: 0.14em; line-height: 1.4;
+		margin: 0 0 10px; padding: 0; border: 0;
+		&::before { content: none; }
 	}
 	.item {
 		display: grid;
@@ -156,11 +157,6 @@
 
 @media (prefers-color-scheme: dark) {
 	#deadlines {
-		--dl-panel: #2e2e2e;
-		--dl-ink: #e0e0e0;
-		--dl-ink-soft: #a8a8a8;
-		--dl-rule: #444;
-		--dl-bg: #242424;
 		--dl-posted: #5fb4e0;
 		--dl-unconfirmed: #e8a35a;
 		--dl-estimate: #8a8a8a;

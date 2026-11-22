@@ -1,13 +1,18 @@
 // Film photography page (/film/), scoped under #film and #film-viewer
 #film {
-	.film-lede { text-align: center; color: $color_fuscous_gray; max-width: 60ch; margin: 0 auto 1rem; }
+	.film-lede { text-align: center; color: var(--ink-soft); max-width: 60ch; margin: 0 auto 1rem; }
 	.film-year {
-		@include font-rem(15);
-		font-weight: 600;
+		font-family: var(--mono);
+		font-size: 0.72rem;
+		font-weight: 400;
 		text-transform: uppercase;
-		letter-spacing: 0.06em;
-		color: $color_fuscous_gray;
-		margin: 2rem 0 0.6rem;
+		letter-spacing: 0.14em;
+		line-height: 1.4;
+		color: var(--ink-soft);
+		margin: 2rem 0 0.7rem;
+		padding: 0;
+		border: 0;
+		&::before { content: none; }
 	}
 	// Justified rows: each photo grows in proportion to its aspect ratio (--r = width / height)
 	.film-grid {
@@ -20,7 +25,7 @@
 		display: block;
 		flex-grow: calc(var(--r) * 100);
 		flex-basis: calc(var(--r) * 150px);
-		background: $color_gallery;
+		background: var(--paper-2);
 		overflow: hidden;
 		border-radius: 2px;
 		&:focus-visible { outline: 2px solid $info; outline-offset: 2px; }
@@ -89,9 +94,3 @@
 	.film-close { right: 0.25rem; top: 0.25rem; font-size: 2.2rem; }
 }
 
-@media (prefers-color-scheme: dark) {
-	#film {
-		.film-lede, .film-year { color: #a8a8a8; }
-		.film-item { background: #2e2e2e; }
-	}
-}
