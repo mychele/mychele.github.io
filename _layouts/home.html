@@ -9,18 +9,13 @@ layout: compress
 <body class="home">
     {% include nav.html %}
     <main class="home-main">
+        <div class="home-sheet">
         <section class="hero" style="--hero-bg: url({{ site.url }}/{{ site.background }})">
-            <figure class="print">
-                <img src="{{ site.url }}/{{ site.seo_image }}" width="565" height="706" alt="Portrait of {{ site.title }}">
-                <figcaption><span>&#9656; 01A</span><span>M. POLESE</span></figcaption>
-            </figure>
-            <div class="hero-text">
-                <p class="kicker"><span class="signal">{% include antenna.svg %}</span>Open RAN &middot; AI-RAN &middot; Spectrum &middot; 6G</p>
-                <h1 class="hero-name">Michele <em>Polese</em></h1>
-                <p class="hero-role">{{ site.bio }}</p>
-                <p class="hero-org">{{ site.workplace | newline_to_br }}</p>
-                {% include social-links.html %}
-            </div>
+            <p class="kicker">Open RAN &middot; AI-RAN &middot; Spectrum &middot; 6G</p>
+            <h1 class="hero-name">Michele <em>Polese</em></h1>
+            <p class="hero-role">{{ site.bio }}</p>
+            <p class="hero-org">{{ site.workplace | newline_to_br }}</p>
+            {% include social-links.html %}
         </section>
 
         <section class="log" aria-labelledby="log-title">
@@ -34,12 +29,7 @@ layout: compress
             <a class="more" href="{{ site.url }}/news/">All news &rarr;</a>
         </section>
 
-        <section class="index" aria-label="Sections">
-            <a href="{{ site.url }}/research/"><span class="n">02</span><b>Research</b><span>dApps, AI-RAN, spectrum sharing, Open6G</span></a>
-            <a href="{{ site.url }}/publications/"><span class="n">03</span><b>Publications</b><span>Journals, conferences, book chapters</span></a>
-            <a href="{{ site.url }}/service/"><span class="n">04</span><b>Service</b><span>Editorial boards, chairing, talks</span></a>
-            <a href="{{ site.url }}/teaching/"><span class="n">05</span><b>Teaching</b><span>Courses and tutorials</span></a>
-        </section>
+        </div>
 
         <section class="roll" aria-labelledby="roll-title">
             <div class="roll-film">

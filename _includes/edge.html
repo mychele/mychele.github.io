@@ -1,7 +1,5 @@
-{% assign frame = "00" %}{% for link in site.data.navigation %}{% if page.url contains link.url %}{% assign n = forloop.index | prepend: "0" | slice: -2, 2 %}{% assign frame = n %}{% endif %}{% endfor %}
+{% assign frame = "00" %}{% for link in site.data.navigation %}{% if page.url contains link.url %}{% assign frame = forloop.index | prepend: "0" | slice: -2, 2 %}{% endif %}{% endfor %}
 <div class="edge" aria-hidden="true">
-	<span>POLESE.IO</span>
-	<span class="edge-arrow">&#9656; {{ frame }}</span>
+	<span>&#9656; {{ frame }}</span>
 	<span class="edge-title">{{ include.label | default: page.title | upcase }}</span>
-	<span class="edge-arrow">&#9656; {{ frame }}A</span>
 </div>
