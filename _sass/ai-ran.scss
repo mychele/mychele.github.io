@@ -40,8 +40,7 @@
 		margin: 0 0 6px;
 		padding: 0;
 		border: 0;
-		font-family: var(--serif);
-		font-weight: 400;
+		font-weight: 500;
 		font-size: var(--fs-h2);
 		color: var(--scope-ink);
 		&::before { content: none; }
@@ -179,7 +178,7 @@
 		border-radius: 2px;
 		padding: 12px 12px 10px;
 		transition: border-color .15s, opacity .2s, transform .15s;
-		b { display: block; font-family: var(--serif); font-weight: 400; font-size: var(--fs-h2); line-height: 1; color: var(--scope-ink); }
+		b { display: block; font-weight: 500; font-size: var(--fs-h2); line-height: 1; font-variant-numeric: tabular-nums; color: var(--scope-ink); }
 		small { font-family: var(--sans); font-size: var(--fs-label); color: var(--trace); margin-left: 4px; letter-spacing: 0.04em; }
 		span { display: block; margin-top: 8px; font-size: var(--fs-label); line-height: 1.35; color: var(--scope-dim); }
 		&:hover { border-color: color-mix(in srgb, var(--trace) 40%, transparent); transform: translateY(-2px); }
@@ -194,7 +193,7 @@
 		border-top: 1px solid var(--scope-grid);
 		padding-top: 16px;
 		.airan-kicker { margin: 0 0 6px; font-family: var(--sans); font-size: var(--fs-label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--trace); }
-		h3 { margin: 0 0 8px; font-family: var(--serif); font-weight: 500; font-size: var(--fs-h3); line-height: 1.25; color: var(--scope-ink); }
+		h3 { margin: 0 0 8px; font-weight: 600; font-size: var(--fs-h3); line-height: 1.25; color: var(--scope-ink); }
 		h3 a { color: inherit; text-decoration-color: color-mix(in srgb, var(--trace) 50%, transparent); &:hover { color: var(--trace); } }
 		.airan-summary { color: var(--scope-ink); opacity: 0.85; font-size: var(--fs-small); margin: 0 0 8px; }
 		ul { margin: 0 0 10px; padding-left: 1.1em; font-size: var(--fs-small); }

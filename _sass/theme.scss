@@ -15,7 +15,6 @@
 	--bar-solid: rgba(15, 22, 25, 0.96);
 	--link-line: rgba(29, 116, 135, 0.45);
 	--foot: #93a3a8;
-	--serif: "Newsreader", "Iowan Old Style", Georgia, serif;
 	--sans: "Fira Sans", system-ui, sans-serif;
 	--code: ui-monospace, Menlo, Consolas, monospace;
 	// One type scale for the whole site
@@ -91,8 +90,8 @@ body::after {
 	align-items: center;
 	gap: 10px;
 	margin-right: auto;
-	font-family: var(--serif);
 	font-size: var(--fs-lead);
+	font-weight: 500;
 	white-space: nowrap;
 	.antenna { width: 22px; height: 22px; }
 	&:hover { color: #fff; }
@@ -187,11 +186,10 @@ body::after {
 .sheet-head {
 	padding: 56px 64px 6px;
 	h1 {
-		font-family: var(--serif);
-		font-weight: 400;
+		font-weight: 500;
 		font-size: var(--fs-h1);
-		line-height: 1.04;
-		letter-spacing: -0.012em;
+		line-height: 1.08;
+		letter-spacing: -0.015em;
 		margin: 0;
 	}
 	.kicker { color: var(--accent); margin: 0 0 14px; a { color: inherit; } }
@@ -206,9 +204,8 @@ body::after {
 	@media #{$small} { padding: 16px 20px 48px; }
 
 	h1, h2 {
-		font-family: var(--serif);
 		font-weight: 500;
-		letter-spacing: -0.005em;
+		letter-spacing: -0.01em;
 		line-height: 1.15;
 	}
 	h1 { font-size: var(--fs-h2); margin: 0.6em 0 0.5em; }
@@ -234,7 +231,7 @@ body::after {
 	li::marker { color: var(--accent); }
 	strong, b { font-weight: 600; }
 	img { border-radius: 2px; }
-	blockquote { border-left: 3px solid var(--accent); font-family: var(--serif); font-size: var(--fs-lead); }
+	blockquote { border-left: 3px solid var(--accent); padding-left: 1em; margin-left: 0; color: var(--ink-soft); font-size: var(--fs-lead); }
 	table { border-collapse: collapse; width: 100%; font-size: var(--fs-small); }
 	th, td { border-bottom: 1px solid var(--rule); padding: 8px 10px 8px 0; text-align: left; vertical-align: top; }
 }
@@ -309,11 +306,10 @@ body::after {
 	.links { margin-top: 28px; }
 }
 .hero-name {
-	font-family: var(--serif);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: var(--fs-h1);
-	line-height: 1.04;
-	letter-spacing: -0.012em;
+	line-height: 1.08;
+	letter-spacing: -0.015em;
 	margin: 0.3em 0 0.4em;
 }
 .hero-role { font-size: var(--fs-lead); margin: 0 0 0.3em; line-height: 1.45; }
@@ -546,11 +542,11 @@ body::after {
 	li:has(> .pub-title) { margin: 0 0 1.05em; line-height: 1.5; }
 	.pub-title {
 		display: block;
-		font-family: var(--serif);
-		font-size: var(--fs-lead);
-		font-weight: 500;
+		font-size: var(--fs-body);
+		font-weight: 600;
 		line-height: 1.32;
 		color: var(--ink);
+			a { text-decoration-color: transparent; &:hover { text-decoration-color: currentColor; } }
 	}
 	.pub-meta {
 		display: block;
