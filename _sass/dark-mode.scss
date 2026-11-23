@@ -9,13 +9,13 @@
         --ink-soft: #92a4a9;
         --rule: #2a3b40;
         --accent: #5cc3d6;
+        --link-line: rgba(92, 195, 214, 0.5);
     }
     body {
         @media #{$small} {
             background: var(--paper);
         }
     }
-    .sheet .content a, .log a { text-decoration-color: rgba(92, 195, 214, 0.5); }
     .btn, .social-btn {
         background: #23343a;
         color: var(--ink);
