@@ -15,7 +15,7 @@ body {
 }
 *, *::before, *::after { box-sizing: border-box; }
 
-a {
+a, a:visited {
 	color: var(--ink);
 	transition: color .2s;
 	&:hover { color: var(--accent); }
@@ -30,11 +30,11 @@ img {
 	border: 0;
 }
 figure { margin: 0; padding: 10px 0; }
-figcaption { padding-top: 8px; font-size: 0.875rem; color: var(--ink-soft); }
+figcaption { padding-top: 8px; font-size: var(--fs-small); color: var(--ink-soft); }
 
 hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5em 0; }
 
-pre, code { font-family: var(--mono); font-size: 0.88em; overflow-x: auto; }
+pre, code { font-family: var(--code); font-size: 0.88em; overflow-x: auto; }
 p code, li code, p pre, li pre {
 	background-color: var(--paper-2);
 	border: 1px solid var(--rule);
@@ -47,7 +47,7 @@ li .highlight code, li .highlight pre { background-color: transparent; border: 0
 kbd {
 	display: inline-block;
 	padding: 1px 6px;
-	font-family: var(--mono);
+	font-family: var(--code);
 	font-size: 0.75em;
 	background: var(--paper-2);
 	border: 1px solid var(--rule);
@@ -60,9 +60,9 @@ dt { font-weight: 600; }
 	clear: both;
 	padding-left: 0;
 	margin: 0 0 1em;
-	font-family: var(--mono);
-	font-size: 0.68rem;
-	letter-spacing: 0.12em;
+	font-size: var(--fs-label);
+	font-weight: 500;
+	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	li { list-style: none; display: inline-block; margin: 0 6px 6px 0; }
 	li::marker { content: none; }

@@ -2,11 +2,11 @@
 #film {
 	.film-lede { text-align: center; color: var(--ink-soft); max-width: 60ch; margin: 0 auto 1rem; }
 	.film-year {
-		font-family: var(--mono);
-		font-size: 0.72rem;
+		font-family: var(--sans);
+		font-size: var(--fs-label);
 		font-weight: 400;
 		text-transform: uppercase;
-		letter-spacing: 0.14em;
+		letter-spacing: 0.1em;
 		line-height: 1.4;
 		color: var(--ink-soft);
 		margin: 2rem 0 0.7rem;
