@@ -26,7 +26,6 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	height: auto;
 	@media #{$small} {
 		background: var(--paper);
 	}
@@ -232,7 +231,7 @@ body::after {
 	table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
 	th, td { border-bottom: 1px solid var(--rule); padding: 8px 10px 8px 0; text-align: left; vertical-align: top; }
 }
-.sheet .entry-meta { padding: 0 64px 40px; @media #{$small} { padding: 0 20px 32px; } }
+.sheet-meta { padding: 0 64px 40px; @media #{$small} { padding: 0 20px 32px; } }
 #disqus_thread { max-width: 920px; margin: 24px auto 0; background: var(--paper); padding: 2em; }
 
 // Post lists (projects and posts)

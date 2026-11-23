@@ -1,6 +1,6 @@
 // Dark mode — imported last so it overrides all other color rules.
 // The theme reads from CSS variables, so most of this is a palette swap: the
-// paper becomes a dark print and the edge prints keep their amber.
+// paper becomes a dark print and the sand edge prints stay the same.
 @media (prefers-color-scheme: dark) {
     :root {
         --paper: #142024;
@@ -10,30 +10,5 @@
         --rule: #2a3b40;
         --accent: #5cc3d6;
         --link-line: rgba(92, 195, 214, 0.5);
-    }
-    body {
-        @media #{$small} {
-            background: var(--paper);
-        }
-    }
-    .btn, .social-btn {
-        background: #23343a;
-        color: var(--ink);
-        border-color: #34474d;
-        &:hover {
-            color: var(--accent);
-            background: #2b3e44;
-        }
-    }
-    p code, li code, p pre, li pre {
-        background-color: #1b2a2f;
-        border-color: #2a3b40;
-        color: var(--ink);
-    }
-    hr {
-        border-top-color: rgba(255,255,255,0.1);
-        &.hr-line {
-            border-top-color: rgba(255,255,255,0.08);
-        }
     }
 }

@@ -131,38 +131,4 @@
       openLightbox(this.href, gallerySrcs, i);
     });
   });
-
-  // --- Scroll-reveal animation (replaces WOW.js) ---
-  var wowElements = document.querySelectorAll(".wow");
-  if (wowElements.length && "IntersectionObserver" in window) {
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            var el = entry.target;
-            var animClass =
-              el.dataset.wowClass ||
-              (el.classList.contains("fadeInLeft") ? "" : "fadeIn");
-            if (animClass) {
-              el.classList.add("animated", animClass);
-            } else {
-              el.classList.add("animated");
-            }
-            el.style.visibility = "visible";
-            observer.unobserve(el);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-    wowElements.forEach(function (el) {
-      el.style.visibility = "hidden";
-      observer.observe(el);
-    });
-  } else {
-    // Fallback: just show everything
-    wowElements.forEach(function (el) {
-      el.style.visibility = "visible";
-    });
-  }
 })();

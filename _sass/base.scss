@@ -1,0 +1,81 @@
+// Base element styles. Layout and components live in theme.scss.
+html { margin: 0; padding: 0; }
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font1;
+	@include font-rem($doc-font-size);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-position: center center;
+	background-attachment: fixed;
+	@media #{$small} {
+		background-image: none !important;
+	}
+}
+*, *::before, *::after { box-sizing: border-box; }
+
+a {
+	color: var(--ink);
+	transition: color .2s;
+	&:hover { color: var(--accent); }
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+figure { margin: 0; padding: 10px 0; }
+figcaption { padding-top: 8px; font-size: 0.875rem; color: var(--ink-soft); }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5em 0; }
+
+pre, code { font-family: var(--mono); font-size: 0.88em; overflow-x: auto; }
+p code, li code, p pre, li pre {
+	background-color: var(--paper-2);
+	border: 1px solid var(--rule);
+	border-radius: 3px;
+	margin: 0 2px;
+	padding: 0 5px;
+}
+li .highlight code, li .highlight pre { background-color: transparent; border: 0; }
+
+kbd {
+	display: inline-block;
+	padding: 1px 6px;
+	font-family: var(--mono);
+	font-size: 0.75em;
+	background: var(--paper-2);
+	border: 1px solid var(--rule);
+	border-radius: 3px;
+}
+dt { font-weight: 600; }
+
+// Post footer tags and the tag archive
+.entry-meta, .sheet .content .entry-meta {
+	clear: both;
+	padding-left: 0;
+	margin: 0 0 1em;
+	font-family: var(--mono);
+	font-size: 0.68rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	li { list-style: none; display: inline-block; margin: 0 6px 6px 0; }
+	li::marker { content: none; }
+	.tag {
+		display: inline-flex;
+		gap: 8px;
+		padding: 4px 10px;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
+		color: var(--ink-soft);
+		text-decoration: none !important;
+		&:hover { color: var(--accent); border-color: var(--accent); }
+	}
+	.count { color: var(--accent); }
+}
+.entry-title a { text-decoration: none; }
