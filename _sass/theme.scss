@@ -470,6 +470,8 @@ body::before {
 		text-align: left;
 		font-size: inherit;
 		min-height: 92px;
+		b:empty, span:empty { display: none; }
+		@media (hover: none), only screen and (max-width: 48em) { min-height: 0; }
 		margin-top: 6px;
 		padding-top: 12px;
 		border-top: 1px solid var(--rule);
