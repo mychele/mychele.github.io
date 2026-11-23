@@ -120,7 +120,7 @@
 	.airan-mark {
 		position: absolute;
 		bottom: 64px;
-		height: calc(28px + var(--lane) * var(--lane-h));
+		height: calc(36px + var(--lane) * var(--lane-h));
 		padding: 0;
 		background: none;
 		border: 0;
@@ -138,8 +138,11 @@
 		}
 		b, span {
 			position: absolute;
+			z-index: 1;
 			left: 6px;
+			padding-right: 4px;
 			white-space: nowrap;
+			background: var(--scope);
 		}
 		b { top: -4px; font-family: var(--sans); font-weight: 500; font-size: var(--fs-small); color: var(--trace); }
 		span { top: 13px; font-size: var(--fs-label); color: var(--scope-dim); }
@@ -170,7 +173,7 @@
 	}
 
 	// Number tiles
-	.airan-tiles { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin: 20px 0 16px; }
+	.airan-tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 20px 0 16px; }
 	.airan-tile {
 		text-align: left;
 		background: var(--scope-2);

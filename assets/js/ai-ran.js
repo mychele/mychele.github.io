@@ -40,23 +40,33 @@
     axis.appendChild(tick);
   });
 
-  // Markers above the line, stacked in lanes so close values don't collide
-  var lanes = [];
-  data.timeline.forEach(function (m) {
+  // Markers above the line. Each label is measured, then placed in the lowest
+  // lane where its text does not overlap a label already there.
+  var marks = data.timeline.map(function (m) {
     var x = pos(m.t);
-    var lane = 0;
-    while (lanes[lane] != null && x - lanes[lane] < 11) lane++;
-    lanes[lane] = x;
     var b = el("button", "airan-mark");
     b.type = "button";
     b.setAttribute("data-paper", m.paper);
     b.style.left = x + "%";
-    b.style.setProperty("--lane", lane);
     if (x > 78) b.classList.add("is-flip");
     b.setAttribute("aria-label", m.label + ": " + m.what);
     b.appendChild(el("b", null, m.label));
     b.appendChild(el("span", null, m.what));
     axis.appendChild(b);
+    return { b: b, x: x };
+  });
+  var axisWidth = axis.getBoundingClientRect().width || 680;
+  var lanes = [];
+  marks.forEach(function (m) {
+    var w = 0;
+    Array.prototype.forEach.call(m.b.children, function (c) { w = Math.max(w, c.getBoundingClientRect().width); });
+    var wPct = (w + 14) / axisWidth * 100;
+    var from = m.b.classList.contains("is-flip") ? m.x - wPct : m.x;
+    var to = from + wPct;
+    var lane = 0;
+    while ((lanes[lane] || []).some(function (r) { return from < r[1] && to > r[0]; })) lane++;
+    (lanes[lane] = lanes[lane] || []).push([from, to]);
+    m.b.style.setProperty("--lane", lane);
   });
   axis.style.setProperty("--lanes", lanes.length);
 

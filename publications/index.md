@@ -2,20 +2,32 @@
 layout: page
 title: Publications
 seo_title: "Publications – Michele Polese | Open RAN, AI-RAN, Spectrum Sharing, 6G"
-description: "Full publication list of Michele Polese: 60+ journal and 90+ conference papers on Open RAN, AI-RAN, dApps, spectrum sharing, mmWave and THz networks, and 6G. 15,000+ citations, h-index 51."
+description: "Full publication list of Michele Polese: 65+ journal and 100 conference papers on Open RAN, AI-RAN, dApps, spectrum sharing, mmWave and THz networks, and 6G. 17,000+ citations, h-index 57."
 tags: [publications, Michele Polese]
 date: 2026-09-29
 comments: false
 ---
 
-Visit my profile on Google Scholar for the most updated list: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>. Citations: 15210, h-index: 51 (07/2026).
+Visit my profile on Google Scholar for the most updated list: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>. Citations: 17127, h-index: 57 (11/2026).
 
-62 journals, 97 conference papers, 4 book chapters since 2016. Four publications have garnered over 1000 citations each, and an additional 19 over 100 citations each.
+66 journals, 100 conference papers, 4 book chapters since 2016. Four publications have garnered over 1000 citations each, and an additional 19 over 100 citations each.
 
 
 <nav class="pub-jump" aria-label="Sections"><a href="#journals">Journals</a><a href="#conferences">Conferences</a><a href="#book-chapters">Book chapters</a><a href="#phd-thesis">Theses</a></nav>
 
 ## Journals
+
+* <span class="pub-title">[xCHEM: SDR-Based Multi-Link Channel Emulator for Real-Time Hardware-in-the-Loop Digital-Twin](https://arxiv.org/abs/2610.38868)</span>
+  <span class="pub-meta"><b>J66</b> · A. Saeizadeh, G. Gemmi, T. Aghayev, **M. Polese**, P. Johari, and T. Melodia · arXiv preprint arXiv:2610.38868, 2026</span>
+
+* <span class="pub-title">[From Open RAN to Open Spectrum: A Programmable, Intelligent Architecture for Multi-Service Spectrum Coexistence](https://arxiv.org/abs/2609.11843)</span>
+  <span class="pub-meta"><b>J65</b> · **M. Polese**, M. D. Nguyen, P. Testolina, and T. Melodia · arXiv preprint arXiv:2609.11843, 2026</span>
+
+* <span class="pub-title">[Coordinated Spectrum Coexistence Across Heterogeneous Commercial and Federal Services](https://arxiv.org/abs/2608.07789)</span>
+  <span class="pub-meta"><b>J64</b> · M. D. Nguyen, P. Testolina, P. Johari, **M. Polese**, and T. Melodia · arXiv preprint arXiv:2608.07789, 2026</span>
+
+* <span class="pub-title">[MAC-Gyver: Open, Programmable, Scheduling for AI-RAN 6G Systems](https://arxiv.org/abs/2607.26012)</span>
+  <span class="pub-meta"><b>J63</b> · M. Elkael, R. Prasad, T. Aghayev, S. D'Oro, **M. Polese**, and T. Melodia · arXiv preprint arXiv:2607.26012, 2026</span>
 
 * <span class="pub-title">[xDevSM: An Open-Source Framework for Portable, AI-Ready xApps Across Heterogeneous O-RAN Deployments](https://arxiv.org/abs/2602.03821)</span>
   <span class="pub-meta"><b>J62</b> · A. Feraudo, S. Maxenti, A. Lacava, L. Bonati, P. Bellavista, **M. Polese**, and T. Melodia · arXiv preprint arXiv:2602.03821, 2026</span>
@@ -205,6 +217,15 @@ Visit my profile on Google Scholar for the most updated list: <a href="https://s
 
 
 ## Conferences
+
+* <span class="pub-title">[Agentic RDZ: Autonomous Zone Management with AI Agents and an FR3 Coexistence Use Case](https://arxiv.org/abs/2609.17110)</span>
+  <span class="pub-meta"><b>C100</b> · M. D. Nguyen, G. Gemmi, T. Aghayev, P. Testolina, **M. Polese**, and T. Melodia · arXiv preprint arXiv:2609.17110, 2026</span>
+
+* <span class="pub-title">[Improving 5G AI-RAN MCS Selection by Predicting Retransmissions](https://arxiv.org/abs/2609.09324)</span>
+  <span class="pub-meta"><b>C99</b> · T. Aghayev, M. Elkael, **M. Polese**, R. Prasad, S. D'Oro, Y. Lee, K. Furueda, and T. Melodia · arXiv preprint arXiv:2609.09324, 2026</span>
+
+* <span class="pub-title">[Bringing dApps to OCUDU: An E3 Controller for Real-Time Open RAN Intelligence](https://arxiv.org/abs/2609.03162)</span>
+  <span class="pub-meta"><b>C98</b> · A. Feraudo, R. Shirkhani, S. Maxenti, A. Lacava, **M. Polese**, and T. Melodia · Proceedings of ACM WiNTECH, 2026, pp. 17-24</span>
 
 * <span class="pub-title">[AUGUSTE: Online-Learning dApp for Predictive URLLC Scheduling](https://arxiv.org/abs/2606.03664)</span>
   <span class="pub-meta"><b>C97</b> · M. Elkael, **M. Polese**, Y. Lee, K. Furueda, and T. Melodia · arXiv preprint arXiv:2606.03664, 2026</span>

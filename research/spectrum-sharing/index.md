@@ -26,5 +26,8 @@ New cellular bands increasingly overlap with incumbents such as radio astronomy,
 * M. Tsampazi, P. Testolina, M. Polese, and T. Melodia, "Satellite-Terrestrial Spectrum Sharing in FR3 through QoS-Aware Power Control and Spatial Nulling," IEEE DySPAN 2026. [arXiv](https://arxiv.org/abs/2603.22615)
 * L. Bonati, M. Polese, S. D'Oro, S. Basagni, and T. Melodia, "NeutRAN: An Open RAN Neutral Host Architecture for Zero-Touch RAN and Spectrum Sharing," IEEE Transactions on Mobile Computing, 2023. [arXiv](https://arxiv.org/abs/2301.07653)
 * R. Gangula, A. Lacava, M. Polese, S. D'Oro, L. Bonati, F. Kaltenberger, P. Johari, and T. Melodia, "Listen-While-Talking: Toward dApp-based Real-Time Spectrum Sharing in O-RAN," IEEE MILCOM 2024 (demo). [arXiv](https://arxiv.org/abs/2407.05027)
+* M. Polese, M. D. Nguyen, P. Testolina, and T. Melodia, "From Open RAN to Open Spectrum: A Programmable, Intelligent Architecture for Multi-Service Spectrum Coexistence," 2026. [arXiv](https://arxiv.org/abs/2609.11843)
+* M. D. Nguyen, P. Testolina, P. Johari, M. Polese, and T. Melodia, "Coordinated Spectrum Coexistence Across Heterogeneous Commercial and Federal Services," 2026. [arXiv](https://arxiv.org/abs/2608.07789)
+* M. D. Nguyen, G. Gemmi, T. Aghayev, P. Testolina, M. Polese, and T. Melodia, "Agentic RDZ: Autonomous Zone Management with AI Agents and an FR3 Coexistence Use Case," 2026. [arXiv](https://arxiv.org/abs/2609.17110)
 
 See also: [dApps and the E3 interface](/research/dapps/) and the full [publication list](/publications/).

@@ -1,8 +1,20 @@
 {
   "pillars": [
-    { "id": "for", "label": "AI-for-RAN", "text": "AI improves the RAN: signal processing, scheduling, and control." },
-    { "id": "and", "label": "AI-and-RAN", "text": "AI and RAN workloads share the same accelerated compute." },
-    { "id": "on", "label": "AI-on-RAN", "text": "The RAN becomes a platform for AI services at the edge." }
+    {
+      "id": "for",
+      "label": "AI-for-RAN",
+      "text": "AI improves the RAN: signal processing, scheduling, and control."
+    },
+    {
+      "id": "and",
+      "label": "AI-and-RAN",
+      "text": "AI and RAN workloads share the same accelerated compute."
+    },
+    {
+      "id": "on",
+      "label": "AI-on-RAN",
+      "text": "The RAN becomes a platform for AI services at the edge."
+    }
   ],
   "papers": [
     {
@@ -11,9 +23,16 @@
       "title": "ARCHES: Adaptive Real-Time Switching of AI Models for the RAN",
       "venue": "arXiv, 2026",
       "url": "https://arxiv.org/abs/2604.23397",
-      "pillars": ["for", "and"],
+      "pillars": [
+        "for",
+        "and"
+      ],
       "summary": "Switches between AI-based and conventional signal processing experts inside a GPU-accelerated PHY, running AI only when it pays off.",
-      "facts": ["+5.32% / +7.23% median uplink PHY throughput (good / poor channels)", "~140 µs control loop, sub-microsecond decisions", "15.8 W less GPU power (−9.6%), 17 points lower GPU utilization"]
+      "facts": [
+        "+5.32% / +7.23% median uplink PHY throughput (good / poor channels)",
+        "~140 µs control loop, sub-microsecond decisions",
+        "15.8 W less GPU power (−9.6%), 17 points lower GPU utilization"
+      ]
     },
     {
       "id": "isac",
@@ -21,9 +40,33 @@
       "title": "Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on NVIDIA Aerial Testbed",
       "venue": "arXiv, 2025",
       "url": "https://arxiv.org/abs/2512.06493",
-      "pillars": ["on", "and"],
+      "pillars": [
+        "on",
+        "and"
+      ],
       "summary": "Feeds PHY data from a GPU-accelerated gNB to custom AI logic, turning the base station into a real-time sensing platform.",
-      "facts": ["84 µs framework latency per slot", "123 µs control loop with TensorRT inference", "73 cm mean localization error, 79% of predictions within 1 m", "241 µs live execution for cuSense"]
+      "facts": [
+        "84 µs framework latency per slot",
+        "123 µs control loop with TensorRT inference",
+        "73 cm mean localization error, 79% of predictions within 1 m",
+        "241 µs live execution for cuSense"
+      ]
+    },
+    {
+      "id": "nostradamus",
+      "short": "NOSTRAdAMUS",
+      "title": "Improving 5G AI-RAN MCS Selection by Predicting Retransmissions",
+      "venue": "arXiv, 2026",
+      "url": "https://arxiv.org/abs/2609.09324",
+      "pillars": [
+        "for"
+      ],
+      "summary": "A dApp that predicts retransmissions from recent HARQ history and corrects the MCS chosen by existing link adaptation, without replacing it.",
+      "facts": [
+        "82.9% prediction accuracy; high-confidence corrections right 94.2% of the time",
+        "5.5 µs inference latency",
+        "Up to 71.5% more goodput and 71.8% fewer retransmissions, without retraining"
+      ]
     },
     {
       "id": "agentran",
@@ -31,9 +74,15 @@
       "title": "AgentRAN: An Agentic AI Architecture for Autonomous Control of Open 6G Networks",
       "venue": "IEEE Communications Magazine (to appear)",
       "url": "https://arxiv.org/abs/2508.17778",
-      "pillars": ["for"],
+      "pillars": [
+        "for"
+      ],
       "summary": "LLM-powered agents turn natural language intents into a self-organizing hierarchy of control loops, validated in live 5G experiments.",
-      "facts": ["Control loops from sub-millisecond to minutes", "From cell to network-wide, PHY/MAC to RRC", "AI-RAN Factory generates improved agents from operational data"]
+      "facts": [
+        "Control loops from sub-millisecond to minutes",
+        "From cell to network-wide, PHY/MAC to RRC",
+        "AI-RAN Factory generates improved agents from operational data"
+      ]
     },
     {
       "id": "allstar",
@@ -41,9 +90,29 @@
       "title": "ALLSTaR: Automated LLM-Driven Scheduler Generation and Testing for Intent-Based RAN",
       "venue": "IEEE Transactions on Mobile Computing (to appear)",
       "url": "https://arxiv.org/abs/2505.18389",
-      "pillars": ["for"],
+      "pillars": [
+        "for"
+      ],
       "summary": "Generates working scheduler code from the research literature with OCR and LLMs, then tests it over the air.",
-      "facts": ["18 schedulers synthesized from papers", "Largest-scale over-the-air comparison of schedulers"]
+      "facts": [
+        "18 schedulers synthesized from papers",
+        "Largest-scale over-the-air comparison of schedulers"
+      ]
+    },
+    {
+      "id": "macgyver",
+      "short": "MAC-Gyver",
+      "title": "MAC-Gyver: Open, Programmable, Scheduling for AI-RAN 6G Systems",
+      "venue": "arXiv, 2026",
+      "url": "https://arxiv.org/abs/2607.26012",
+      "pillars": [
+        "for"
+      ],
+      "summary": "An open-source framework for scheduling applications that run inside the OpenAirInterface scheduler, over the air or in a PHY-less emulator.",
+      "facts": [
+        "mac-emu runs up to 90 users on one host at real-time slot pace",
+        "A proactive uplink scheduler roughly halves median round-trip latency"
+      ]
     },
     {
       "id": "autoran",
@@ -51,9 +120,15 @@
       "title": "AutoRAN: Automated and Zero-Touch Open RAN Systems",
       "venue": "IEEE Transactions on Mobile Computing (to appear)",
       "url": "https://arxiv.org/abs/2504.11233",
-      "pillars": ["for", "and"],
+      "pillars": [
+        "for",
+        "and"
+      ],
       "summary": "Language models translate intents into infrastructure-as-code that deploys O-RAN stacks on heterogeneous CPU/GPU clusters.",
-      "facts": ["End-to-end private 5G network deployed in under 60 s", "1.6 Gbps throughput, on par with non-cloud deployments"]
+      "facts": [
+        "End-to-end private 5G network deployed in under 60 s",
+        "1.6 Gbps throughput, on par with non-cloud deployments"
+      ]
     },
     {
       "id": "x5g",
@@ -61,9 +136,15 @@
       "title": "X5G: An Open, Programmable, Multi-vendor, End-to-end, Private 5G O-RAN Testbed with NVIDIA ARC and OpenAirInterface",
       "venue": "IEEE Transactions on Mobile Computing, 2025",
       "url": "https://arxiv.org/abs/2406.15935",
-      "pillars": ["and"],
+      "pillars": [
+        "and"
+      ],
       "summary": "The first 8-node network integrating NVIDIA Aerial ARC-OTA, OpenAirInterface, and a near-real-time RIC, with a GPU-accelerated PHY.",
-      "facts": ["8-node network", ">1.65 Gbps downlink, 143 Mbps uplink per cell", "Up to 25 emulated UEs"]
+      "facts": [
+        "8-node network",
+        ">1.65 Gbps downlink, 143 Mbps uplink per cell",
+        "Up to 25 emulated UEs"
+      ]
     },
     {
       "id": "beyond",
@@ -71,9 +152,15 @@
       "title": "Beyond Connectivity: An Open Architecture for AI-RAN Convergence in 6G",
       "venue": "IEEE Communications Magazine (to appear)",
       "url": "https://arxiv.org/abs/2507.06911",
-      "pillars": ["and", "on"],
+      "pillars": [
+        "and",
+        "on"
+      ],
       "summary": "A converged O-RAN and AI-RAN architecture: an AI-RAN Orchestrator extending the SMO, and AI-RAN sites for distributed edge AI.",
-      "facts": ["One orchestrator for telecom and AI workloads", "Open, standardized interfaces and multi-vendor interoperability"]
+      "facts": [
+        "One orchestrator for telecom and AI workloads",
+        "Open, standardized interfaces and multi-vendor interoperability"
+      ]
     },
     {
       "id": "econ",
@@ -81,28 +168,116 @@
       "title": "A Techno-Economic Framework for Cost Modeling and Revenue Opportunities in Open and Programmable AI-RAN",
       "venue": "ICCCN 2026",
       "url": "",
-      "pillars": ["and", "on"],
+      "pillars": [
+        "and",
+        "on"
+      ],
       "summary": "Models the costs of AI-RAN deployments and the revenue operators can earn by running AI workloads on RAN infrastructure.",
-      "facts": ["Cost modeling and revenue opportunities for operators"]
+      "facts": [
+        "Cost modeling and revenue opportunities for operators"
+      ]
     }
   ],
   "timeline": [
-    { "paper": "arches", "t": 0.0000008, "label": "< 1 µs", "what": "ARCHES expert decision" },
-    { "paper": "isac", "t": 0.000084, "label": "84 µs", "what": "ISAC framework latency per slot" },
-    { "paper": "isac", "t": 0.000123, "label": "123 µs", "what": "TensorRT inference loop" },
-    { "paper": "arches", "t": 0.00014, "label": "~140 µs", "what": "ARCHES control loop" },
-    { "paper": "isac", "t": 0.000241, "label": "241 µs", "what": "cuSense live execution" },
-    { "paper": "autoran", "t": 60, "label": "< 60 s", "what": "AutoRAN deploys a full 5G network" }
+    {
+      "paper": "arches",
+      "t": 8e-07,
+      "label": "< 1 µs",
+      "what": "ARCHES expert decision"
+    },
+    {
+      "paper": "nostradamus",
+      "t": 5.5e-06,
+      "label": "5.5 µs",
+      "what": "NOSTRAdAMUS inference"
+    },
+    {
+      "paper": "isac",
+      "t": 8.4e-05,
+      "label": "84 µs",
+      "what": "ISAC framework latency per slot"
+    },
+    {
+      "paper": "isac",
+      "t": 0.000123,
+      "label": "123 µs",
+      "what": "TensorRT inference loop"
+    },
+    {
+      "paper": "arches",
+      "t": 0.00014,
+      "label": "~140 µs",
+      "what": "ARCHES control loop"
+    },
+    {
+      "paper": "isac",
+      "t": 0.000241,
+      "label": "241 µs",
+      "what": "cuSense live execution"
+    },
+    {
+      "paper": "autoran",
+      "t": 60,
+      "label": "< 60 s",
+      "what": "AutoRAN deploys a full 5G network"
+    }
   ],
   "bands": [
-    { "paper": "agentran", "from": 0.0005, "to": 300, "label": "AgentRAN agents: sub-ms to minutes" }
+    {
+      "paper": "agentran",
+      "from": 0.0005,
+      "to": 300,
+      "label": "AgentRAN agents: sub-ms to minutes"
+    }
   ],
   "tiles": [
-    { "paper": "x5g", "value": "1.65", "unit": "Gbps", "text": "downlink per cell on X5G" },
-    { "paper": "autoran", "value": "< 60", "unit": "s", "text": "to deploy end-to-end 5G" },
-    { "paper": "arches", "value": "15.8", "unit": "W", "text": "GPU power saved by ARCHES" },
-    { "paper": "allstar", "value": "18", "unit": "", "text": "schedulers generated and tested OTA" },
-    { "paper": "isac", "value": "73", "unit": "cm", "text": "mean localization error from the RAN" },
-    { "paper": "x5g", "value": "8", "unit": "nodes", "text": "in the X5G GPU-accelerated network" }
+    {
+      "paper": "x5g",
+      "value": "1.65",
+      "unit": "Gbps",
+      "text": "downlink per cell on X5G"
+    },
+    {
+      "paper": "autoran",
+      "value": "< 60",
+      "unit": "s",
+      "text": "to deploy end-to-end 5G"
+    },
+    {
+      "paper": "nostradamus",
+      "value": "+71.5",
+      "unit": "%",
+      "text": "goodput from NOSTRAdAMUS"
+    },
+    {
+      "paper": "arches",
+      "value": "15.8",
+      "unit": "W",
+      "text": "GPU power saved by ARCHES"
+    },
+    {
+      "paper": "allstar",
+      "value": "18",
+      "unit": "",
+      "text": "schedulers generated and tested OTA"
+    },
+    {
+      "paper": "isac",
+      "value": "73",
+      "unit": "cm",
+      "text": "mean localization error from the RAN"
+    },
+    {
+      "paper": "x5g",
+      "value": "8",
+      "unit": "nodes",
+      "text": "in the X5G GPU-accelerated network"
+    },
+    {
+      "paper": "macgyver",
+      "value": "90",
+      "unit": "users",
+      "text": "emulated on one host by MAC-Gyver"
+    }
   ]
 }

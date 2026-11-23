@@ -30,5 +30,7 @@ We introduced dApps in 2022 and have since built open implementations on OpenAir
 * D. Villa, M. Belgiovine, N. Hedberg, M. Polese, C. Dick, and T. Melodia, "Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on NVIDIA Aerial Testbed," 2025. [arXiv](https://arxiv.org/abs/2512.06493)
 * M. Polese, R. Gangula, and T. Melodia, "Enabling Programmable Inference and ISAC at the 6GR Edge with dApps," 2026. [arXiv](https://arxiv.org/abs/2603.29146)
 * M. Elkael, M. Polese, Y. Lee, K. Furueda, and T. Melodia, "AUGUSTE: Online-Learning dApp for Predictive URLLC Scheduling," 2026. [arXiv](https://arxiv.org/abs/2606.03664)
+* A. Feraudo, R. Shirkhani, S. Maxenti, A. Lacava, M. Polese, and T. Melodia, "Bringing dApps to OCUDU: An E3 Controller for Real-Time Open RAN Intelligence," ACM WiNTECH 2026. [arXiv](https://arxiv.org/abs/2609.03162)
+* T. Aghayev, M. Elkael, M. Polese, R. Prasad, S. D'Oro, Y. Lee, K. Furueda, and T. Melodia, "Improving 5G AI-RAN MCS Selection by Predicting Retransmissions," 2026. [arXiv](https://arxiv.org/abs/2609.09324)
 
 See also: [AI-RAN](/research/ai-ran/), [spectrum sharing](/research/spectrum-sharing/), and the full [publication list](/publications/).

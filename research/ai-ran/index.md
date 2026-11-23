@@ -32,5 +32,7 @@ AI-RAN brings AI and the radio access network onto shared, accelerated infrastru
 * N. N. Santhi, D. Villa, M. Polese, S. D'Oro, Y. Lee, K. Furueda, and T. Melodia, "ARCHES: Adaptive Real-Time Switching of AI Models for the RAN," 2026. [arXiv](https://arxiv.org/abs/2604.23397)
 * G. Gemmi, M. Polese, and T. Melodia, "A Techno-Economic Framework for Cost Modeling and Revenue Opportunities in Open and Programmable AI-RAN," ICCCN 2026.
 * D. Villa, I. Khan, F. Kaltenberger, N. Hedberg, R. S. da Silva, S. Maxenti, L. Bonati, A. Kelkar, C. Dick, E. Baena, J. M. Jornet, T. Melodia, M. Polese, and D. Koutsonikolas, "X5G: An Open, Programmable, Multi-vendor, End-to-end, Private 5G O-RAN Testbed with NVIDIA ARC and OpenAirInterface," IEEE Transactions on Mobile Computing, 2025. [arXiv](https://arxiv.org/abs/2406.15935)
+* M. Elkael, R. Prasad, T. Aghayev, S. D'Oro, M. Polese, and T. Melodia, "MAC-Gyver: Open, Programmable, Scheduling for AI-RAN 6G Systems," 2026. [arXiv](https://arxiv.org/abs/2607.26012)
+* T. Aghayev, M. Elkael, M. Polese, R. Prasad, S. D'Oro, Y. Lee, K. Furueda, and T. Melodia, "Improving 5G AI-RAN MCS Selection by Predicting Retransmissions," 2026. [arXiv](https://arxiv.org/abs/2609.09324)
 
 See also: [dApps and the E3 interface](/research/dapps/) and the full [publication list](/publications/).

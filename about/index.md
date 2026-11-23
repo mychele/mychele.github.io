@@ -25,7 +25,7 @@ comments: false
 
 * Our <a href="https://ieeexplore.ieee.org/document/10024837" target="_blank">O-RAN tutorial (open access)</a> is one of most cited resources on this topic (1500+ citations). You can find more resources on the <a href="https://openrangym.com" target="_blank">OpenRAN Gym website</a>.
 
-* Google Scholar profile: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>. Citations: 15210, h-index: 51 (07/2026).
+* Google Scholar profile: <a href="https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en" target="_blank">Michele Polese</a>. Citations: 17127, h-index: 57 (11/2026).
 
 * I am interested in social and political issues, in particular the ones related to technology and the disruption brought by it.
 
