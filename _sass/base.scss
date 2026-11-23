@@ -7,11 +7,6 @@ body {
 	@include font-rem($doc-font-size);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-position: center center;
-	background-attachment: fixed;
-	@media #{$small} {
-		background-image: none !important;
-	}
 }
 *, *::before, *::after { box-sizing: border-box; }
 

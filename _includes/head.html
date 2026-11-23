@@ -44,7 +44,8 @@
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
     {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style>body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
+    <link rel="preload" href="{{ background }}" as="image">
+    <style>:root{--bg-photo:url({{ background }})}</style>
     {% endif %}
     <!-- Post Feature Image -->
     {% if page.feature %}
