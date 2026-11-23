@@ -26,10 +26,6 @@
     arc.addEventListener("mouseenter", function () { show(arc); });
     arc.addEventListener("focus", function () { show(arc); });
     arc.addEventListener("blur", reset);
-    // On touch screens, the first tap shows the summary and the second opens the page
-    arc.addEventListener("touchend", function (e) {
-      if (!arc.classList.contains("is-on")) { e.preventDefault(); show(arc); }
-    });
   });
   map.querySelector("svg").addEventListener("mouseleave", reset);
 })();

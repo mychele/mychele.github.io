@@ -98,8 +98,9 @@ body::after {
 	position: relative;
 	display: block;
 	padding: 6px 0;
-	font-size: 0.7rem;
-	color: rgba(238, 243, 242, 0.72);
+	font-size: 0.82rem;
+	letter-spacing: 0.05em;
+	color: rgba(238, 243, 242, 0.8);
 	transition: color .15s;
 	&:hover, &:focus-visible { color: #fff; }
 	&[aria-current="page"] { color: var(--edge); }
@@ -122,7 +123,7 @@ body::after {
 	padding: 7px 12px;
 	cursor: pointer;
 }
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 70em) {
 	.topbar { padding: 0 16px; }
 	.topbar-toggle { display: block; }
 	.topbar-nav {
@@ -133,7 +134,7 @@ body::after {
 		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 		padding: 8px 16px 18px;
 		ul { flex-direction: column; gap: 0; }
-		a { font-size: 0.82rem; padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+		a { font-size: 0.9rem; padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
 		a[aria-current="page"]::before { left: -10px; bottom: 50%; margin: 0 0 -2px; }
 	}
 	.topbar.is-open .topbar-nav { display: block; }
@@ -249,18 +250,20 @@ body::after {
 .links {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 10px 20px;
+	gap: 4px 22px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-size: 0.7rem;
+	font-size: 0.84rem;
+	letter-spacing: 0.05em;
 	li { margin: 0; }
 	li::marker { content: none; }
 	a {
 		color: var(--ink);
 		text-decoration: none;
+		display: inline-block;
+		padding: 7px 0 4px;
 		border-bottom: 1px solid var(--rule);
-		padding-bottom: 3px;
 		transition: color .15s, border-color .15s;
 		&:hover { color: var(--accent); border-color: var(--accent); }
 	}
@@ -288,8 +291,15 @@ body::after {
 	padding: 60px 64px 44px;
 	border-bottom: 1px solid var(--rule);
 	@media #{$small} {
-		padding: calc(75vw + 32px) 20px 32px;
-		background: var(--paper) var(--hero-bg) center top / 100% auto no-repeat;
+		position: relative;
+		padding: 222px 20px 28px;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; right: 0;
+			height: 190px;
+			background: var(--hero-bg) center 58% / cover no-repeat;
+		}
 	}
 	.kicker { margin: 0; font-size: 0.66rem; color: var(--accent); }
 	.links { margin-top: 28px; }
@@ -424,6 +434,9 @@ body::after {
 }
 .rmap {
 	margin: 0;
+	width: 100%;
+	max-width: 330px;
+	@media only screen and (max-width: 48em) { margin: 8px auto 0; }
 	svg { display: block; width: 100%; height: auto; overflow: visible; }
 	.rmap-hit { fill: none; stroke: transparent; stroke-width: 26; pointer-events: stroke; }
 	.rmap-line {
@@ -440,11 +453,11 @@ body::after {
 	}
 	text {
 		font-family: var(--mono);
-		font-size: 9.5px;
-		letter-spacing: 0.16em;
+		font-size: 12.5px;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
 		fill: var(--ink-soft);
-		transform: translateY(-7px);
+		transform: translateY(-8px);
 		transition: fill .2s;
 	}
 	.rmap-arc { cursor: pointer; outline: none; }
@@ -485,4 +498,66 @@ body::after {
 @media (prefers-reduced-motion: reduce) {
 	.rmap .rmap-line { animation: none; stroke-dashoffset: 0; }
 	.rmap .rmap-pulse { display: none; }
+}
+
+// Direct links to the four areas on touch screens and narrow layouts
+.rmap-legend {
+	display: none;
+	list-style: none;
+	margin: 12px 0 0;
+	padding: 0;
+	grid-template-columns: 1fr 1fr;
+	gap: 6px;
+	li { margin: 0; }
+	a {
+		display: block;
+		padding: 10px 12px;
+		border: 1px solid var(--rule);
+		border-radius: 3px;
+		font-size: 0.9rem;
+		color: var(--ink);
+		text-decoration: none;
+		&::after { content: " \2192"; color: var(--accent); }
+		&:hover { border-color: var(--accent); color: var(--accent); }
+	}
+	@media (hover: none), only screen and (max-width: 48em) { display: grid; }
+}
+
+// ---------- Publications ----------
+.pub-jump {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 6px 0 8px;
+	a {
+		font-family: var(--mono);
+		font-size: 0.8rem;
+		letter-spacing: 0.04em;
+		padding: 7px 14px;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
+		color: var(--ink) !important;
+		text-decoration: none !important;
+		&:hover { border-color: var(--accent); color: var(--accent) !important; }
+	}
+}
+.sheet .content {
+	li:has(> .pub-title) { margin: 0 0 1.05em; line-height: 1.5; }
+	.pub-title {
+		display: block;
+		font-family: var(--serif);
+		font-size: 1.14rem;
+		font-weight: 500;
+		line-height: 1.32;
+		color: var(--ink);
+	}
+	.pub-meta {
+		display: block;
+		margin-top: 4px;
+		font-size: 0.9rem;
+		line-height: 1.55;
+		color: var(--ink-soft);
+		b { font-family: var(--mono); font-weight: 500; font-size: 0.74rem; letter-spacing: 0.06em; color: var(--accent); }
+		strong { font-weight: 600; color: var(--ink); }
+	}
 }
