@@ -298,7 +298,7 @@ body::after {
 .hero-name {
 	font-family: var(--serif);
 	font-weight: 400;
-	font-size: clamp(2.7rem, 6vw, 4.2rem);
+	font-size: clamp(2.7rem, 5vw, 3.6rem);
 	line-height: 0.98;
 	letter-spacing: -0.02em;
 	margin: 0.3em 0 0.4em;
@@ -413,4 +413,77 @@ body::after {
 
 @media (prefers-reduced-motion: reduce) {
 	.sheet, .home-sheet { animation: none; }
+}
+
+// ---------- Research radio map (home) ----------
+.hero-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 330px;
+	gap: 28px;
+	align-items: center;
+	@media only screen and (max-width: 48em) { grid-template-columns: 1fr; gap: 8px; }
+}
+.rmap {
+	margin: 0;
+	svg { display: block; width: 100%; height: auto; overflow: visible; }
+	.rmap-hit { fill: none; stroke: transparent; stroke-width: 26; pointer-events: stroke; }
+	.rmap-line {
+		fill: none;
+		stroke: var(--ink);
+		stroke-width: 2.4;
+		stroke-linecap: round;
+		opacity: 0.85;
+		transition: stroke .2s, stroke-width .2s, opacity .2s;
+		stroke-dasharray: 400;
+		stroke-dashoffset: 400;
+		animation: rmap-draw 1s cubic-bezier(.3, .7, .2, 1) both;
+		animation-delay: calc(0.25s + var(--i) * 0.14s);
+	}
+	text {
+		font-family: var(--mono);
+		font-size: 9.5px;
+		letter-spacing: 0.16em;
+		text-transform: uppercase;
+		fill: var(--ink-soft);
+		transform: translateY(-7px);
+		transition: fill .2s;
+	}
+	.rmap-arc { cursor: pointer; outline: none; }
+	.rmap-arc:hover .rmap-line, .rmap-arc.is-on .rmap-line { stroke: var(--accent); stroke-width: 3.4; opacity: 1; }
+	.rmap-arc:hover text, .rmap-arc.is-on text { fill: var(--accent); }
+	.rmap-arc:focus-visible .rmap-line { stroke: var(--accent); stroke-width: 3.4; }
+	&.is-focus .rmap-arc:not(.is-on) .rmap-line { opacity: 0.25; }
+	.rmap-antenna { line { stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; } circle { fill: var(--accent); } }
+	.rmap-pulse circle {
+		fill: none;
+		stroke: var(--accent);
+		stroke-width: 1.2;
+		vector-effect: non-scaling-stroke;
+		transform-box: fill-box;
+		transform-origin: center;
+		animation: rmap-pulse 3.6s ease-out infinite;
+		opacity: 0;
+	}
+	.rmap-pulse circle:nth-child(2) { animation-delay: 1.8s; }
+	.rmap-caption {
+		color: var(--ink);
+		text-align: left;
+		font-size: inherit;
+		min-height: 92px;
+		margin-top: 6px;
+		padding-top: 12px;
+		border-top: 1px solid var(--rule);
+		.kicker { display: block; font-size: 0.62rem; color: var(--accent); margin-bottom: 4px; }
+		b { display: block; font-family: var(--serif); font-weight: 500; font-size: 1.15rem; line-height: 1.25; }
+		span:last-child { display: block; font-size: 0.86rem; color: var(--ink-soft); line-height: 1.45; margin-top: 2px; }
+	}
+}
+@keyframes rmap-draw { to { stroke-dashoffset: 0; } }
+@keyframes rmap-pulse {
+	0% { opacity: 0.55; transform: scale(1); }
+	100% { opacity: 0; transform: scale(8.6); }
+}
+@media (prefers-reduced-motion: reduce) {
+	.rmap .rmap-line { animation: none; stroke-dashoffset: 0; }
+	.rmap .rmap-pulse { display: none; }
 }

@@ -1,5 +1,3 @@
-    <div class="palette-switch" role="group" aria-label="Palette preview"><span>Palette</span><button type="button" data-p="ocean">Ocean</button><button type="button" data-p="mono">Mono</button><button type="button" data-p="slate">Slate</button></div>
-    <script>(function(){var r=document.documentElement,c=r.getAttribute("data-palette")||"ocean";document.querySelectorAll(".palette-switch button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-p")===c?"true":"false");b.addEventListener("click",function(){var v=b.getAttribute("data-p");if(v==="ocean")r.removeAttribute("data-palette");else r.setAttribute("data-palette",v);try{localStorage.setItem("palette-preview",v);}catch(e){}document.querySelectorAll(".palette-switch button").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});});});})();</script>
     <!-- JS -->
     <script src="{{ site.url }}/assets/js/scripts.js"></script>
     <!-- getinsights stats (no cookies) -->
