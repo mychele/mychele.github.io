@@ -5,12 +5,12 @@
 	--dl-ink-soft: var(--ink-soft);
 	--dl-rule: var(--rule);
 	--dl-bg: var(--paper);
-	--dl-posted: #1f6f99;
+	--dl-posted: var(--accent);
 	--dl-unconfirmed: #b0601c;
 	--dl-estimate: #{$color_stack};
 	--dl-estimate-band: #{rgba($color_stack, 0.22)};
 	--dl-urgent: #{$danger};
-	--dl-highlight: #{rgba($info, 0.12)};
+	--dl-highlight: rgba(29, 116, 135, 0.12);
 
 	color: var(--dl-ink);
 	@include font-rem(15);
@@ -157,12 +157,12 @@
 
 @media (prefers-color-scheme: dark) {
 	#deadlines {
-		--dl-posted: #5fb4e0;
+		--dl-posted: var(--accent);
 		--dl-unconfirmed: #e8a35a;
 		--dl-estimate: #8a8a8a;
 		--dl-estimate-band: rgba(138, 138, 138, 0.25);
 		--dl-urgent: #ff6b5b;
-		--dl-highlight: rgba(95, 180, 224, 0.16);
+		--dl-highlight: rgba(92, 195, 214, 0.16);
 		.name a { color: inherit; &:hover { color: #ff6b5b; } }
 		.chip:hover { color: #ff6b5b; }
 	}

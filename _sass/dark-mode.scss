@@ -3,31 +3,31 @@
 // paper becomes a dark print and the edge prints keep their amber.
 @media (prefers-color-scheme: dark) {
     :root {
-        --paper: #1d1a17;
-        --paper-2: #26221e;
-        --ink: #ece6db;
-        --ink-soft: #a69e91;
-        --rule: #3a342d;
-        --accent: #ff8f5a;
+        --paper: #142024;
+        --paper-2: #1b2a2f;
+        --ink: #e3ebeb;
+        --ink-soft: #92a4a9;
+        --rule: #2a3b40;
+        --accent: #5cc3d6;
     }
     body {
         @media #{$small} {
             background: var(--paper);
         }
     }
-    .sheet .content a, .log a { text-decoration-color: rgba(255, 143, 90, 0.5); }
+    .sheet .content a, .log a { text-decoration-color: rgba(92, 195, 214, 0.5); }
     .btn, .social-btn {
-        background: #3a342d;
+        background: #23343a;
         color: var(--ink);
-        border-color: #4a433a;
+        border-color: #34474d;
         &:hover {
             color: var(--accent);
-            background: #443d35;
+            background: #2b3e44;
         }
     }
     p code, li code, p pre, li pre {
-        background-color: #2a2622;
-        border-color: #3a342d;
+        background-color: #1b2a2f;
+        border-color: #2a3b40;
         color: var(--ink);
     }
     hr {

@@ -1,12 +1,12 @@
 // Interactive AI-RAN results panel (/research/ai-ran/), styled as a dark instrument display
 #airan {
-	--scope: #15120f;
-	--scope-2: #211d18;
-	--trace: #ff9a3c;
-	--trace-soft: rgba(255, 154, 60, 0.16);
-	--scope-ink: #ece5d8;
-	--scope-dim: #8f8679;
-	--scope-grid: rgba(236, 229, 216, 0.09);
+	--scope: #0f1619;
+	--scope-2: #17242a;
+	--trace: #e2b866;
+	--trace-soft: rgba(226, 184, 102, 0.16);
+	--scope-ink: #e6eeee;
+	--scope-dim: #8a9ba0;
+	--scope-grid: rgba(230, 238, 238, 0.09);
 
 	margin: 2.2em -24px 2.6em;
 	padding: 22px 24px 26px;
@@ -59,7 +59,7 @@
 		transition: border-color .15s, background .15s;
 		b { display: block; font-family: var(--mono); font-weight: 500; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--trace); }
 		span { display: block; font-size: 0.82rem; line-height: 1.4; color: var(--scope-dim); margin-top: 4px; }
-		&:hover { border-color: rgba(255, 154, 60, 0.4); }
+		&:hover { border-color: rgba(226, 184, 102, 0.4); }
 		&[aria-pressed="true"] { border-color: var(--trace); background: var(--trace-soft); span { color: var(--scope-ink); } }
 	}
 	@media only screen and (max-width: 48em) {
@@ -94,11 +94,11 @@
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: var(--scope-dim);
-		border-left: 1px dashed rgba(236, 229, 216, 0.2);
+		border-left: 1px dashed rgba(230, 238, 238, 0.2);
 		white-space: nowrap;
 		overflow: hidden;
-		&:nth-child(1) { background: rgba(255, 154, 60, 0.06); }
-		&:nth-child(2) { background: rgba(255, 154, 60, 0.03); }
+		&:nth-child(1) { background: rgba(226, 184, 102, 0.06); }
+		&:nth-child(2) { background: rgba(226, 184, 102, 0.03); }
 	}
 	.airan-line {
 		position: absolute;
@@ -157,7 +157,7 @@
 		height: 22px;
 		padding: 0 8px;
 		background: repeating-linear-gradient(90deg, var(--trace-soft) 0 6px, transparent 6px 9px);
-		border: 1px solid rgba(255, 154, 60, 0.5);
+		border: 1px solid rgba(226, 184, 102, 0.5);
 		border-radius: 2px;
 		font-family: var(--mono);
 		font-size: 0.62rem;
@@ -182,7 +182,7 @@
 		b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.9rem; line-height: 1; color: var(--scope-ink); }
 		small { font-family: var(--mono); font-size: 0.7rem; color: var(--trace); margin-left: 4px; letter-spacing: 0.04em; }
 		span { display: block; margin-top: 8px; font-size: 0.74rem; line-height: 1.35; color: var(--scope-dim); }
-		&:hover { border-color: rgba(255, 154, 60, 0.4); transform: translateY(-2px); }
+		&:hover { border-color: rgba(226, 184, 102, 0.4); transform: translateY(-2px); }
 		&.is-active { border-color: var(--trace); background: var(--trace-soft); span { color: var(--scope-ink); } }
 	}
 	@media only screen and (max-width: 62em) { .airan-tiles { grid-template-columns: repeat(3, 1fr); } }
@@ -195,7 +195,7 @@
 		padding-top: 16px;
 		.airan-kicker { margin: 0 0 6px; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--trace); }
 		h3 { margin: 0 0 8px; font-family: var(--serif); font-weight: 500; font-size: 1.3rem; line-height: 1.25; color: var(--scope-ink); }
-		h3 a { color: inherit; text-decoration-color: rgba(255, 154, 60, 0.5); &:hover { color: var(--trace); } }
+		h3 a { color: inherit; text-decoration-color: rgba(226, 184, 102, 0.5); &:hover { color: var(--trace); } }
 		.airan-summary { color: var(--scope-ink); opacity: 0.85; font-size: 0.95rem; margin: 0 0 8px; }
 		ul { margin: 0 0 10px; padding-left: 1.1em; font-size: 0.92rem; }
 		li { margin: 0.15em 0; }
@@ -213,7 +213,7 @@
 		font-size: 0.8rem;
 		color: var(--scope-dim);
 		transition: color .15s, border-color .15s, opacity .2s;
-		&:hover { color: var(--scope-ink); border-color: rgba(255, 154, 60, 0.4); }
+		&:hover { color: var(--scope-ink); border-color: rgba(226, 184, 102, 0.4); }
 		&.is-active { color: var(--scope); background: var(--trace); border-color: var(--trace); }
 	}
 

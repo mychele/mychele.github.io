@@ -3,14 +3,14 @@
 // "edge print" labels and sprocketed film strips carry the film motif.
 
 :root {
-	--paper: #f6f3ed;
-	--paper-2: #ece6db;
-	--ink: #1f1c18;
-	--ink-soft: #625b51;
-	--rule: #d9d0c1;
-	--accent: #b8410f;
-	--film: #15120f;
-	--edge: #ff9a3c;
+	--paper: #f3f5f4;
+	--paper-2: #e5ebea;
+	--ink: #18262e;
+	--ink-soft: #55656c;
+	--rule: #d2dbda;
+	--accent: #1d7487;
+	--film: #0f1619;
+	--edge: #e2b866;
 	--serif: "Newsreader", "Iowan Old Style", Georgia, serif;
 	--mono: "Fira Mono", ui-monospace, Menlo, Consolas, monospace;
 	--bar: 56px;
@@ -18,7 +18,7 @@
 
 body {
 	color: var(--ink);
-	background-color: #3b4652;
+	background-color: #3b4f58;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -34,7 +34,7 @@ body::before {
 	inset: 0;
 	z-index: -1;
 	pointer-events: none;
-	background: linear-gradient(180deg, rgba(10, 8, 6, 0.45) 0, rgba(10, 8, 6, 0) 40%, rgba(10, 8, 6, 0.25) 100%);
+	background: linear-gradient(180deg, rgba(6, 12, 15, 0.45) 0, rgba(6, 12, 15, 0) 40%, rgba(6, 12, 15, 0.25) 100%);
 }
 // Film grain over everything, including the paper
 body::after {
@@ -65,8 +65,8 @@ body::after {
 	align-items: center;
 	gap: 24px;
 	padding: 0 28px;
-	color: #f3ede2;
-	background: rgba(21, 18, 15, 0.74);
+	color: #eef3f2;
+	background: rgba(15, 22, 25, 0.74);
 	backdrop-filter: blur(12px) saturate(1.2);
 	-webkit-backdrop-filter: blur(12px) saturate(1.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.06);
@@ -96,7 +96,7 @@ body::after {
 	display: block;
 	padding: 6px 0;
 	font-size: 0.7rem;
-	color: rgba(243, 237, 226, 0.72);
+	color: rgba(238, 243, 242, 0.72);
 	transition: color .15s;
 	&:hover, &:focus-visible { color: #fff; }
 	&[aria-current="page"] { color: var(--edge); }
@@ -112,9 +112,9 @@ body::after {
 .topbar-toggle {
 	display: none;
 	font-size: 0.72rem;
-	color: #f3ede2;
+	color: #eef3f2;
 	background: transparent;
-	border: 1px solid rgba(243, 237, 226, 0.35);
+	border: 1px solid rgba(238, 243, 242, 0.35);
 	border-radius: 2px;
 	padding: 7px 12px;
 	cursor: pointer;
@@ -126,7 +126,7 @@ body::after {
 		display: none;
 		position: absolute;
 		top: var(--bar); left: 0; right: 0;
-		background: rgba(21, 18, 15, 0.96);
+		background: rgba(15, 22, 25, 0.96);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 		padding: 8px 16px 18px;
 		ul { flex-direction: column; gap: 0; }
@@ -213,7 +213,7 @@ body::after {
 	a {
 		color: inherit;
 		text-decoration: underline;
-		text-decoration-color: rgba(184, 65, 15, 0.45);
+		text-decoration-color: rgba(29, 116, 135, 0.45);
 		text-decoration-thickness: 1.5px;
 		text-underline-offset: 3px;
 		transition: color .15s, text-decoration-color .15s;
@@ -322,7 +322,7 @@ body::after {
 	}
 	time { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-soft); padding-top: 3px; }
 	p { margin: 0; line-height: 1.6; }
-	a { color: inherit; text-decoration-color: rgba(184, 65, 15, 0.45); text-underline-offset: 3px; &:hover { color: var(--accent); } }
+	a { color: inherit; text-decoration-color: rgba(29, 116, 135, 0.45); text-underline-offset: 3px; &:hover { color: var(--accent); } }
 	.more { grid-column: 2; margin-top: 10px; }
 	@media only screen and (max-width: 48em) {
 		grid-template-columns: 1fr;
@@ -337,11 +337,11 @@ body::after {
 	max-width: 920px;
 	margin: 28px auto 72px;
 	text-align: right;
-	.more { margin: 14px 4px 0; color: #f3ede2; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); }
+	.more { margin: 14px 4px 0; color: #eef3f2; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); }
 	@media #{$small} { margin-bottom: 32px; .more { color: var(--ink); text-shadow: none; } }
 }
 .roll-film {
-	--holes: repeating-linear-gradient(90deg, transparent 0 9px, rgba(236, 229, 216, 0.85) 9px 19px, transparent 19px 28px);
+	--holes: repeating-linear-gradient(90deg, transparent 0 9px, rgba(226, 234, 233, 0.85) 9px 19px, transparent 19px 28px);
 	position: relative;
 	background: var(--film);
 	padding: 22px 0 22px;
@@ -391,7 +391,7 @@ body::after {
 // ---------- Footer ----------
 .site-foot {
 	background: var(--film);
-	color: #a89f91;
+	color: #93a3a8;
 	font-size: 0.64rem;
 	letter-spacing: 0.18em;
 	padding: 18px 24px;
