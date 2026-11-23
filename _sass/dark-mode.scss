@@ -1,45 +1,14 @@
-// Dark mode — imported last so it overrides all other color rules
+// Dark mode — imported last so it overrides all other color rules.
+// The theme reads from CSS variables, so most of this is a palette swap: the
+// paper becomes a dark print and the sand edge prints stay the same.
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1a1a1a;
-        color: #e0e0e0;
-        @media #{$small} {
-            background: #1a1a1a;
-        }
-    }
-    .container, .wrapper, #disqus_thread {
-        background-color: #242424;
-        color: #e0e0e0;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    }
-    a, h1.title a, h3.title a {
-        color: #e0e0e0;
-        &:link { color: #e0e0e0; }
-        &:visited { color: #bbb; }
-        &:hover { color: #ff6b5b; }
-    }
-    .btn, .social-btn {
-        background: #3a3a3a;
-        color: #e0e0e0;
-        border-color: #555;
-        &:hover {
-            color: #ff6b5b;
-            background: #444;
-        }
-    }
-    p code, li code, p pre, li pre {
-        background-color: #2e2e2e;
-        border-color: #444;
-        color: #e0e0e0;
-    }
-    hr {
-        border-top-color: rgba(255,255,255,0.1);
-        &.hr-line {
-            border-top-color: rgba(255,255,255,0.08);
-        }
-    }
-    #goup {
-        background: #2c2c2c;
-        color: #e0e0e0;
+    :root {
+        --paper: #142024;
+        --paper-2: #1b2a2f;
+        --ink: #e3ebeb;
+        --ink-soft: #92a4a9;
+        --rule: #2a3b40;
+        --accent: #5cc3d6;
+        --link-line: rgba(92, 195, 214, 0.5);
     }
 }

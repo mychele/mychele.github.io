@@ -1,0 +1,5 @@
+{% assign frame = "00" %}{% for link in site.data.navigation %}{% if page.url contains link.url %}{% assign frame = forloop.index | prepend: "0" | slice: -2, 2 %}{% endif %}{% endfor %}
+<div class="edge" aria-hidden="true">
+	<span>&#9656; {{ frame }}</span>
+	<span class="edge-title">{{ include.label | default: page.title | upcase }}</span>
+</div>

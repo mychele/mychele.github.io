@@ -1,0 +1,222 @@
+// Interactive AI-RAN results panel (/research/ai-ran/), styled as a dark instrument display
+#airan {
+	--scope: var(--film);
+	--scope-2: color-mix(in srgb, var(--film), #fff 6%);
+	--trace: var(--edge);
+	--trace-soft: color-mix(in srgb, var(--trace) 16%, transparent);
+	--scope-ink: #e6eeee;
+	--scope-dim: #8a9ba0;
+	--scope-grid: rgba(230, 238, 238, 0.09);
+
+	margin: 2.2em -24px 2.6em;
+	padding: 22px 24px 26px;
+	background: var(--scope);
+	color: var(--scope-ink);
+	border-radius: 2px;
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04), 0 18px 40px -22px rgba(0, 0, 0, 0.6);
+	@media #{$small} { margin-left: -20px; margin-right: -20px; padding: 18px 16px 22px; }
+
+	button { font: inherit; color: inherit; cursor: pointer; }
+	button:focus-visible { outline: 2px solid var(--trace); outline-offset: 2px; }
+
+	.airan-edge {
+		display: flex;
+		gap: 2em;
+		margin: 0 0 18px;
+		font-family: var(--sans);
+		font-size: var(--fs-label);
+		letter-spacing: 0.1em;
+		color: var(--trace);
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.airan-live { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; }
+	.airan-live i {
+		width: 6px; height: 6px; border-radius: 50%;
+		background: var(--trace);
+		animation: airan-blink 1.6s ease-in-out infinite;
+	}
+	.airan-title {
+		margin: 0 0 6px;
+		padding: 0;
+		border: 0;
+		font-weight: 500;
+		font-size: var(--fs-h2);
+		color: var(--scope-ink);
+		&::before { content: none; }
+	}
+	.airan-intro { color: var(--scope-dim); font-size: var(--fs-small); max-width: 62ch; margin: 0 0 18px; }
+
+	// Area toggles
+	.airan-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 18px; }
+	.airan-pillar {
+		text-align: left;
+		background: var(--scope-2);
+		border: 1px solid transparent;
+		border-radius: 2px;
+		padding: 10px 12px;
+		transition: border-color .15s, background .15s;
+		b { display: block; font-family: var(--sans); font-weight: 500; font-size: var(--fs-label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--trace); }
+		span { display: block; font-size: var(--fs-small); line-height: 1.4; color: var(--scope-dim); margin-top: 4px; }
+		&:hover { border-color: color-mix(in srgb, var(--trace) 40%, transparent); }
+		&[aria-pressed="true"] { border-color: var(--trace); background: var(--trace-soft); span { color: var(--scope-ink); } }
+	}
+	@media only screen and (max-width: 48em) {
+		.airan-pillars { grid-template-columns: 1fr; }
+	}
+
+	// Log time axis
+	.airan-scope {
+		overflow-x: auto;
+		margin: 0 -24px;
+		padding: 0 24px;
+		scrollbar-width: thin;
+		@media #{$small} { margin: 0 -16px; padding: 0 16px; }
+	}
+	.airan-axis {
+		--lane-h: 40px;
+		position: relative;
+		min-width: 680px;
+		height: calc(var(--lanes, 4) * var(--lane-h) + 104px);
+		background-image: linear-gradient(90deg, var(--scope-grid) 1px, transparent 1px);
+		background-size: 10% 100%;
+		background-position: 0 0;
+		border-right: 1px solid var(--scope-grid);
+	}
+	.airan-bands { position: absolute; inset: 0; }
+	.airan-oran {
+		position: absolute;
+		top: 0; bottom: 0;
+		padding: 4px 6px;
+		font-family: var(--sans);
+		font-size: var(--fs-label);
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--scope-dim);
+		border-left: 1px dashed rgba(230, 238, 238, 0.2);
+		white-space: nowrap;
+		overflow: hidden;
+		&:nth-child(1) { background: color-mix(in srgb, var(--trace) 6%, transparent); }
+		&:nth-child(2) { background: color-mix(in srgb, var(--trace) 3%, transparent); }
+	}
+	.airan-line {
+		position: absolute;
+		left: 0; right: 0;
+		bottom: 64px;
+		height: 1px;
+		background: var(--scope-dim);
+	}
+	.airan-tick {
+		position: absolute;
+		bottom: 44px;
+		transform: translateX(-50%);
+		font-family: var(--sans);
+		font-size: var(--fs-label);
+		color: var(--scope-dim);
+		white-space: nowrap;
+		&:first-of-type { transform: none; }
+		&:last-of-type { transform: translateX(-100%); }
+	}
+	.airan-mark {
+		position: absolute;
+		bottom: 64px;
+		height: calc(28px + var(--lane) * var(--lane-h));
+		padding: 0;
+		background: none;
+		border: 0;
+		border-left: 1px solid var(--trace);
+		text-align: left;
+		transition: opacity .2s;
+		&::after {
+			content: "";
+			position: absolute;
+			left: -5px; bottom: -5px;
+			width: 9px; height: 9px;
+			border-radius: 50%;
+			background: var(--scope);
+			border: 2px solid var(--trace);
+		}
+		b, span {
+			position: absolute;
+			left: 6px;
+			white-space: nowrap;
+		}
+		b { top: -4px; font-family: var(--sans); font-weight: 500; font-size: var(--fs-small); color: var(--trace); }
+		span { top: 13px; font-size: var(--fs-label); color: var(--scope-dim); }
+		&:hover b, &.is-active b { color: #fff; }
+		&:hover span, &.is-active span { color: var(--scope-ink); }
+		&.is-active::after { background: var(--trace); box-shadow: 0 0 0 5px var(--trace-soft); }
+		&.is-flip { border-left: 0; border-right: 1px solid var(--trace); transform: translateX(-100%); }
+		&.is-flip::after { left: auto; right: -5px; }
+		&.is-flip b, &.is-flip span { left: auto; right: 6px; text-align: right; }
+	}
+	.airan-range {
+		position: absolute;
+		bottom: 10px;
+		height: 22px;
+		padding: 0 8px;
+		background: repeating-linear-gradient(90deg, var(--trace-soft) 0 6px, transparent 6px 9px);
+		border: 1px solid color-mix(in srgb, var(--trace) 50%, transparent);
+		border-radius: 2px;
+		font-family: var(--sans);
+		font-size: var(--fs-label);
+		letter-spacing: 0.06em;
+		color: var(--scope-ink);
+		text-align: left;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		&.is-active { border-color: var(--trace); background: var(--trace-soft); }
+	}
+
+	// Number tiles
+	.airan-tiles { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin: 20px 0 16px; }
+	.airan-tile {
+		text-align: left;
+		background: var(--scope-2);
+		border: 1px solid transparent;
+		border-radius: 2px;
+		padding: 12px 12px 10px;
+		transition: border-color .15s, opacity .2s, transform .15s;
+		b { display: block; font-weight: 500; font-size: var(--fs-h2); line-height: 1; font-variant-numeric: tabular-nums; color: var(--scope-ink); }
+		small { font-family: var(--sans); font-size: var(--fs-label); color: var(--trace); margin-left: 4px; letter-spacing: 0.04em; }
+		span { display: block; margin-top: 8px; font-size: var(--fs-label); line-height: 1.35; color: var(--scope-dim); }
+		&:hover { border-color: color-mix(in srgb, var(--trace) 40%, transparent); transform: translateY(-2px); }
+		&.is-active { border-color: var(--trace); background: var(--trace-soft); span { color: var(--scope-ink); } }
+	}
+	@media only screen and (max-width: 62em) { .airan-tiles { grid-template-columns: repeat(3, 1fr); } }
+	@media #{$small} { .airan-tiles { grid-template-columns: repeat(2, 1fr); } }
+
+	// Paper detail
+	.airan-detail {
+		min-height: 190px;
+		border-top: 1px solid var(--scope-grid);
+		padding-top: 16px;
+		.airan-kicker { margin: 0 0 6px; font-family: var(--sans); font-size: var(--fs-label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--trace); }
+		h3 { margin: 0 0 8px; font-weight: 600; font-size: var(--fs-h3); line-height: 1.25; color: var(--scope-ink); }
+		h3 a { color: inherit; text-decoration-color: color-mix(in srgb, var(--trace) 50%, transparent); &:hover { color: var(--trace); } }
+		.airan-summary { color: var(--scope-ink); opacity: 0.85; font-size: var(--fs-small); margin: 0 0 8px; }
+		ul { margin: 0 0 10px; padding-left: 1.1em; font-size: var(--fs-small); }
+		li { margin: 0.15em 0; }
+		li::marker { color: var(--trace); content: "\25B8  "; }
+	}
+	.airan-tags { display: flex; gap: 6px; margin: 0; span { font-family: var(--sans); font-size: var(--fs-label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--scope-dim); border: 1px solid var(--scope-grid); padding: 3px 8px; border-radius: 999px; } }
+
+	// Paper chips
+	.airan-papers { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 14px 0 0; padding: 0; li { margin: 0; } li::marker { content: none; } }
+	.airan-chip {
+		background: transparent;
+		border: 1px solid var(--scope-grid);
+		border-radius: 999px;
+		padding: 4px 12px;
+		font-size: var(--fs-small);
+		color: var(--scope-dim);
+		transition: color .15s, border-color .15s, opacity .2s;
+		&:hover { color: var(--scope-ink); border-color: color-mix(in srgb, var(--trace) 40%, transparent); }
+		&.is-active { color: var(--scope); background: var(--trace); border-color: var(--trace); }
+	}
+
+	.is-dim { opacity: 0.3; }
+}
+@keyframes airan-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+@media (prefers-reduced-motion: reduce) { #airan .airan-live i { animation: none; } }

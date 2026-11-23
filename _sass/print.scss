@@ -1,28 +1,9 @@
+// Print: just the sheet, no photo, bar, or footer
 @media print {
-  body {
-    background-image: none !important;
-    background-color: $white;
-  }
-  .wrapper {
-    box-shadow: none;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  .container {
-    box-shadow: none;
-  }
-  .feature {
-      padding: 0;
-  }
-  .social-btn, .btn {
-    border-color: $color_mischka;
-  }
-  .post-title .btn,
-  .reading-time,
-  #dl-menu,
-  #disqus_thread,
-  .goup-container {
-    display: none;
-  }
+  body { background: #fff !important; display: block; }
+  body::before, body::after { display: none; }
+  .topbar, .site-foot, .edge, #goup, #disqus_thread, .roll, .rmap { display: none !important; }
+  .sheet-wrap, .home-main { padding: 0 !important; }
+  .sheet, .home-sheet { box-shadow: none; max-width: 100%; animation: none; }
+  .sheet-head, .sheet .content, .hero, .log { padding-left: 0 !important; padding-right: 0 !important; }
 }

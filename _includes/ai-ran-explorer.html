@@ -1,0 +1,37 @@
+<section id="airan" class="airan" aria-labelledby="airan-title">
+	<p class="airan-edge" aria-hidden="true"><span>AI-RAN</span><span>&#9656; RESULTS FROM THE PAPERS</span><span class="airan-live"><i></i>INTERACTIVE</span></p>
+	<h2 class="airan-title" id="airan-title">From microseconds to a minute</h2>
+	<p class="airan-intro">Results from my AI-RAN papers, placed on the time scales where they operate. Select a marker, a number, or a paper; the toggles highlight each part of AI-RAN.</p>
+
+	<div class="airan-pillars" role="group" aria-label="Highlight by AI-RAN area">
+		{% for p in site.data.ai_ran.pillars %}
+		<button type="button" class="airan-pillar" data-pillar="{{ p.id }}" aria-pressed="false"><b>{{ p.label }}</b><span>{{ p.text }}</span></button>
+		{% endfor %}
+	</div>
+
+	<div class="airan-scope">
+		<div class="airan-axis" id="airan-axis" role="group" aria-label="Time scale of results, logarithmic">
+			<div class="airan-bands" aria-hidden="true">
+				<span class="airan-oran" data-from="0.000001" data-to="0.01">Real-time &lt; 10 ms</span>
+				<span class="airan-oran" data-from="0.01" data-to="1">Near-RT 10 ms–1 s</span>
+				<span class="airan-oran" data-from="1" data-to="1000">Non-RT &gt; 1 s</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="airan-tiles">
+		{% for t in site.data.ai_ran.tiles %}
+		<button type="button" class="airan-tile" data-paper="{{ t.paper }}"><b>{{ t.value }}<small>{{ t.unit }}</small></b><span>{{ t.text }}</span></button>
+		{% endfor %}
+	</div>
+
+	<div class="airan-detail" id="airan-detail" aria-live="polite"></div>
+
+	<ul class="airan-papers" aria-label="Papers">
+		{% for p in site.data.ai_ran.papers %}
+		<li><button type="button" class="airan-chip" data-paper="{{ p.id }}">{{ p.short }}</button></li>
+		{% endfor %}
+	</ul>
+	<script type="application/json" id="airan-data">{{ site.data.ai_ran | jsonify }}</script>
+</section>
+<script src="{{ site.url }}/assets/js/ai-ran.js" defer></script>

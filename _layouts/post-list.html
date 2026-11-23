@@ -6,34 +6,29 @@ layout: compress
 <head>
     {% include head.html %}
 </head>
-<body>
+<body class="inner">
     {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title">
-                    <h1>{{ page.title }}</h1>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
-                </div>
-                <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project == null %}
-                    <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                        </li>
-                    </ul>
-                        {% endif %}
-                    {% endfor %}
-                </div>
+    <main class="sheet-wrap">
+        <article class="sheet">
+            {% include edge.html %}
+            <div class="sheet-head">
+                <h1>{{ page.title }}</h1>
             </div>
-        </div>
-    </header>
+            <div class="content">
+                {{ content }}
+                <ul class="post-list">
+                {% for post in site.posts %}{% if post.project == null %}
+                    <li>
+                        <p class="kicker">{{ post.date | date: "%B %Y" }}</p>
+                        <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+                        {{ post.excerpt }}
+                    </li>
+                {% endif %}{% endfor %}
+                </ul>
+            </div>
+        </article>
+    </main>
+    {% include footer.html %}
     {% include scripts.html %}
 </body>
 </html>

@@ -39,12 +39,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="{{ site.url }}/assets/img/favicons/manifest.json">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#0f1619">
     <!-- Background Image -->
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
     {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style>body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
+    <link rel="preload" href="{{ background }}" as="image">
+    <style>:root{--bg-photo:url({{ background }})}</style>
     {% endif %}
     <!-- Post Feature Image -->
     {% if page.feature %}

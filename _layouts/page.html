@@ -6,25 +6,24 @@ layout: compress
 <head>
     {% include head.html %}
 </head>
-<body>
+<body class="inner">
     {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
+    <main class="sheet-wrap">
+        <article class="sheet">
+            {% include edge.html %}
+            <div class="sheet-head{% if page.feature %} feature{% endif %}">
+                <h1>{{ page.title }}</h1>
+                {% if page.layout == 'about' %}{% include social-links.html %}{% endif %}
+            </div>
             <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                </div>
                 {{ content }}
             </div>
-        </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
-        <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-chevron-left"></i>
-        </a>
-    </header>
+        </article>
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread"></section>{% endif %}
+    </main>
+    {% include footer.html %}
     {% include scripts.html %}
-    {% if site.mathjax == true %}
+    {% if page.mathjax %}
     <!-- MathJax -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     {% endif %}

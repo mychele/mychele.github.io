@@ -7,7 +7,7 @@ date: 2026-09-29
 comments: false
 ---
 
-<div style="font-size:1rem;font-weight:300;text-align:left;vertical-align:left">
+<div>
 <ul>
 	<li><p>07/2026: I have been appointed Technical Director of the Institute for Intelligent Networked Systems (INSI) at Northeastern.</p></li>
 	<li><p>2026: I am now an Associate Editor for IEEE Transactions on Mobile Computing.</p></li>
