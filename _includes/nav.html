@@ -7,7 +7,7 @@
 		<ul>
 		{% for link in site.data.navigation %}
 			{% assign here = false %}{% if page.url contains link.url %}{% assign here = true %}{% endif %}
-			<li><a href="{{ site.url }}{{ link.url }}"{% if link.short %} title="{{ link.title }}"{% endif %}{% if here %} aria-current="page"{% endif %}>{{ link.short | default: link.title }}</a></li>
+			<li><a href="{{ site.url }}{{ link.url }}"{% if link.short %} title="{{ link.title | escape }}"{% endif %}{% if here %} aria-current="page"{% endif %}>{{ link.short | default: link.title | escape }}</a></li>
 		{% endfor %}
 		</ul>
 	</nav>

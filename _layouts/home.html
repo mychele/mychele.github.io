@@ -38,7 +38,7 @@ layout: compress
 
         <section class="roll" aria-labelledby="roll-title">
             <div class="roll-film">
-                <p class="roll-edge" aria-hidden="true"><span>POLESE 400</span><span>&#9656; 09</span><span id="roll-title">FROM THE FILM ROLL</span><span>&#9656; 09A</span></p>
+                <p class="roll-edge" aria-hidden="true"><span>POLESE 400</span><span>&#9656; 08</span><span id="roll-title">FROM THE FILM ROLL</span><span>&#9656; 08A</span></p>
                 <div class="roll-frames">
                 {% for p in site.data.film_photos limit: 6 %}
                     <a href="{{ site.url }}/film/"><img src="{{ site.url }}/assets/img/film/{{ p.name }}-600.webp" width="{{ p.width }}" height="{{ p.height }}" loading="lazy" decoding="async" alt="Film photo, scanned {{ p.date | date: '%B %Y' }}"></a>

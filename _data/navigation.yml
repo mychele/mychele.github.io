@@ -18,13 +18,9 @@
 - title: News
   url: /news/
 
-- title: Projects
-  url: /projects/
-
 - title: Networking & Systems Conference Deadlines
-  short: Deadlines
+  short: Net&Sys Conference Deadlines
   url: /deadlines/
 
-- title: Film Photography
-  short: Film
+- title: Film photography
   url: /film/
